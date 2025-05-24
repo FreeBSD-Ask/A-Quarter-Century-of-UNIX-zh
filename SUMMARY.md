@@ -1,6 +1,6 @@
 # Table of contents
 
-* [翻译项目](README.md)
+* [《Unix 四分之一世纪》翻译项目](README.md)
 * [前言](mix/Preface.md)
 * [致谢](mix/Acknowledgements.md)
 * [简介](mix/Introduction.md)
