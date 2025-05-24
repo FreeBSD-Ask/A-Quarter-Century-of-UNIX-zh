@@ -31,7 +31,7 @@ Bass 对 USENIX 协会的成立以及随后 /usr/group 的创建有着不同于�
 >当 Jun Murai、Koichi Kishida 和 Nobuo Saito 成立 Unix 研究小组时，它是一个由学术界和厂商组成的小团体。但两年前，一些厂商和软件公司成立了 UNIX 商业协会（UBA），UBA 正逐渐成为 UNIX 的商业代表团体。作为 jus 董事会成员，我对 UBA 表示担忧。在 jus 中，商业方面的关注一直不强烈，但 UBA 在增长，而 jus 仍保持技术导向的社团性质。
 >
 >你知道 jus 和 JUNET 之间没有官方关系吗？每当外人问起，我都会回答两者没有关系。Jun Murai 是 jus、JUNET 和 WIDE 互联网项目的发起人，但他的朋友们在 jus 跟随他创建了 JUNET。jus 的同一批人参与组织和开发了 JUNET。现在，JUNET 已经不存在了，分裂成商业和区域学术/研究网络。
->
+
 >Van der Poel 补充说：
 >
 >其实整个事情非常和谐。那时候是 jus 和 JUNET，一些知名的机构有 SRA、东京大学、东京工业大学、庆应义塾大学，当然还有日本 Sun、日本 DEC 和索尼。如今，随着 WIDE 以及更近期的 IIJ 出现（从 UUCP 向 IP 转变的结果），JUNET 似乎逐渐淡出舞台。
