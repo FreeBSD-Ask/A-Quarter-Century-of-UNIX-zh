@@ -1,4 +1,4 @@
-# VAX 后的伯克利 Unix
+# VAX后的伯克利Unix
 
 在第 18 章我，我引用了 Kirk 提到到他们将“portals”放到了 4.4 中。作为 British 对 Unix 开发的又一个贡献，这是 Jan Simon 对我说的：
 

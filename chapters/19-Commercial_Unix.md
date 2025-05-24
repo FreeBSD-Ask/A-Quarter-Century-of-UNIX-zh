@@ -1,4 +1,4 @@
-# 商业 Unix
+# 商业Unix
 
 关于厂商如何 (失败地) 拥抱 Unix 有大量的东西可以写。Doug McIlroy 对我评论说：
 

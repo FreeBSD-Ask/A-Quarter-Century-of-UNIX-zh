@@ -1,4 +1,4 @@
-# PWB 和 MERT
+# PWB和MERT
 
 回忆 Thompson 和 Ritchie 为 PDP-7 写的第一个系统，第一版是在 1971 年为 PDP-11/20 写的。第四版是贝尔实验室于 1973 年末在第三版的基础上用 C 语言重写的，当它使另一个项目获得成长：程序员的工作台 (PWB)。它的第一版帮助 Charlie Roberts 思考。Bob Morris 说 Rudd Canaday 从来没有得到他提供的贷款。对 Roberts 来说也是这样。MERT(多环境实时) 是 Roberts 的发明，虽然它的大部分是由 Heinz Lycklama 和 Doug Bayer 写的。Roberts 告诉我：
 

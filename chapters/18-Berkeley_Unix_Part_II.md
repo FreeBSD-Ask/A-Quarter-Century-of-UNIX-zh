@@ -1,4 +1,4 @@
-# 伯克利 Unix 第二部分
+# 伯克利Unix 第二部分
 
 1978 年早期，Richard Fateman 教授开始寻找一个有更大内存寻址空间的机器，这样就能在 PDP-10 上继续做他的 Macsyma。Fateman 解释说：
 

@@ -1,4 +1,4 @@
-# OSF 和 UI
+# OSF和UI
 
 1987 年后期 AT&T 宣布收购了 Sun 的大部分股份，Sun 将会和 AT&T/USL 一样开发新的软件。Sun 宣布它的下一个操作系统不会是将基于伯克利 Unix 的 SunOS 继续扩展，而是将会源于 System V 第 4 版。Unix 世界受到很大的震动：科研社区感觉 Sun 正在背离他们，其他的制造商担心“特殊关系”会让 Sun 抢在他们前面。Armando Stettner 告诉我：
 
