@@ -9,7 +9,7 @@ if (rp -> p_flag & SSWAP) {
 }
 ```
 
-这是第六版 UNIX（Western Electric，第六版）中第 2238 行的注释，以及第 2240 至 2243 行的代码。
+这是第六版 UNIX（Western Electric，第六版）中第 2238 行的注释，以及位于第 2240 至 2243 行的代码。
 
 ---
 **译者注**
