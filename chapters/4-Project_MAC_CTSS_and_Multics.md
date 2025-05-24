@@ -1,24 +1,24 @@
 # MAC 项目：CTSS 和 Multics
 
-1963 年春季，MIT 在 J. C. R. Licklider 的建议下组织了 MAC 项目。其创始主任是 MIT 教授 Robert M. Fano。根据 Fano 在 MAC 项目第二期进展报告（1965 年）的“前言”，MAC 代表机器辅助认知（Machine-Aided Cognition）和多重访问计算机（Multiple-Access Computers）。事实上，这就是位于 Tech Square 五楼 MIT 计算机科学部门对该项目的称呼。在九楼的 Marvin Minsky 人工智能实验室，该项目被称为“人和计算机”（Man and Computer）。（该实验室最初是 Minsky 和 McCarthy 的，但当 LISP 发明者 John McCarthy 搬到斯坦福后，他的名字就不再使用了。）
+1963 年春，麻省理工学院在 J. C. R. Licklider 的建议下组织了 MAC 项目。其创始主任是麻省理工学院教授 Robert M. Fano。根据 Fano 在 MAC 项目第二期进展报告（1965 年）的“前言”，MAC 代表机器辅助认知（Machine-Aided Cognition）和多重访问计算机（Multiple-Access Computers）。事实上，这就是位于 Tech Square 五楼 MIT 计算机科学部门对该项目的称呼。在九楼的 Marvin Minsky 人工智能实验室，该项目被称为“人和计算机”（Man and Computer）（该实验室最初是 Minsky 和 McCarthy 的，但当 LISP 发明者 John McCarthy 搬到斯坦福后，他的名字就不再使用了）。
 
-1963 年，MAC 项目举办了一次夏季研究，吸引了许多著名计算机科学家前往剑桥，使用 IBM 上的 CTSS（兼容分时系统），并讨论计算的未来。当时，MAC 项目的主要工作包括 Fernando J. Corbato 的 CTSS、Victor H. Yngve 的 COMIT 和 Minsky 的人工智能实验室。
+1963 年，MAC 项目举行了一次夏季研究，吸引了许多著名计算机科学家前往剑桥，使用 IBM 上的 CTSS（兼容分时系统），并讨论计算的未来。当时，MAC 项目的主要工作包括 Fernando J. Corbato 的 CTSS、Victor H. Yngve 的 COMIT 和 Minsky 的人工智能实验室。
 
 1950 年代和 1960 年代早期是批处理时代。但这种方式浪费了时间和资源。浪费来自无处不在的签到表——计算机室的“命运”之表。除非你运气好，在某些站点可以通过排队几秒钟做小任务（比如调试），否则你必须预约一小时。你的程序运行了 40 分钟。更糟的是，程序没有在预约的一小时内完成：它会被终止（大多数情况下，部分完成的工作会丢失），你只能再预约一个一小时半的时段（通常在凌晨 1、2 或 3 点）。解决这个问题的方法是分时。
 
-兼容分时系统（CTSS）是最早的分时系统之一。由 Corbato 领导的团队在 MIT 计算中心开发，运行于经过修改的 IBM 7094 机器，配备第二个 32K 字的内存块，并使用两台 IBM 7320A 磁带机。1965 年初接入了第二台 7094。通过连接至拨号调制解调器的 IBM 7750 通信控制器，最多支持 30 位用户远程访问。（实际上，没有人能获得整整一小时的 CPU 时间，因为这会超过系统的最大故障间隔时间！）
+兼容分时系统（CTSS）是最早的分时系统之一。由 Corbato 领导的团队在麻省理工学院计算中心开发，运行于经过修改的 IBM 7094 机器，配备第二个 32K 字的内存块，并使用两台 IBM 7320A 磁带机。1965 年初接入了第二台 7094。通过连接至拨号调制解调器的 IBM 7750 通信控制器，最多支持 30 位用户远程访问（实际上，没有人能获得完整一小时的 CPU 时间，因为这会超过系统的最大故障间隔时间！）
 
-CTSS 作为 MAC 项目的分时系统，既是服务设施，也是系统程序员的实验室。正是这个第二功能促使——在 7094 仍在调试时——开始了 Multics（多路信息与计算服务）项目。
+CTSS 作为 MAC 项目的分时系统，既是服务设施，也是系统程序员的实验室。正是这第二个功能促使——在 7094 仍在调试时——开始了 Multics（多路信息与计算服务）项目。
 
-Multics 是第二代分时系统，旨在成为“计算机公用事业”的原型。1964 年开始，由 MAC 项目、贝尔电话实验室和通用电气联合开发。Corbato 是开发工作的主要领导者，该项目有九个主要目标：
+Multics 是第二代分时系统，旨在成为“计算机公用事业”的原型。从 1964 年开始，由 MAC 项目、贝尔电话实验室和通用电气联合开发。Corbato 是开发工作的主要领导者，该项目有九个主要目标：
 
-* 方便的远程终端使用
-* 类似电话服务的连续运行
+* 便捷的远程终端使用
+* 类似电话服务式的连续运行
 * 多种系统配置选择
 * 高可靠性的内部文件系统
 * 支持选择性的信息共享
 * 分层的信息结构
-* 支持广泛的应用程序
+* 支持大量应用程序
 * 支持多种环境和接口
 * 系统的可演进能力
 
@@ -28,35 +28,35 @@ Berkley Tague 于 1962 年加入 BTL，并于 1965 年加入 Multics 团队（�
 
 >这是真的。但 \[Gene] Amdahl 不会做虚拟机（VM）。在最后一刻，IBM 让 Gerry Blaauw 从幕后出来推销 360/67，但已经太晚了。
 
-IBM 的员工对 MAC 团队关于分页的想法不感兴趣，当时作为 MIT 讲师的 Joseph Weizenbaum 将 MAC 团队介绍给了他在 GE 斯克内克塔迪的前同事，这些同事对分页和分段持开放和热情态度，并提出了后来成为 GE-645（635 升级版）的设计方案。因此，GE 成为了 Multics 项目的一部分。
+IBM 的员工对 MAC 团队关于分页的想法不感兴趣，当时作为麻省理工学院讲师的 Joseph Weizenbaum 将 MAC 团队介绍给了他在 GE 斯克内克塔迪的前同事，这些同事对分页和分段持开放和热情态度，并提出了后来成为 GE-645（635 升级版）的设计方案。因此，GE 成为了 Multics 项目的一部分。
 
-MIT、BTL 和 GE 就合作架构达成一致。三方组成一个三人决策小组，分别由以下人员代表：Fano（MIT）、E. E. David（BTL）和 C. W. Dix（GE）。实际管理实施的三人小组由 Corbato（MIT）、A. L. Dean（GE）和 Peter G. Neumann（BTL）组成。项目的重要特点包括分段内存、虚拟内存、高级语言实现（PL/I）、共享内存多处理器、多语言支持以及在线重配置。
+麻省理工学院、BTL 和 GE 就合作架构达成一致。三方组成一个三人决策小组，分别由以下人员代表：Fano（麻省理工学院）、E. E. David（BTL）和 C. W. Dix（GE）。实际管理实施的三人小组由 Corbato（麻省理工学院）、A. L. Dean（GE）和 Peter G. Neumann（BTL）组成。项目的重要特点包括分段内存、虚拟内存、高级语言实现（PL/I）、共享内存多处理器、多语言支持以及在线重配置。
 
-PL/I 于 1964 年被选为编程语言。其他备选方案有 MAD（密歇根算法显示语言）的移植版或 AED-0（MIT 显示语言）的移植版。完整的 PL/I 语言比预期更难实现。于是，项目外包给一家外部公司制作 PL/I 编译器，由 BTL 管理合同。该承包商派了两个人，但一年后仍未完成编译器。BTL 的 Bob Morris 和 Doug Mcllroy 制定了备选方案，使用 McClure 在 7094 上开发的 TMG 语言，称之为 EPL（Early PL/I）。Mcllroy 回忆道：
+PL/I 于 1964 年被选为编程语言。其他备选方案有 MAD（密歇根算法显示语言）的移植版和 AED-0（MIT 显示语言）的移植版。完整的 PL/I 语言比预期更难实现。于是，项目外包给一家外部公司制作 PL/I 编译器，由 BTL 管理合同。该承包商派了两个人，但一年后仍未完成编译器。BTL 的 Bob Morris 和 Doug Mcllroy 制定了备选方案，使用 McClure 在 7094 上开发的 TMG 语言，称之为 EPL（Early PL/I）。Mcllroy 回忆道：
 
 >我们从 1965 年 5 月 3 日开始构建 EPL，正当我们发现承包商毫无进展时。年底之前我们就有了用户。到了 Morris 在 1966-1967 学年休假离开时，EPL 已经被充分使用。
 >
 >我们聘请的承包商从未产出任何有价值的正式编译器，因此 EPL 一直使用到大约 1970 年，当时 GE 的一支熟练团队制作了真正的编译器。
 >
->Morris 用 TMG 编写了前端；它输出的是 ASCII 格式的一地址代码。每个地址都带有 \< base, scale, mode, precision > 的注释，挺复杂的。我负责代码生成器，也用 TMG 写，输出汇编语言。Dolores Leagus 负责编译结构声明。
+>Morris 用 TMG 编写了前端；它输出的是 ASCII 格式的一地址代码。每个地址都带有 `< base, scale, mode, precision >` 的注释，挺复杂的。我负责代码生成器，也用 TMG 写，输出汇编语言。Dolores Leagus 负责编译结构声明。
 >
 >我们排除了 I/O（约占 PL/I 语法的一半）、定点缩放（除法结果变为浮点数）、“defined”属性和数组切片，但处理了相当大的一部分子集，包括 IBM 早期版本中遗漏的棘手“refer”属性。（“refer”允许结构体中数组的维度由结构体中先前元素给出。）
 >
 >Jim Gimpel 加入负责处理 Multics 大量使用的打包数据，我们还在中间语言中改造了一些三地址码，以帮助消除无用的临时变量。该编译器缺少一些生产环境的便利功能。
 >
->错误信息只有两个：“syntax error”和“redeclaration”，还有一个警告：“idiotic structure”，当短数据跨越字边界时出现。
+>错误信息只有两个：“syntax error”和“redeclaration”，还有一个警告：当短数据跨越字边界时出现，“idiotic structure”，。
 >
 >TMG 是由 McClure 从 CDC 1600 移植过来的，他将汇编语言转换成 7090 代码格式，而我则在 1000 英里外进行调试。Clem Pease 通过将 IBM 指令定义为 635 宏并重新汇编，使其移植到了 GE 635。
 
 编译器生成 EPLBSA（EPL 引导汇编器）格式的输出。编译速度非常慢。
 
-在等待 PL/I 编译器可用期间，团队编写了《Multics 系统程序员手册》。该手册约有 3000 页，每个章节都经过了严格审查，许多章节被多次重写或深入修订。
+在等待 PL/I 编译器可用期间，团队编写了《Multics 系统程序员手册》。该手册约有 3000 页，每个章节都经过了严格审查，许多章节经多次重写和深入修订。
 
 >Tom Van Vleck 说：
 >
->1968—69 年，系统进度迟缓，面临重大财政压力和取消威胁。也许这反而增强了团队精神（而非表面士气）。1968 年，美国国防部高级研究计划局（ARPA）一个特别委员会的评审，差点导致项目被取消；但他们建议我们继续。不过为时已晚。因为迟迟未完成，贝尔实验室于 1969 年 4 月撤出项目。
+>1968—1969 年，系统进度迟缓，面临着重大财政压力和取消威胁。也许这反而增强了团队精神（而非表面士气）。1968 年，美国国防部高级研究计划局（ARPA）一个特别委员会的评审，差点导致项目被取消；但他们建议我们继续。不过为时已晚。因为迟迟未完成，贝尔实验室于 1969 年 4 月撤出项目。
 
-虽然 1993 年仍有 Multics 机器在运行，但它们已经非常罕见。Van Vleck 给我提供了以下列表。标有星号的两个站点尚未确认。
+虽然 1993 年仍有 Multics 机器在运行，但它们已经非常罕见。Van Vleck 给我提供了以下列表。标有星号的两个地点尚未确认。
 
 * ACTC（加拿大艾伯塔省卡尔加里）
 * 空军数据服务中心（华盛顿特区）\*
@@ -69,7 +69,7 @@ PL/I 于 1964 年被选为编程语言。其他备选方案有 MAD（密歇根�
 * 国家安全局 \[DOCKMASTER]（马里兰州林锡肯）
 * 欧洲推进公司 \[SEP]（法国韦尔农）
 
-Multics 的重要性在于其持久的影响力。霍尼韦尔收购了 GE 的计算机业务，但其 GCOS 6 操作系统、Prime 的 Primos、Stratus 的 VOS 以及 Apollo 的 Domain 都深受 Multics 系统的影响，BBN 开发的 TENEX 和 TOPS-20 也不例外。（Prime 创始人 Bill Poduska 曾在 GE 参与过 Multics 项目，之后加入了 DEC；曾任 Multics 语言管理者的 Bob Freiburghouse 是 Stratus 的创始人之一。）Intel 386/486 的内存管理看起来就像是直接从 Multics 手册中借鉴而来。但最重要的影响可能是在贝尔实验室的 Dennis Ritchie 和 Ken Thompson 以及他们的同事——Mcllroy、Morris、Neumann 和 Ossanna——身上，他们曾接触过 CTSS 和 Multics。Ritchie 告诉我：
+Multics 的重要性在于其持久的影响力。霍尼韦尔收购了 GE 的计算机业务，但其 GCOS 6 操作系统、Prime 的 Primos、Stratus 的 VOS 以及 Apollo 的 Domain 都深受 Multics 系统的影响，BBN 开发的 TENEX 和 TOPS-20 也不例外（Prime 创始人 Bill Poduska 曾在 GE 参与过 Multics 项目，之后加入了 DEC；曾任 Multics 语言管理者的 Bob Freiburghouse 是 Stratus 的创始人之一）。Intel 386/486 的内存管理看起来就像是直接从 Multics 手册中借鉴而来。但最重要的影响可能是在贝尔实验室的 Dennis Ritchie 和 Ken Thompson 以及他们的同事——Mcllroy、Morris、Neumann 和 Ossanna——身上，他们曾接触过 CTSS 和 Multics。Ritchie 告诉我：
 
 >我们从 Multics 学到了许多基础性的东西：
 >
