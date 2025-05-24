@@ -4,7 +4,7 @@
 
 Mail 在第一版就已经存在，roff 和 ed 也是如此。Morris 将 roff 移植到 635 计算机上之后，McIlroy 用 BCPL 重写了它，随后 Thompson 将其引入了 Unix。但后来 Joe Ossanna 将 roff 推进发展成了 troff，一个真正用于排版文档的格式化工具。Ossanna 于 1977 年 11 月 28 日去世，但 McIlroy 告诉我：
 
->Joe 是军需官。他走访各个供应商，关注硬件的新动态，处理工厂部门的各种事务，等等。他是个严厉却可爱的人。
+>Joe 是军需官。他走访各个供应商，关注硬件的新动态，处理工厂部门的各种事务，等等。他是严肃却可爱。
 
 eqn 出现在第五版。Brian Kernighan 曾说这是他对 Unix 的第一个重要贡献。正如他对 Collinson 所说：
 
