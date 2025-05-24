@@ -106,7 +106,7 @@ Mike O'Dell 告诉我:“记着，Debbie 知道 Brian，他知道他们在做什
 
 软件工具引发了另一个平民运动。一部分热心用户将它叠加到系统来使用 Unix。但是其哲学是可以移植的：写一个程序，只做一件事情，并且把事情做好。
 
-STUG 中的许多名字都被 Unix 用户所熟悉: Neil Groundwater，Mike O'Dell，Scherrer，Joe Svented，Dave Stoffel，还有 Wally Wedel。
+STUG 中的许多名字都被 Unix 用户所熟悉：Neil Groundwater，Mike O'Dell，Scherrer，Joe Svented，Dave Stoffel，还有 Wally Wedel。
 
 我上次说到 O'Dell 时他还是俄赫拉荷马州立大学的一个学生，现在他已经完成了他的硕士学位论文 (“不久前我有看了一下它”，他告诉我，“它并不是难的可怕”), 并且在找工作。用他的话说：
 

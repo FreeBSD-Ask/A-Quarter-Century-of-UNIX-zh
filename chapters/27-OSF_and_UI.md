@@ -18,7 +18,7 @@ Apollo，DEC(在 Stettner 对 Ken Olsen 的催促下)，HP，Bull(法国)，Nixd
 
 那时的 Thompson 正在澳大利亚。当 Ritchie 告诉他发生的事情时，他说“只要想一想，IBM 和 DEC 在一个房间里，这是我们做的!”。
 
-没过多久，AT&T 就和 Sun 以及他们的合作伙伴建立了一个反对者联盟: Unix 国际 (UI)，致力于销售 SVR4。
+没过多久，AT&T 就和 Sun 以及他们的合作伙伴建立了一个反对者联盟：Unix 国际 (UI)，致力于销售 SVR4。
 
 1989 年末 OSF 推出了一个用户接口 Motif，被广泛接受。OSF 也将 Phillips 和 Hitachi 加入他们的赞助商。总之，HP 收购了 Apollo，Siemens 收购了 Nixdorf。OSF 和 UI 都努力增加会员数量，大量赠送铅笔，徽章和贴纸。最终他们都有大概 200 个成员。
 

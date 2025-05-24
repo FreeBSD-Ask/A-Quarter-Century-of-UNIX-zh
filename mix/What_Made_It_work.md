@@ -8,7 +8,7 @@ Kernighan 告诉 Peter Collinson 关于 awk:
 
 > 到目前为止它是我参与过的最大的软件项目。我们有三个人参与其中，原本这是根本不可能完成的。然而，和两个人配合工作远比和三个人配合更容易...因为事情很难分割开。有太多的意见分歧，有时这是好事因为这以为这考虑了更多的事情，但是有时这也意味着可能没有那么团结。
 
-人员太多了？如果你注意看新闻，你回发现微软有超过 600 位程序员在开发 Windows NT。但在霍姆德尔有 3 个人正在创建 32V(London，Reiser，和 Swanson)。3 个人在写 HoneyDanBer，Hall，Sventek 以及 Scherrer 写 VOS，Lorinda Cherry 和 Bob Morris 写 bc 和 dc。伯克利的 CSRG 偶尔会有不少的全职人员: Haley 和 Joy。Haley，Joy 和 Kridle。Kridle 和 Leffler。McKusick 的业余时间和他得到博士学位前的夏天。McKusick，Jolitz 以及 Karels。McKusick，Karels 以及 Bostic。Larry Wall 自己写了一些补丁 per，rn。看看这些离职的人们: Ken Thompson，George Coulouris，几个澳大利亚人，Jan Simon Pendy。再看看其他的贡献者: Mike Muuss，Doug Kingston，Jim Curry，Rick Adams，James Cosling，Rob Pike，Armando Stettner，Bill Shannon 等等。
+人员太多了？如果你注意看新闻，你回发现微软有超过 600 位程序员在开发 Windows NT。但在霍姆德尔有 3 个人正在创建 32V(London，Reiser，和 Swanson)。3 个人在写 HoneyDanBer，Hall，Sventek 以及 Scherrer 写 VOS，Lorinda Cherry 和 Bob Morris 写 bc 和 dc。伯克利的 CSRG 偶尔会有不少的全职人员：Haley 和 Joy。Haley，Joy 和 Kridle。Kridle 和 Leffler。McKusick 的业余时间和他得到博士学位前的夏天。McKusick，Jolitz 以及 Karels。McKusick，Karels 以及 Bostic。Larry Wall 自己写了一些补丁 per，rn。看看这些离职的人们：Ken Thompson，George Coulouris，几个澳大利亚人，Jan Simon Pendy。再看看其他的贡献者：Mike Muuss，Doug Kingston，Jim Curry，Rick Adams，James Cosling，Rob Pike，Armando Stettner，Bill Shannon 等等。
 
 Steve Johnson 告诉我：
 
@@ -22,7 +22,7 @@ Eric Allman 对我说：
 
 当我和 Armando Stettner 聊天时，他对我评论说：
 
-> 你知道，关于 Unix 和今天的 Plan 9 最美妙的事情是这些是大量优秀的想法随着时间通过一种非常有趣而高效的方式融合在一起...贝尔实验室集合了好主意并将它们实现出来。伯克利 Unix 将许多好想法做成了一个程序员接口——高质量的多种实现。集合了来自全世界人们的代码形成这个系统。并且裁决者有着很好的品位: Bill Joy 和 Sam Leffler 是正真的艺人，Kirk McKusick，Mike Karels 因为缺乏一个好的头衔，我们可以称他们为架构师。但是他们真的拥有良好的品位。他们讲人们的工作集合起来，他们确保事情清晰合适。
+> 你知道，关于 Unix 和今天的 Plan 9 最美妙的事情是这些是大量优秀的想法随着时间通过一种非常有趣而高效的方式融合在一起...贝尔实验室集合了好主意并将它们实现出来。伯克利 Unix 将许多好想法做成了一个程序员接口——高质量的多种实现。集合了来自全世界人们的代码形成这个系统。并且裁决者有着很好的品位：Bill Joy 和 Sam Leffler 是正真的艺人，Kirk McKusick，Mike Karels 因为缺乏一个好的头衔，我们可以称他们为架构师。但是他们真的拥有良好的品位。他们讲人们的工作集合起来，他们确保事情清晰合适。
 
 综合来说就是创造性。但是关于 Unix 的演变最有意思的观点就是它大部分都发生在它的“拥有者”AT&T 和西部电气。Greg Rose 向我指出：
 
