@@ -101,7 +101,7 @@
 * Kernighan, Brian：awk 中的 k；编写 ratfor、ditroff、eqn、pic；与 Ritchie 合著《C 程序设计语言》，与 Plauger 合著《Software Tools》；以及许多其他作品
 * Kilburn, Tx：静电存储器的共同发明者
 * Kishida, Koichi：jus 的创始人之一
-* Kolstad, Rob：;login: 杂志首任幽默版主；现任主编
+* Kolstad, Rob：; login: 杂志首任幽默版主；现任主编
 * Korn, David：Korn shell 的发明者
 * Kridle, Bob：伯克利系统程序员；后来成为 mt Xinu 的创始人之一
 * Law, Lew：哈佛科学中心技术服务主管；首届 USENIX 董事会成员；Unix 手册出版人

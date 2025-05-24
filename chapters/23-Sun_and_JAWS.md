@@ -3,7 +3,7 @@
 
 真正的 Unix 硬件的首次尝试是 ONYX。正如 Mike O'Dell 和 Neil Groundwater 在 USENIX Association 会议上提到的那样，ONYX 曾被宣布。ONYX 由 Bob Marsh 创立，他后来创办了 /usr/group。John Bass 当时为他工作。他告诉我：
 
->Z8000 ONYX 几乎算不上是 VAX 或单芯片系统。我们带到 Boulder 的系统由三块大约 15" x 22" 的电路板组成（我不记得确切的尺寸）。它的性能和架构更像是 PDP-11/45 或 70……采用分段内存，没有分页。稍后发布的 LSI 11/73 可能更快且价格更低。LSI 11/23 稍慢一些，价格便宜得多（当时我家用的系统就是 11/23，后来升级成 11/73）。
+>Z8000 ONYX 几乎算不上是 VAX 或单芯片系统。我们带到 Boulder 的系统由三块大约 15 " x 22" 的电路板组成（我不记得确切的尺寸）。它的性能和架构更像是 PDP-11/45 或 70……采用分段内存，没有分页。稍后发布的 LSI 11/73 可能更快且价格更低。LSI 11/23 稍慢一些，价格便宜得多（当时我家用的系统就是 11/23，后来升级成 11/73）。
 >
 >除此之外，ONYX 是第一个设计成桌面型运行 Unix 的系统。它有 8 个串口（用户），价格低于 2.5 万美元，短期内成为 PDP-11 Unix 系统的替代品。
 >
@@ -13,7 +13,7 @@
 
 与此同时，Xerox 开发了 Alto，一种“个人工作站”，实际上更像是我们今天所理解的工作站。它拥有位图屏幕和鼠标。虽然相对昂贵（从未公开出售，但估计价格在 3 万美元左右），但当 Motorola 68000 CPU 推出后，Stanford 的 Andreas Bechtolsheim 和其他学生能够廉价模拟它。斯坦福授权了一款单板计算机，称为 Stanford University Network 板，简称 SUN。有多家公司获得了授权：Codata、Fortune、Dual、Cyb、Lucasfilm 等。机器——被称为 Just Another Workstation（JAWs）——开始出现，有些售价低至 1 万美元；运行的系统多为 4.1BSD 或 System III。大多数公司像大多数创业公司一样经历了兴衰。Sun Microsystems 雇佣了原始板的设计师 Bechtolsheim 和 4.1BSD 的首席架构师 Joy，幸存下来。Boggs 和 Metcalfe 于 1976 年在 Palo Alto 的 Xerox 发明了以太网；他们的文章于当年 7 月发表在 CACM 上；Xerox 于 1980 年 10 月发布了规范。桌面机器和网络的理念在 Palo Alto 生机勃勃。
 
-1982 年 6 月的《;login: 》杂志刊登了以下内容：
+1982 年 6 月的《; login: 》杂志刊登了以下内容：
 
 >**有趣的发展**
 >
