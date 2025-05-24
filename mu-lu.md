@@ -53,7 +53,7 @@
 * [VAX 后的伯克利 Unix](chapters/28-Berkeley_Unix_After_the_VAX.md)
 * [法律 第三幕](chapters/29-The_Law_Part_III.md)
 
-## 落幕
+## 谢幕
 
 * [结语：Unix 为什么能成功](mix/What_Made_It_work.md)
 * [进一步阅读](mix/book,md)
