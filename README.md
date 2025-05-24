@@ -5,7 +5,7 @@
 ---
 
 ```c
-/* 你不需要理解这段代码 */
+/* 你不需要看懂这段代码 */
 if (rp -> p_flag & SSWAP) {
     rp -> p_flag &= ~SSWAP;
     aretu (u.u_ssav);
