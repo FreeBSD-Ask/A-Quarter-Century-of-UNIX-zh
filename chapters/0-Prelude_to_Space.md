@@ -8,6 +8,6 @@
 
 那是 1969 年初夏，炎热的天气像一层厚重的毯子笼罩着新泽西中部，仿佛要将一切窒息。
 
-Ken Thompson 毕业于加州大学伯克利分校，1966 年加入了位于新泽西州 Murray Hill 的贝尔电话实验室（BTL）技术团队。他曾作为团队成员参与 Multics 项目，这是通用电气、BTL 和麻省理工学院联合开发的一款操作系统，旨在为大型计算机提供支持，能够同时容纳多达一千名用户。（Multics 是 Multiplexed Information and Computing Service，多路信息与计算服务的缩写。）在贝尔电话实验室参与 Multics 项目的还有 Dennis Ritchie（他在 1968 年博士毕业于哈佛大学应用数学专业后加入了 BTL，研究生期间曾兼职参与 Multics 项目）、Joseph F. Ossanna Jr.、Stu Feldman、Doug Mollroy 和 Bob Morris。但贝尔电话实验室已刚刚退出该项目，尽管投入了数百万美元，却未见任何成效。Multics 甚至无法有效支持三名用户同时使用。BTL 的计算机研究陷入了低谷。
+Ken Thompson 毕业于加州大学伯克利分校，1966 年加入了位于新泽西州 Murray Hill 的贝尔电话实验室（BTL）技术团队。他曾作为团队成员参与 Multics 项目，这是通用电气、贝尔电话实验室和麻省理工学院联合开发的一款操作系统，旨在为大型计算机提供支持，能够同时容纳多达一千名用户。（Multics 是 Multiplexed Information and Computing Service，多路信息与计算服务的缩写。）在贝尔电话实验室参与 Multics 项目的还有 Dennis Ritchie（他在 1968 年博士毕业于哈佛大学应用数学专业后加入了贝尔电话实验室，研究生期间曾兼职参与 Multics 项目）、Joseph F. Ossanna Jr.、Stu Feldman、Doug Mollroy 和 Bob Morris。但贝尔电话实验室已刚刚退出该项目，尽管投入了数百万美元，却未见任何成效。Multics 甚至无法有效支持三名用户同时使用。贝尔电话实验室的计算机研究陷入了低谷。
 
 这支小团队中的大多数人都只是萧规曹随。Ken 在朋友们的帮助下，即将改变计算的未来。
