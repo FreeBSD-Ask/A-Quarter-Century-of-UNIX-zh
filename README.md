@@ -1,5 +1,10 @@
 # 翻译项目
 
+原译者及项目：zhangyangjing <https://github.com/zhangyangjing/A-Quarter-Century-of-UNIX-zh>
+
+原项目链接：[UNIX二十五年](https://zhangyangjing.gitbooks.io/a-quarter-century-of-unix-zh/content/)
+
+---
 
 UNIX 是一款简洁，优雅，可移植，以及能力非常强大的软件系统，它没有借助于商业市场就变得非常流行。程序员们使用它，大的商业公司们却在抵制它。十年后，用户们取得了令人难以置信的胜利。`A Quarter Century of UNIX` 是第一本由亲历者讲述这段历史的书。开发者和用户们描绘了技术社区是如何战胜了数百万美元的商业公司。准备写这本书时，Peter Salus 访问了一百多位关键人物，并为了搜集相关信息从澳大利亚走到了奥地利。本书搜集流传各地的 UNIX 故事汇编成为详尽的 UNIX 历史。
 
