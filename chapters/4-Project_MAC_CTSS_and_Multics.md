@@ -13,6 +13,7 @@ CTSS作为MAC项目的分时部分，既是一台服务设备，又是系统编�
 Multics是第二代分时系统，目的是成为一个“计算机公用程序”的原型。它在1964年作为MAC项目，贝尔实验室，以及通用电气的合作项目开始进行。Corbato是开发计划的主要领导人，项目有九个主要目标：
 
 > * 方便的使用远程终端
+>
 * 像电话系统一样的连续运行
 * 广泛的系统配置
 * 可靠的内部文件系统
@@ -53,6 +54,7 @@ Tom Van Vleck说：
 直到1993年仍有Multics机器在运行，它们是稀有物种。Van Vleck像我提供了下面的清单，标记型号的是未能确认的站点：
 
 > * ACTC (加拿大 亚伯达 卡尔加里)
+>
 * Air Force Data Service (华盛顿哥伦比亚特区) *
 * Bull System-M (亚利桑那州凤凰城)
 * Credit Lyonnais (发过巴黎)
@@ -66,6 +68,7 @@ Tom Van Vleck说：
 Multics的重要性在于它持久的影响力。霍尼韦尔公司(Honeywell)买下了通用电气的计算机业务，但是它的GCOS 6操作系统，Prime的Primos，Stratus的VOS，还有Apollo的Domain，以及BBN创建的TENEX，TOP-20，都深刻的被Multics影响着(Prime的创建者Bill Poduska曾在通用电气为Multicsul工作，然后去了DEC，Multics曾经的多语言经理Bob Freiburghouse是Stratus公司的创始人)。英特尔386，486系列的内存管理看起来是来自Multics的手册。但最重要影响恐怕是来自贝尔实验室的Dennis Ritchie和Ken Thompson，以及他们的同事Mcllroy，Morris，Neumann，以及接触了CTSS和Multics的Ossanna。Ritchie告诉我：
 
 > 我们从Multics学到了很多重要的事情：
+>
 > * 树形的文件系统结构
 > * 一个命令解释程序，甚至这个程序的名字“shell”也是取自Multics
 > * 更重要的是，文件的结构就是没有结构，之看做字节数组。大多数情况下操作系统对此不作解释

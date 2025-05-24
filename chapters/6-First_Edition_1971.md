@@ -64,4 +64,4 @@ Doug McIlroy告诉我Thompson最大的错误其实是“将Unix全部用大写�
 ---
 **译者注**
 
-* [Unix Programmer's Manual ](https://www.bell-labs.com/usr/dmr/www/1stEdman.html)
+* [Unix Programmer's Manual](https://www.bell-labs.com/usr/dmr/www/1stEdman.html)

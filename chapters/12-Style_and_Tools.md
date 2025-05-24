@@ -138,4 +138,4 @@ STUG是在博尔德会议上正式成立的，Groundwater被选为第一个委�
 * [Plauger](http://plauger.com/)
 * [Ratfor](http://sepwww.stanford.edu/doku.php?id=sep:software:ratfor)
 * [Software Tools](https://www.amazon.com/Software-Tools-Brian-W-Kernighan/dp/020103669X)
-* [The Elements of Programming Style ](http://www2.ing.unipi.it/~a009435/issw/extra/kp_elems_of_pgmng_sty.pdf)
+* [The Elements of Programming Style](http://www2.ing.unipi.it/~a009435/issw/extra/kp_elems_of_pgmng_sty.pdf)
