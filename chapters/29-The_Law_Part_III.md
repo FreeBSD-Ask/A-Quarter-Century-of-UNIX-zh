@@ -6,7 +6,7 @@
 
 那是 1978 年。十年以后，程序员和专业用户仍然感觉授权使得他们和最喜爱的操作系统变得疏远：源码授权的收费已经增长到了 10 万美金。1993 年到了 20 万。这远远超出了个人和小公司的承受能力。
 
-John Gilmore 和其他几个人催促 CSRG 创建他们的免授权版本。很明显 AT&T 反对其他的派生版本: Linux，MINIX 等等。1988 年秋天，在 BSD 的工作场地，Keith，Mike Karels 和 Kirk McKusick 宣布已经完成了 BSD Networking Release 1。它在 11 月上市。
+John Gilmore 和其他几个人催促 CSRG 创建他们的免授权版本。很明显 AT&T 反对其他的派生版本：Linux，MINIX 等等。1988 年秋天，在 BSD 的工作场地，Keith，Mike Karels 和 Kirk McKusick 宣布已经完成了 BSD Networking Release 1。它在 11 月上市。
 
 NET1 在那时是伯克利系统的一个子集，和 4.3 Tahoe 非常相似。它的内核网络部分，C 语言库和使用工具都提供源码和文档。它不需要任何授权 (AT&T 或者伯克利) 就可以使用，也可以通过匿名 FTP 在网络上重新发布。源码中包含了一份伯克利版权声明和说明，允许所有者重新发布。
 
