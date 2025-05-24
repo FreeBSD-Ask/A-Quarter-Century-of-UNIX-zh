@@ -1,8 +1,16 @@
 # 翻译项目
 
-原译者及项目：zhangyangjing <https://github.com/zhangyangjing/A-Quarter-Century-of-UNIX-zh>
 
-原项目链接：[UNIX 二十五年](https://zhangyangjing.gitbooks.io/a-quarter-century-of-unix-zh/content/)
+```c
+/* 你不需要理解这段代码 */
+if (rp -> p_flag & SSWAP) {
+    rp -> p_flag &= ~SSWAP;
+    aretu (u.u_ssav);
+}
+```
+
+这是第六版 UNIX（Western Electric，第六版）中第 2238 行的注释，以及第 2240 至 2243 行的代码。
+
 
 ---
 
