@@ -47,7 +47,7 @@
 
 ## 现状
 
-* [互相争斗的 Unix 系统](chapters/25-Dulling_Unixes.md)
+* [互相争斗的 Unix](chapters/25-Dulling_Unixes.md)
 * [衍生版本](chapters/26-Offspring_Systems.md)
 * [OSF 和 UI](chapters/27-OSF_and_UI.md)
 * [VAX 后的伯克利 Unix](chapters/28-Berkeley_Unix_After_the_VAX.md)
