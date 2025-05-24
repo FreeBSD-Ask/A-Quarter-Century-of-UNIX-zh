@@ -21,7 +21,7 @@
 * [1973，第一篇论文](chapters/8-The_First_Paper_1973.md)
 * [法律 第一部分](chapters/9-The_Law_Part_I.md)
 
-## 是什么造就了 Unix?
+## 是什么让 UNIX 成为 UNIX？
 
 * [用户](chapters/10-The_Users.md)
 * [为什么是 Unix](chapters/11-Why_Unix.md)
