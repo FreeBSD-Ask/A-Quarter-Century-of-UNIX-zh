@@ -4,7 +4,7 @@ from pathlib import Path
 
 # 配置目录
 repo_root = os.getcwd()
-assets_dir = os.path.join(repo_root, '.gitbook', 'assets')
+assets_dir = os.path.join(repo_root, 'assets')
 
 # 收集所有 Markdown 文件
 md_files = []
