@@ -18,7 +18,7 @@ if (rp -> p_flag & SSWAP) {
 
 ## 更多资源
 
-* 本书由 Addison-Wesley 出版社出版于 1994 年
+* 本书由 Addison-Wesley 出版社于 1994 年出版
 * 在线阅读：<https://freebsd.gitbook.io/unix-er-shi-wu-nian>
 * 翻译源码：<https://github.com/FreeBSD-Ask/A-Quarter-Century-of-UNIX-zh>
 * 英文原版：<http://wiki.tuhs.org/lib/exe/fetch.php?media=publications:qcu.pdf>
