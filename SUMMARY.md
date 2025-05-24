@@ -23,7 +23,7 @@
 
 ## 是什么让 UNIX 成为 UNIX？
 
-* [用户](chapters/10-The_Users.md)
+* [用户 第一幕](chapters/10-The_Users.md)
 * [为什么是 Unix](chapters/11-Why_Unix.md)
 * [风格和工具](chapters/12-Style_and_Tools.md)
 * [PWB 和 MERT](chapters/13-PWB_and_MERT.md)
