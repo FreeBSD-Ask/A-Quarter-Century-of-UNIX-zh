@@ -44,7 +44,7 @@ Bass 对 USENIX 协会的成立以及随后 /usr/group 的创建有着不同于�
 >| WIDE  | 实验/研究 IP                 |
 >| IIJ   | 商业 IP（其他还有 SPIN 和 IIKK）  |
 
-JUNET 是由 Jun Murai 建立的。我不确定 JUNET “官方” 的全称是什么，但很多人开玩笑说
+JUNET 是由 Jun Murai 建立的。我不确定 JUNET“官方”的全称是什么，但很多人开玩笑说
 
 >它的名字据说是取自 Jun，或者可能代表 Japan University Net（日本大学网）或 Japan UNIX Net（日本 UNIX 网）。
 
