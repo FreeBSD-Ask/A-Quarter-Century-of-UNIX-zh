@@ -8,12 +8,12 @@
 ## 起源
 
 * [太空序曲](chapters/0-Prelude_to_Space.md)
-* [1969 年夏天到 1970 年秋天](chapters/1-Summer_1969-Fall_1970.md)
+* [1969 年夏到 1970 年秋](chapters/1-Summer_1969-Fall_1970.md)
 * [机械计算和电子计算](chapters/2-Calculating_and_Computing.md)
 * [操作系统](chapters/3-Operating_System.md)
 * [MAC 项目：CTSS 和 Multics](chapters/4-Project_MAC_CTSS_and_Multics.md)
 
-## 一个系统的诞生
+## 一款系统的诞生
 
 * [PDP-11](chapters/5-The_PDP_11.md)
 * [1971 年，第一版](chapters/6-First_Edition_1971.md)
@@ -21,7 +21,7 @@
 * [1973，第一篇论文](chapters/8-The_First_Paper_1973.md)
 * [法律 第一部分](chapters/9-The_Law_Part_I.md)
 
-## 什么造就了 Unix?
+## 是什么造就了 Unix?
 
 * [用户](chapters/10-The_Users.md)
 * [为什么是 Unix](chapters/11-Why_Unix.md)
@@ -55,5 +55,5 @@
 
 ## 末章
 
-* [它为什么成功](mix/What_Made_It_work.md)
+* [它为什么能成功](mix/What_Made_It_work.md)
 * [附图](mix/Attached_Photos.md)
