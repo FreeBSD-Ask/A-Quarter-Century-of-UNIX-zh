@@ -1,4 +1,4 @@
-# 1969 年夏天到 1970 年秋天
+# 1969 年夏到 1970 年秋
 
 1987 年，时任多伦多人类计算资源公司（Human Computing Resources）的 Mike Tilson 制作了一块纪念牌，牌上刻着 Ken Thompson 和 Dennis Ritchie 两位留着胡子的面孔。这块牌子上写着“我们的创始人”。从广义上讲，这说法没错，但更准确地说，Thompson 是发起人，Ritchie 和 Rudd Canaday 紧随其后，还有一小群 BTL 的员工组成了团队。他们是一个紧密而友好的团队。虽然开头的故事只是虚构，但并没有大幅偏离事实。
 
