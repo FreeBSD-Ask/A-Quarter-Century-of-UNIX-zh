@@ -1,6 +1,6 @@
 # 伯克利 Unix 第二部分
 
-1978 年初，理查德·法特曼教授开始寻找一台具有更大地址空间的机器，以便他能继续在 PDP-10 上开始的 Macsyma 项目。法特曼解释道：
+1978 年初，Richard Fateman 教授开始寻找一台具有更大地址空间的机器，以便他能继续在 PDP-10 上开始的 Macsyma 项目。法特曼解释道：
 
 麻省理工学院的 MAC 项目中的程序叫做 MACSYMA。为了区分仅在 PDP-10（以及某种程度上在 Multics 系统上）运行的原始版本和 VAX 版本，我称后者为 VAX/Macsyma，有时缩写为 vaxima。麻省理工随后将 Macsyma 程序及其名称出售给了 Symbolics 公司。此后，所有不在 Symbolics 或其继任者——位于马萨诸塞州阿灵顿的“Macsyma Inc.”直接控制下的版本，都被称为除 Macsyma 之外的其他名称。
 
