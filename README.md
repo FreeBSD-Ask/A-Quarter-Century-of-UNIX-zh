@@ -2,7 +2,7 @@
 
 原译者及项目：zhangyangjing <https://github.com/zhangyangjing/A-Quarter-Century-of-UNIX-zh>
 
-原项目链接：[UNIX二十五年](https://zhangyangjing.gitbooks.io/a-quarter-century-of-unix-zh/content/)
+原项目链接：[UNIX 二十五年](https://zhangyangjing.gitbooks.io/a-quarter-century-of-unix-zh/content/)
 
 ---
 
