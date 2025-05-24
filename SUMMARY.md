@@ -55,5 +55,5 @@
 
 ## 末章
 
-* [它为什么能成功](mix/What_Made_It_work.md)
+* [Unix 为什么能成功](mix/What_Made_It_work.md)
 * [附图](mix/Attached_Photos.md)
