@@ -23,7 +23,7 @@
 
 ## 是什么让 UNIX 成为 UNIX？
 
-* [用户](chapters/10-The_Users.md)
+* [用户 第一幕](chapters/10-The_Users.md)
 * [为什么是 Unix](chapters/11-Why_Unix.md)
 * [风格和工具](chapters/12-Style_and_Tools.md)
 * [PWB 和 MERT](chapters/13-PWB_and_MERT.md)
@@ -47,13 +47,14 @@
 
 ## 现状
 
-* [Unix 间的竞争](chapters/25-Dulling_Unixes.md)
+* [互相争斗的 Unix](chapters/25-Dulling_Unixes.md)
 * [衍生版本](chapters/26-Offspring_Systems.md)
 * [OSF 和 UI](chapters/27-OSF_and_UI.md)
 * [VAX 后的伯克利 Unix](chapters/28-Berkeley_Unix_After_the_VAX.md)
 * [法律 第三幕](chapters/29-The_Law_Part_III.md)
 
-## 末章
+## 落幕
 
-* [Unix 为什么能成功](mix/What_Made_It_work.md)
+* [结语：Unix 为什么能成功](mix/What_Made_It_work.md)
+* [进一步阅读](mix/book,md)
 * [附图](mix/Attached_Photos.md)
