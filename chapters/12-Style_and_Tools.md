@@ -129,8 +129,8 @@ STUG 是在博尔德会议上正式成立的，Groundwater 被选为第一个委
 > 工具的概念在 Unix 意外的领域开始繁荣昌盛。
 
 
-| ![software tools](/assets/software_tools.jpg) |
-| :-: |
+![software tools](/assets/software_tools.jpg) 
+
 
 ---
 **译者注**

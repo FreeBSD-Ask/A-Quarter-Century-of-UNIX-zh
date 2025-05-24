@@ -56,5 +56,4 @@ Armando 最为值得记忆的“露面”是在 1983 年圣地亚哥 USENIX 会�
 
 有趣的是，一旦 Armando 和其他人离开 DEC，ULTRIX 就不再继续：1990 年，DEC 仍然说“ULTRIX 操作系统是一个源于 4.2/4.3 版本的伯克利软件发行版 (BSD) 驱动实现，它提供了许多 AT&T 的 System V 接口定义所规定的系统和库调用”。知道后来，DEC 为了支持 OSF/1 完全砍掉了 ULTRIX。
 
-| ![](/assets/bill_ken_greg.jpg) |
-| :-: |
+![](/assets/bill_ken_greg.jpg) 
