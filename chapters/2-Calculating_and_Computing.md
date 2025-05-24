@@ -79,6 +79,6 @@ Gordon Bell 的创造和 DEC 冒险做低价计算机是 UNIX 得以开发和成
 
 * http://songshuhui.net/archives/53537
 * http://wenku.baidu.com/view/227b730203d8ce2f006623f7.html
-* http://ftp.coscoqmc.com.cn:8081/nclass/jsjcourse/kwshiqu/boke.htm
+* http://ftp.coscoqmc.com.cn: 8081/nclass/jsjcourse/kwshiqu/boke.htm
 * http://www.flickering.cn/八卦天地/2015/02/计算机前世篇（三，打孔卡片）/
 * http://www.flickering.cn/八卦天地/2015/02/计算机前世篇（二，机械计算器）/

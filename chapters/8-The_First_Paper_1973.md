@@ -1,6 +1,6 @@
 # 1973，第一篇论文
 
-1973 年第三版`UNIX编程手册`面世了。就像之前说的，大面积的代码都用 C 重写了。C 语言的编译器和调试器也都已经出现。系统被安装到 16 个工作站上 (都在 AT&T 和西部电子)。Thompson 和 Ritchie(在 Bob Morris，Doug McIlroy，以及 Joe Ossanna 的“坚定支持”下) 向 10 月将在纽约约克镇高地的 IBM Thomas J. Watson 研究中心召开的 ACM 操作系统规范讨论会 (SOSP) 上提交了摘要报告。
+1973 年第三版 `UNIX编程手册` 面世了。就像之前说的，大面积的代码都用 C 重写了。C 语言的编译器和调试器也都已经出现。系统被安装到 16 个工作站上 (都在 AT&T 和西部电子)。Thompson 和 Ritchie(在 Bob Morris，Doug McIlroy，以及 Joe Ossanna 的“坚定支持”下) 向 10 月将在纽约约克镇高地的 IBM Thomas J. Watson 研究中心召开的 ACM 操作系统规范讨论会 (SOSP) 上提交了摘要报告。
 
 SOSP，就像它的名字所说的，是一个非常大型的会议。Doug McIlroy 回忆说他没有想到早上的会议在一个“挤满听众的礼堂”。
 
