@@ -8,49 +8,49 @@
 ## 起源
 
 * [太空序曲](chapters/0-Prelude_to_Space.md)
-* [1969年夏天到1970年秋天](chapters/1-Summer_1969-Fall_1970.md)
+* [1969 年夏天到 1970 年秋天](chapters/1-Summer_1969-Fall_1970.md)
 * [机械计算和电子计算](chapters/2-Calculating_and_Computing.md)
 * [操作系统](chapters/3-Operating_System.md)
-* [MAC项目：CTSS和Multics](chapters/4-Project_MAC_CTSS_and_Multics.md)
+* [MAC 项目：CTSS 和 Multics](chapters/4-Project_MAC_CTSS_and_Multics.md)
 
 ## 一个系统的诞生
 
 * [PDP-11](chapters/5-The_PDP_11.md)
-* [1971年，第一版](chapters/6-First_Edition_1971.md)
-* [1971-1973，C语言和管道](chapters/7-C_and_pipes_1971_to_1973.md)
+* [1971 年，第一版](chapters/6-First_Edition_1971.md)
+* [1971-1973，C 语言和管道](chapters/7-C_and_pipes_1971_to_1973.md)
 * [1973，第一篇论文](chapters/8-The_First_Paper_1973.md)
 * [法律 第一部分](chapters/9-The_Law_Part_I.md)
 
 ## 什么造就了 Unix?
 
 * [用户](chapters/10-The_Users.md)
-* [为什么是Unix](chapters/11-Why_Unix.md)
+* [为什么是 Unix](chapters/11-Why_Unix.md)
 * [风格和工具](chapters/12-Style_and_Tools.md)
-* [PWB和MERT](chapters/13-PWB_and_MERT.md)
+* [PWB 和 MERT](chapters/13-PWB_and_MERT.md)
 * [实用工具](chapters/14-Utilities.md)
 
 ## Unix 的传播和兴盛
 
 * [用户 第二部分](chapters/15-The_Users_Part_II.md)
-* [伯克利Unix 第一部分](chapters/16-Berkeley_Unix_Part_I.md)
+* [伯克利 Unix 第一部分](chapters/16-Berkeley_Unix_Part_I.md)
 * [V7](chapters/17-Version_7.md)
-* [伯克利Unix 第二部分](chapters/18-Berkeley_Unix_Part_II.md)
-* [商业Unix](chapters/19-Commercial_Unix.md)
+* [伯克利 Unix 第二部分](chapters/18-Berkeley_Unix_Part_II.md)
+* [商业 Unix](chapters/19-Commercial_Unix.md)
 * [DEC](chapters/20-DEC.md)
 * [法律 第二部分](chapters/21-The_Law_Part_II.md)
 
 ## Unix 产业
 
 * [\/usr\/group](chapters/22-usr_group.md)
-* [Sun和JAWS](chapters/23-Sun_and_JAWS.md)
+* [Sun 和 JAWS](chapters/23-Sun_and_JAWS.md)
 * [标准](chapters/24-Standards.md)
 
 ## 现状
 
-* [Unix间的竞争](chapters/25-Dulling_Unixes.md)
+* [Unix 间的竞争](chapters/25-Dulling_Unixes.md)
 * [衍生版本](chapters/26-Offspring_Systems.md)
-* [OSF和UI](chapters/27-OSF_and_UI.md)
-* [VAX后的伯克利Unix](chapters/28-Berkeley_Unix_After_the_VAX.md)
+* [OSF 和 UI](chapters/27-OSF_and_UI.md)
+* [VAX 后的伯克利 Unix](chapters/28-Berkeley_Unix_After_the_VAX.md)
 * [法律 第三部分](chapters/29-The_Law_Part_III.md)
 
 ## 末章

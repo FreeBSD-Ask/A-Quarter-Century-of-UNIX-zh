@@ -8,7 +8,7 @@ Kernighan 告诉 Peter Collinson 关于 awk:
 
 > 到目前为止它是我参与过的最大的软件项目。我们有三个人参与其中，原本这是根本不可能完成的。然而，和两个人配合工作远比和三个人配合更容易...因为事情很难分割开。有太多的意见分歧，有时这是好事因为这以为这考虑了更多的事情，但是有时这也意味着可能没有那么团结。
 
-人员太多了？如果你注意看新闻，你回发现微软有超过 600 位程序员在开发 Windows NT。但在霍姆德尔有 3 个人正在创建 32V(London，Reiser，和 Swanson)。3 个人在写 HoneyDanBer，Hall，Sventek 以及 Scherrer 写 VOS，Lorinda Cherry 和 Bob Morris 写 bc 和 dc。伯克利的 CSRG 偶尔会有不少的全职人员:Haley 和 Joy。Haley，Joy 和 Kridle。Kridle 和 Leffler。McKusick 的业余时间和他得到博士学位前的夏天。McKusick，Jolitz 以及 Karels。McKusick，Karels 以及 Bostic。Larry Wall 自己写了一些补丁 per，rn。看看这些离职的人们:Ken Thompson，George Coulouris，几个澳大利亚人，Jan Simon Pendy。再看看其他的贡献者:Mike Muuss，Doug Kingston，Jim Curry，Rick Adams，James Cosling，Rob Pike，Armando Stettner，Bill Shannon 等等。
+人员太多了？如果你注意看新闻，你回发现微软有超过 600 位程序员在开发 Windows NT。但在霍姆德尔有 3 个人正在创建 32V(London，Reiser，和 Swanson)。3 个人在写 HoneyDanBer，Hall，Sventek 以及 Scherrer 写 VOS，Lorinda Cherry 和 Bob Morris 写 bc 和 dc。伯克利的 CSRG 偶尔会有不少的全职人员: Haley 和 Joy。Haley，Joy 和 Kridle。Kridle 和 Leffler。McKusick 的业余时间和他得到博士学位前的夏天。McKusick，Jolitz 以及 Karels。McKusick，Karels 以及 Bostic。Larry Wall 自己写了一些补丁 per，rn。看看这些离职的人们: Ken Thompson，George Coulouris，几个澳大利亚人，Jan Simon Pendy。再看看其他的贡献者: Mike Muuss，Doug Kingston，Jim Curry，Rick Adams，James Cosling，Rob Pike，Armando Stettner，Bill Shannon 等等。
 
 Steve Johnson 告诉我：
 
@@ -18,11 +18,11 @@ Steve Johnson 告诉我：
 
 Eric Allman 对我说：
 
-> 我觉得一个软件设计的通用规则是你应该去写你想用的程序。Ken 和 Dennis 想用 Unix。他们为了去用它而去开发它。我们想用**sendmail**，它不是那种我们说的“好，让我们写一个邮件程序，然后把它发给...”。Bill Joy 没有跑来对我说“Eric，我们需要的就是这个”，实际上，我是在他的催促下将它发布出去的。我们有一个问题需要解决。Ken 有一系列的问题：他没有一个足够的系统可以让他去玩太空游戏，所以他就写了一个。与此相比的 X.400，我被说服人们从来不像在纸上写一样去用电子邮件。其他公司的软件没成功是因为你指派人们去做那些工作。
+> 我觉得一个软件设计的通用规则是你应该去写你想用的程序。Ken 和 Dennis 想用 Unix。他们为了去用它而去开发它。我们想用 **sendmail**，它不是那种我们说的“好，让我们写一个邮件程序，然后把它发给...”。Bill Joy 没有跑来对我说“Eric，我们需要的就是这个”，实际上，我是在他的催促下将它发布出去的。我们有一个问题需要解决。Ken 有一系列的问题：他没有一个足够的系统可以让他去玩太空游戏，所以他就写了一个。与此相比的 X.400，我被说服人们从来不像在纸上写一样去用电子邮件。其他公司的软件没成功是因为你指派人们去做那些工作。
 
 当我和 Armando Stettner 聊天时，他对我评论说：
 
-> 你知道，关于 Unix 和今天的 Plan 9 最美妙的事情是这些是大量优秀的想法随着时间通过一种非常有趣而高效的方式融合在一起...贝尔实验室集合了好主意并将它们实现出来。伯克利 Unix 将许多好想法做成了一个程序员接口——高质量的多种实现。集合了来自全世界人们的代码形成这个系统。并且裁决者有着很好的品位:Bill Joy 和 Sam Leffler 是正真的艺人，Kirk McKusick，Mike Karels 因为缺乏一个好的头衔，我们可以称他们为架构师。但是他们真的拥有良好的品位。他们讲人们的工作集合起来，他们确保事情清晰合适。
+> 你知道，关于 Unix 和今天的 Plan 9 最美妙的事情是这些是大量优秀的想法随着时间通过一种非常有趣而高效的方式融合在一起...贝尔实验室集合了好主意并将它们实现出来。伯克利 Unix 将许多好想法做成了一个程序员接口——高质量的多种实现。集合了来自全世界人们的代码形成这个系统。并且裁决者有着很好的品位: Bill Joy 和 Sam Leffler 是正真的艺人，Kirk McKusick，Mike Karels 因为缺乏一个好的头衔，我们可以称他们为架构师。但是他们真的拥有良好的品位。他们讲人们的工作集合起来，他们确保事情清晰合适。
 
 综合来说就是创造性。但是关于 Unix 的演变最有意思的观点就是它大部分都发生在它的“拥有者”AT&T 和西部电气。Greg Rose 向我指出：
 
@@ -30,7 +30,7 @@ Eric Allman 对我说：
 
 Brian Kernighan 说：
 
-> 你知道，个人计算机的商业环境需要持续不断的改变来保持占有市场。你不得不一直有些新的东西，或者你的竞争对手有了新的东西然后你被从市场中赶了出来。其他事情是个人计算机商业环境本质上是同类的，它们全都运行在相同他的处理器芯片上。因为环境没什么差异并且 PC 市场要比 Unix 市场大很多，因此你可以分期偿还你的花费。它是一个非常大的市场，如果一些人有了一个好主意他们会参与到 PC 市场而不是去 Unix 市场。我觉得市场将会发生改变，Unix 的好处在长期过程中会超过 DOS:可移植和通用的好处。
+> 你知道，个人计算机的商业环境需要持续不断的改变来保持占有市场。你不得不一直有些新的东西，或者你的竞争对手有了新的东西然后你被从市场中赶了出来。其他事情是个人计算机商业环境本质上是同类的，它们全都运行在相同他的处理器芯片上。因为环境没什么差异并且 PC 市场要比 Unix 市场大很多，因此你可以分期偿还你的花费。它是一个非常大的市场，如果一些人有了一个好主意他们会参与到 PC 市场而不是去 Unix 市场。我觉得市场将会发生改变，Unix 的好处在长期过程中会超过 DOS: 可移植和通用的好处。
 
 Unix 影响了 90 年代计算机的每一个方面。甚至 Kernighan 声称“PC 市场”带有 Unix 的印记。另外，微软的 Windows NT 很明显是一个类似 Unix 的系统，而且他们的产品宣称是“遵从 POSIX”(虽然我不清楚比尔盖茨如何理解这一点)。
 

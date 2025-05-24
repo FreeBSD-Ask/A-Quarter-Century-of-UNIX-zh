@@ -1,4 +1,4 @@
-# MAC项目：CTSS和Multics
+# MAC 项目：CTSS 和 Multics
 
 MAC 项目是 1963 年春天由 J.C.R. Licklider 建议在 MIT 发起的。他的创始主任是 MIT 的教授 Robert M. Fano。根据 1965 年 Fano 为 MAC 项目进度报告写的前言，MAC 代表机器辅助认知 (Machine Aided Cognition) 和多路访问计算机 (Multiple Access Computer)。事实上，它之所以有名是因为 MIT 计算机科学所在的科技广场五楼。Marvin Minsky 的人工智能实验室位于被称之为人与计算机 (Man and Computer) 的九楼 (最初实验室是属于 Minsky 和 MacCarthy 的，但当 LISP 的发明人 John MacCarthy 去了斯坦福后，他爱的名字被取消了)。
 
