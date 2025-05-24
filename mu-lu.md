@@ -29,7 +29,7 @@
 * [PWB 和 MERT](chapters/13-PWB_and_MERT.md)
 * [实用工具](chapters/14-Utilities.md)
 
-## Unix 的传播和兴盛
+## Unix 的传播与发展
 
 * [用户 第二部分](chapters/15-The_Users_Part_II.md)
 * [伯克利 Unix 第一部分](chapters/16-Berkeley_Unix_Part_I.md)
