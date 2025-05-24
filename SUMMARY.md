@@ -1,6 +1,6 @@
 # Table of contents
 
-* [封面](README.md)
+* [翻译项目](README.md)
 * [前言](mix/Preface.md)
 * [感谢](mix/Acknowledgements.md)
 * [简介](mix/Introduction.md)
