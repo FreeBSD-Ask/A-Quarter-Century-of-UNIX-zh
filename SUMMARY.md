@@ -57,4 +57,5 @@
 
 * [结语：Unix 为什么能成功](mix/What_Made_It_work.md)
 * [进一步阅读](mix/book,md)
+* [人物与概况](who.md)
 * [附图](mix/Attached_Photos.md)
