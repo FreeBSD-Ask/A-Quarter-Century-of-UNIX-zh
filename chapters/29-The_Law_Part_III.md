@@ -20,7 +20,7 @@ NET 2 是一次美俄合作成果，贡献者包括 Bill Jolitz、Donn Seeley、
 
 USL 后来提出复议请求，要求重新听审 32V 是否缺乏版权声明的问题，但法院仍予以拒绝，认为分发数量的事实修正并不影响无版权声明发布的裁定。
 
-这距离 Ken 在 SOSP 上发表那篇论文不到 20 年，距离 UNIX NEWS 变成 ;login:，以及 UNIX 用户组变成 USENIX 也有 15 年。然而，AT\&T、西方电气公司（Western Electric）以及现在的 USL，对用户社区几乎一无所知。
+这距离 Ken 在 SOSP 上发表那篇论文不到 20 年，距离 UNIX NEWS 变成 ;login:，以及 UNIX 用户组变成 USENIX 也有 15 年。然而，AT\&T、西部电气公司（Western Electric）以及现在的 USL，对用户社区几乎一无所知。
 
 BSDI 和其他开发者试图确保 Unix 操作系统的持续发展、成长和使用。USL 的诉讼是为了保护一件已经被发现极具价值的事物，但为时已晚。可能 Ritchie 和 Thompson 在 70 年代中期对系统管理不够谨慎，也可能 BTL 员工曾无意中将 Unix 公开，未加严格限制。
 
