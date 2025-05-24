@@ -1,6 +1,6 @@
 # MAC 项目：CTSS 和 Multics
 
-1963 年春，麻省理工学院在 J. C. R. Licklider 的建议下组织了 MAC 项目。其创始主任是麻省理工学院教授 Robert M. Fano。根据 Fano 在 MAC 项目第二期进展报告（1965 年）的“前言”，MAC 代表机器辅助认知（Machine-Aided Cognition）和多重访问计算机（Multiple-Access Computers）。事实上，这就是位于 Tech Square 五楼 MIT 计算机科学部门对该项目的称呼。在九楼的 Marvin Minsky 人工智能实验室，该项目被称为“人和计算机”（Man and Computer）（该实验室最初是 Minsky 和 McCarthy 的，但当 LISP 发明者 John McCarthy 搬到斯坦福后，他的名字就不再使用了）。
+1963 年春，麻省理工学院（MIT）在 J. C. R. Licklider 的建议下组织了 MAC 项目。其创始主任是麻省理工学院教授 Robert M. Fano。根据 Fano 在 MAC 项目第二期进展报告（1965 年）的“前言”，MAC 代表机器辅助认知（Machine-Aided Cognition）和多重访问计算机（Multiple-Access Computers）。事实上，这就是位于 Tech Square 五楼 MIT 计算机科学部门对该项目的称呼。在九楼的 Marvin Minsky 人工智能实验室，该项目被称为“人和计算机”（Man and Computer）（该实验室最初是 Minsky 和 McCarthy 的，但当 LISP 发明者 John McCarthy 搬到斯坦福后，他的名字就不再使用了）。
 
 1963 年，MAC 项目举行了一次夏季研究，吸引了许多著名计算机科学家前往剑桥，使用 IBM 上的 CTSS（兼容分时系统），并讨论计算的未来。当时，MAC 项目的主要工作包括 Fernando J. Corbato 的 CTSS、Victor H. Yngve 的 COMIT 和 Minsky 的人工智能实验室。
 
@@ -22,21 +22,21 @@ Multics 是第二代分时系统，旨在成为“计算机公用事业”的原
 * 支持多种环境和接口
 * 系统的可演进能力
 
-Berkley Tague 于 1962 年加入 BTL，并于 1965 年加入 Multics 团队（担任“项目三人组的秘书”）。他表示，到 1967 年时，项目显然无法成功，因为“三方目标不兼容”。随后他去了新泽西州 Whippany 的 AT\&T 工作了三年，参与了一个名为 Safeguard 的项目，1970 年又回到了 Murray Hill。
+Berkley Tague 于 1962 年加入 BTL（贝尔电话实验室），并于 1965 年加入 Multics 团队（担任“项目三人组的秘书”）。他表示，到 1967 年时，项目显然无法成功，因为“三方目标不兼容”。随后他去了新泽西州 Whippany 的 AT\&T 工作了三年，参与了一个名为 Safeguard 的项目，1970 年又回到了 Murray Hill。
 
 麻省理工学院的 Jack Dennis 教授为 Multics 初期贡献了一些有影响力的架构思想。当时需要为支持新操作系统选择计算机供应商，传闻称 IBM 推荐了后来成为 360/65 的机器。Doug Mcllroy 曾对我说：
 
 >这是真的。但 \[Gene] Amdahl 不会做虚拟机（VM）。在最后一刻，IBM 让 Gerry Blaauw 从幕后出来推销 360/67，但已经太晚了。
 
-IBM 的员工对 MAC 团队关于分页的想法不感兴趣，当时作为麻省理工学院讲师的 Joseph Weizenbaum 将 MAC 团队介绍给了他在 GE 斯克内克塔迪的前同事，这些同事对分页和分段持开放和热情态度，并提出了后来成为 GE-645（635 升级版）的设计方案。因此，GE 成为了 Multics 项目的一部分。
+IBM 的员工对 MAC 团队关于分页的想法不感兴趣，当时作为麻省理工学院讲师的 Joseph Weizenbaum 将 MAC 团队介绍给了他在 GE 斯克内克塔迪（通用电气公司）的前同事，这些同事对分页和分段持开放和热情态度，并提出了后来成为 GE-645（635 升级版）的设计方案。因此，通用电气公司成为了 Multics 项目的一部分。
 
-麻省理工学院、BTL 和 GE 就合作架构达成一致。三方组成一个三人决策小组，分别由以下人员代表：Fano（麻省理工学院）、E. E. David（BTL）和 C. W. Dix（GE）。实际管理实施的三人小组由 Corbato（麻省理工学院）、A. L. Dean（GE）和 Peter G. Neumann（BTL）组成。项目的重要特点包括分段内存、虚拟内存、高级语言实现（PL/I）、共享内存多处理器、多语言支持以及在线重配置。
+麻省理工学院、贝尔电话实验室和通用电气公司就合作架构达成一致。三方组成一个三人决策小组，分别由以下人员代表：Fano（麻省理工学院）、E. E. David（贝尔电话实验室）和 C. W. Dix（通用电气公司）。实际管理实施的三人小组由 Corbato（麻省理工学院）、A. L. Dean（通用电气公司）和 Peter G. Neumann（贝尔电话实验室）组成。项目的重要特点包括分段内存、虚拟内存、高级语言实现（PL/I）、共享内存多处理器、多语言支持以及在线重配置。
 
 PL/I 于 1964 年被选为编程语言。其他备选方案有 MAD（密歇根算法显示语言）的移植版和 AED-0（MIT 显示语言）的移植版。完整的 PL/I 语言比预期更难实现。于是，项目外包给一家外部公司制作 PL/I 编译器，由 BTL 管理合同。该承包商派了两个人，但一年后仍未完成编译器。BTL 的 Bob Morris 和 Doug Mcllroy 制定了备选方案，使用 McClure 在 7094 上开发的 TMG 语言，称之为 EPL（Early PL/I）。Mcllroy 回忆道：
 
 >我们从 1965 年 5 月 3 日开始构建 EPL，正当我们发现承包商毫无进展时。年底之前我们就有了用户。到了 Morris 在 1966-1967 学年休假离开时，EPL 已经被充分使用。
 >
->我们聘请的承包商从未产出任何有价值的正式编译器，因此 EPL 一直使用到大约 1970 年，当时 GE 的一支熟练团队制作了真正的编译器。
+>我们聘请的承包商从未产出任何有价值的正式编译器，因此 EPL 一直使用到大约 1970 年，当时通用电气公司的一支熟练团队制作了真正的编译器。
 >
 >Morris 用 TMG 编写了前端；它输出的是 ASCII 格式的一地址代码。每个地址都带有 `< base, scale, mode, precision >` 的注释，挺复杂的。我负责代码生成器，也用 TMG 写，输出汇编语言。Dolores Leagus 负责编译结构声明。
 >
@@ -69,7 +69,7 @@ PL/I 于 1964 年被选为编程语言。其他备选方案有 MAD（密歇根�
 * 国家安全局 \[DOCKMASTER]（马里兰州林锡肯）
 * 欧洲推进公司 \[SEP]（法国韦尔农）
 
-Multics 的重要性在于其持久的影响力。霍尼韦尔收购了 GE 的计算机业务，但其 GCOS 6 操作系统、Prime 的 Primos、Stratus 的 VOS 以及 Apollo 的 Domain 都深受 Multics 系统的影响，BBN 开发的 TENEX 和 TOPS-20 也不例外（Prime 创始人 Bill Poduska 曾在 GE 参与过 Multics 项目，之后加入了 DEC；曾任 Multics 语言管理者的 Bob Freiburghouse 是 Stratus 的创始人之一）。Intel 386/486 的内存管理看起来就像是直接从 Multics 手册中借鉴而来。但最重要的影响可能是在贝尔实验室的 Dennis Ritchie 和 Ken Thompson 以及他们的同事——Mcllroy、Morris、Neumann 和 Ossanna——身上，他们曾接触过 CTSS 和 Multics。Ritchie 告诉我：
+Multics 的重要性在于其持久的影响力。霍尼韦尔收购了 GE 的计算机业务，但其 GCOS 6 操作系统、Prime 的 Primos、Stratus 的 VOS 以及 Apollo 的 Domain 都深受 Multics 系统的影响，BBN 开发的 TENEX 和 TOPS-20 也不例外（Prime 创始人 Bill Poduska 曾在通用电气公司参与过 Multics 项目，之后加入了 DEC；曾任 Multics 语言管理者的 Bob Freiburghouse 是 Stratus 的创始人之一）。Intel 386/486 的内存管理看起来就像是直接从 Multics 手册中借鉴而来。但最重要的影响可能是在贝尔实验室的 Dennis Ritchie 和 Ken Thompson 以及他们的同事——Mcllroy、Morris、Neumann 和 Ossanna——身上，他们曾接触过 CTSS 和 Multics。Ritchie 告诉我：
 
 >我们从 Multics 学到了许多基础性的东西：
 >
