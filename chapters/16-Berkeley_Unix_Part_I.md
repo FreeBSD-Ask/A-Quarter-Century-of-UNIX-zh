@@ -1,4 +1,4 @@
-# 伯克利 Unix 第一部分
+# 伯克利 Unix 第一幕
 
 加州大学伯克利分校的 Robert Fabry 教授参加了 1973 年 10 月的 SOSP 会议。他是对 Thompson 的演讲印象深刻的人之一。回到 Cory Hall 后，Fabry 的第一项工作是尝试促成计算机科学、统计学和数学三个系共同购买一台 PDP-11/45。他随后从 Thompson 那里订购了一盘磁带，并且在 1974 年 1 月，由研究生 Keith Standiford 安装了 Unix。正如 Kirk McKusick 所述，Ken Thompson 在此之前一直亲自参与所有实际安装，但这次没有直接参与，虽然“很快他的专业知识就被需要来确定几起奇怪系统崩溃的原因”。Thompson 会在机房给 Keith Standiford 打电话，将电话接入 300 波特的声学调制解调器，并“远程调试来自新泽西的崩溃转储”。
 
