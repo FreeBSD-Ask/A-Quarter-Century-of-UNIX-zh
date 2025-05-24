@@ -16,7 +16,7 @@
 ## 一款系统的诞生
 
 * [PDP-11](chapters/5-The_PDP_11.md)
-* [1971 年，第一版](chapters/6-First_Edition_1971.md)
+* [1971 年，第 1 版](chapters/6-First_Edition_1971.md)
 * [1971-1973，C 语言和管道](chapters/7-C_and_pipes_1971_to_1973.md)
 * [1973，第一篇论文](chapters/8-The_First_Paper_1973.md)
 * [法律 第一幕](chapters/9-The_Law_Part_I.md)
@@ -33,7 +33,7 @@
 
 * [用户 第二幕](chapters/15-The_Users_Part_II.md)
 * [伯克利 Unix 第一幕](chapters/16-Berkeley_Unix_Part_I.md)
-* [第七版](chapters/17-Version_7.md)
+* [第 7 版](chapters/17-Version_7.md)
 * [伯克利 Unix 第二幕](chapters/18-Berkeley_Unix_Part_II.md)
 * [商业 Unix](chapters/19-Commercial_Unix.md)
 * [DEC](chapters/20-DEC.md)
