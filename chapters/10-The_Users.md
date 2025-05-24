@@ -1,8 +1,8 @@
 # 用户 第一幕
 
-AT\&T 律师决定允许教育机构获得 Unix，但拒绝提供支持或修复补丁，这一决定立即产生了影响：它迫使用户相互共享。他们分享想法、信息、程序、错误修复和硬件修复。一些潜在用户已经听说过 Unix：哥伦比亚大学生物科学系负责人 Cyrus Levinthal 就是其中之一（“但他当时认为它不可用，” Lou Katz 告诉我），而普林斯顿的 Richard Langridge 也是。
+AT\&T 律师决定允许教育机构获得 Unix，但拒绝提供支持或修复补丁，这一决定立即产生了影响：它迫使用户相互共享。他们分享想法、信息、程序、错误修复和硬件修复。一些潜在用户已经听说过 Unix：哥伦比亚大学生物科学系负责人 Cyrus Levinthal 就是其中之一（“但他当时认为它不可用，”Lou Katz 告诉我），而普林斯顿的 Richard Langridge 也是。
 
-但在 1973 年 10 月第一篇论文发表后，你就可以把数据放到你的 RK05 磁盘上。1974 年早春，Lou Katz（当时在哥伦比亚大学）组织了一次 Unix 用户会议。哥伦比亚大学是第一批收到 Unix 发行版的单位——先是磁盘版本，然后是九轨磁带版本——发生在秋季（“Cy 为系里弄来了 RK05 磁盘，” Katz 告诉我，“但我们没有驱动器，所以我开车去了 Murray Hill，Ken 给我制作了一个九轨磁带。”）会议于 1974 年 5 月 15 日在哥伦比亚医学院（P\&S）三楼的 Merritt 会议室举行，Katz 当时已从生物系调到医学院。以下是 Reidar Bornholdt 提供给我的会议日程：
+但在 1973 年 10 月第一篇论文发表后，你就可以把数据放到你的 RK05 磁盘上。1974 年早春，Lou Katz（当时在哥伦比亚大学）组织了一次 Unix 用户会议。哥伦比亚大学是第一批收到 Unix 发行版的单位——先是磁盘版本，然后是九轨磁带版本——发生在秋季（“Cy 为系里弄来了 RK05 磁盘，”Katz 告诉我，“但我们没有驱动器，所以我开车去了 Murray Hill，Ken 给我制作了一个九轨磁带。”）会议于 1974 年 5 月 15 日在哥伦比亚医学院（P\&S）三楼的 Merritt 会议室举行，Katz 当时已从生物系调到医学院。以下是 Reidar Bornholdt 提供给我的会议日程：
 
 | 时间    | 议程内容                    |
 | ----- | ----------------------- |
@@ -37,7 +37,7 @@ Ferentz、Katz 和 Bornholdt 组织了这次会议，Ira Fuchs 负责具体安�
 >* 东布伦瑞克高中 East Brunswick High School
 >* 哈佛大学 Harvard University
 >* 耶路撒冷希伯来大学 Hebrew University of Jerusalem
->* 赫瑞-瓦特大学 Heriot-Watt University
+>* 赫瑞 - 瓦特大学 Heriot-Watt University
 >* 约翰斯·霍普金斯大学 Johns Hopkins University
 >* 诺克斯学院 Knox College
 >* 海军研究生院 Naval Postgraduate School
@@ -76,7 +76,7 @@ Ferentz、Katz 和 Bornholdt 组织了这次会议，Ira Fuchs 负责具体安�
 
 >我怀着浓厚兴趣阅读了 1978 年 6/7 月第 3 卷第 6 期。你们选择“USENIX”这个名字，是避免在委员会名称中使用 UNIX\* 商标的一种颇具灵感的方式。
 
-Phillips 详细阐述了对 UNIX 商标“稀释”的担忧，他希望 USENIX “今后不会在任何名称中包含”这一点。Ferentz 以一种讽刺的态度将这封信刊登在《;login: 》杂志上。
+Phillips 详细阐述了对 UNIX 商标“稀释”的担忧，他希望 USENIX“今后不会在任何名称中包含”这一点。Ferentz 以一种讽刺的态度将这封信刊登在《;login: 》杂志上。
 
 USENIX 这一名称由 Margaret Law 创造，她曾是哈佛和拉德克利夫的教职员工；而《;login: 》杂志更具趣味性。Dennis Ritchie 解释道：
 
