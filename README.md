@@ -1,4 +1,4 @@
-# UNIX二十五年 -- A Quarter Century of UNIX 翻译
+# 封面
 
 | ![cover](cover.jpg) |
 | :-: |
