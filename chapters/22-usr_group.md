@@ -1,6 +1,6 @@
 # \/usr\/group
 
-市场营销人员的声音从未在 USENIX 中被听到。John Bass（和其他人）对此曾表示抱怨，但 Mel Ferentz、Lou Katz、Lew Law 以及社区中的其他支柱人物始终坚定不移。Brian Redman 回忆说，他曾参加了在 Santa Monica 举行的 USENIX 大会（1979 年 1 月），当时…
+市场营销人员的声音从未在 USENIX 中被听到。John Bass（和其他人）对此曾表示抱怨，但 Mel Ferentz、Lou Katz、Lew Law 以及社区中的其他支柱人物始终坚定不移。Brian Redman 回忆说，他曾参加了在 Santa Monica 举行的 USENIX 大会（1979 年 1 月），当时……
 
 >有个人站起来发言，他们却因为他是市场营销顾问之类的身份而对他发出嘘声把他赶下了台。哎，我当时心想，这些人真是认真的。
 
@@ -28,7 +28,7 @@ Bass 对 USENIX 协会的成立以及随后 /usr/group 的创建有着不同于�
 
 “分裂”可能正在发生。正如 Toru Takahashi 所说：
 
->当 Jun Murai、Koichi Kishida 和 Nobuo Saito 成立 Unix 研究小组时，它是一个由学术界和厂商组成的小团体。但两年前，一些厂商和软件公司成立了 UNIX 商业协会（UBA），UBA 正逐渐成为 UNIX 的商业代表团体。作为 jus 董事会成员，我对 UBA 表示担忧。在 jus 中，商业方面的关注一直不强烈，但 UBA 在增长，而 jus 仍保持技术导向的社团性质。
+>当 Jun Murai、Koichi Kishida 和 Nobuo Saito 成立 Unix 研究小组时，它是一家由学术界和厂商组成的小团体。但两年前，一些厂商和软件公司成立了 UNIX 商业协会（UBA），UBA 正逐渐成为 UNIX 的商业代表团体。作为 jus 董事会成员，我对 UBA 表示担忧。在 jus 中，商业方面的关注一直不强烈，但 UBA 在增长，而 jus 仍保持技术导向的社团性质。
 >
 >你知道 jus 和 JUNET 之间没有官方关系吗？每当外人问起，我都会回答两者没有关系。Jun Murai 是 jus、JUNET 和 WIDE 互联网项目的发起人，但他的朋友们在 jus 跟随他创建了 JUNET。jus 的同一批人参与组织和开发了 JUNET。现在，JUNET 已经不存在了，分裂成商业和区域学术/研究网络。
 
