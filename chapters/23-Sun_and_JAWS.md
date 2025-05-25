@@ -1,4 +1,4 @@
-# Sun 和 JAW
+# Sun 和 JAWS
 
 
 真正的 Unix 硬件的首次尝试是 ONYX。正如 Mike O'Dell 和 Neil Groundwater 在 USENIX Association 会议上提到的那样，ONYX 曾被宣布。ONYX 由 Bob Marsh 创立，他后来创办了 /usr/group。John Bass 当时为他工作。他告诉我：
