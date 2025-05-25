@@ -99,7 +99,7 @@ Doug Mcllroy 也谈到了那本手册：
 
 Doug Mcllroy 告诉我，Thompson 其实错了，最大的错误是“把 Unix 拼成全大写。Unix、Fortran 以及其他好的计算机词汇都是专有名词。用专有名词形式书写的页面要比用全大写字母写的页面更吸引人。”这番话促使我在这段历史中大多使用 Unix 而非 UNIX。如我所说，系统处于不断变化之中。接下来的两年是非常激动人心的时期。
 
->贝尔电话实验室 Unix 各版本说明
+>贝尔电话实验室Unix 各版本说明
 >
 >注意：以下是 AT\&T 贝尔实验室发布的十个版本的《UNIX 程序员手册》。第十版于 1990 年作为商业出版物发行。第一至第六版的标题页上署有 Thompson 和 Ritchie 的名字；第七版则首次以“UNIX™ TIME-SHARING SYSTEM”（UNIX 分时系统）为标题，未署作者名，虽然有一篇由“B. W. Kernighan 和 M. D. McIlroy”撰写的简短“前言”。第八版和第九版的简短前言仅由 McIlroy 撰写；这两版也标注为 Research Version。第十版的前言署名为“A. G. Hume, M. D. McIlroy, 1989 年 10 月”。
 >

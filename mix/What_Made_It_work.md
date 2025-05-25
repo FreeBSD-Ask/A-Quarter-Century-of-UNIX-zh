@@ -6,7 +6,7 @@
 
 >回想起来，Kernighan 告诉 Peter Collinson，awk 是他参与过的最大的软件项目。“我们当时有三个人一起做这个项目，但这完全行不通。无论如何，两个人合作要比三个人容易得多……因为三个人很难合理分工。意见分歧更多，有时候这很好，因为意味着有更多不同的东西出现，但有时候也会导致项目缺乏应有的凝聚力。”
 
-三个人就太多了吗？如果相信行业媒体的话，微软有六百名程序员在开发 Windows NT。但在 Holmdel 只有三个人在开发 32V（London、Reiser 和 Swanson）；三个人写了 HoneyDanBer；Hall、Sventek 和 Scherrer 写了 VOS；Lorinda Cherry 和 Bob Morris 写了 bc 和 dc；而伯克利的 CSRG 很少有超过几名全职员工：Haley 和 Joy；Haley、Joy 和 Kridle；Joy、Kridle 和 Leffler；McKusick 兼职且在暑期工作直到获得博士学位；McKusick、Jolitz 和 Karels；McKusick、Karels 和 Bostic。Larry Wall 独自编写了 patch、perl、rn。再看看那些只是“顺便来访”的人：Ken Thompson、George Coulouris、一些澳大利亚人、Jan-Simon Pendry。还有其他贡献者：Mike Muuss、Doug Kingston、Jim Curry、Rick Adams、James Gosling、Rob Pike、Armando Stettner、Bill Shannon 等等。
+三个人就太多了吗？如果相信行业媒体的话，微软有六百名程序员在开发 Windows NT。但在 Holmdel 只有三个人在开发 32V（London、Reiser 和 Swanson）；三个人写了 HoneyDanBer；Hall、Sventek 和 Scherrer 写了 VOS；Lorinda Cherry 和 Bob Morris 写了 bc 和 dc；而伯克利的计算机系统研究小组很少有超过几名全职员工：Haley 和 Joy；Haley、Joy 和 Kridle；Joy、Kridle 和 Leffler；McKusick 兼职且在暑期工作直到获得博士学位；McKusick、Jolitz 和 Karels；McKusick、Karels 和 Bostic。Larry Wall 独自编写了 patch、perl、rn。再看看那些只是“顺便来访”的人：Ken Thompson、George Coulouris、一些澳大利亚人、Jan-Simon Pendry。还有其他贡献者：Mike Muuss、Doug Kingston、Jim Curry、Rick Adams、James Gosling、Rob Pike、Armando Stettner、Bill Shannon 等等。
 
 >Steve Johnson 告诉我：
 >
@@ -24,7 +24,7 @@
 >
 >你知道，Unix 的美妙之处——以及我理解的今天的 Plan 9——就是它们都是当时很多很棒的想法的集合，还有一些原创的想法，但它们被以非常有趣、非常强大的方式组合在一起……Bell Labs 集合了许多好点子，做出了很好的实现。同时也有新的原创想法。Berkeley Unix 汇聚了很多好想法到一个程序员接口上——虽然实现质量参差不齐，但它把来自世界各地的程序员汇聚在一起，贡献代码，参与这个系统。还有审美标准的把关者：Bill Joy 和 Sam Leffler 真的是艺术家。Kirk McKusick、Mike Karels，没有更好的称呼，我们叫他们架构师，但他们实际上是品味的裁决者。他们挑选代码，确保一切都干净利落地契合。
 
-综合就是创造力。但关于 Unix 发展的一个最有趣的点是，它的大部分发展实际上是在其“所有者”——AT\&T 和 Western Electric——的活动之外发生的。Greg Rose 向我指出了这一点：
+综合就是创造力。但关于 Unix 发展的一个最有趣的点是，它的大部分发展实际上是在其“所有者”——AT\&T 和西部电气——的活动之外发生的。Greg Rose 向我指出了这一点：
 
 >似乎在 Unix 发展的许多阶段，AT\&T 为了遏制某些事物而采取的行动，反而导致了相反的结果。
 

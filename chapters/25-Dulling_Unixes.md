@@ -6,7 +6,7 @@
 
 五年内，Apollo、DEC、Eakins、Gould、Integrated Solutions、Masscomp、mt Xinu、NSC 和 Wollongong 等公司开始销售伯克利 Unix。而销售 AT\&T System III 或 System V 衍生版本的公司包括：AT\&T、Altos、Apollo、Compaq、Convergent、HP、Honeywell、IBM、ITT、英特尔、Interactive、Masscomp、Microport、微软、Motorola、NCR、NUXI、Opus、SCO、Silicon Graphics、Sperry、Sun、Tandy、UniSoft 和 Wollongong。此外，Amdahl、Apollo、苹果、Cray、DEC、Data General、HP、IBM、英特尔、Motorola、Unisys 以及其他众多公司也都提供 Unix 的专有版本，其中有几个是基于 4.2BSD 的。无论是 AT\&T 还是 BSD 衍生系统，它们都需要向 AT\&T 获取许可证。
 
-最近，出现了若干无需此类授权的 Unix 版本。尽管它们还不是成熟的商业产品，但 BSDI、386/BSD 和 NetBSD 都可以运行在任何 386/486 机器上。（这些“免许可”版本全部源自 CSRG 的免费发布，在我写作时仍处于诉讼中；1994 年 2 月 4 日，这一状况发生了变化；见第 29 章。）Linus Torvalds 编写的 Linux 同样可以运行在 386/486 机器上，而且没有使用任何 CSRG 代码。这四个系统都大量使用了由 Richard M. Stallman 创立的自由软件基金会（FSF）为其近乎完成的 GNU（“GNU 不是 Unix”）系统编写的程序。GNU 程序包括对大多数 Unix 软件的原创、可自由再分发的重写版本（这些程序以所谓的“著佐权”协议发布，GNU 项目参与者用这个术语来指代其许可证。这意味着原始版本和所有改进版本都必须保持可分发和可修改状态，而且如果发布的是二进制文件，也必须一并提供源代码）。gcc，也就是 GNU 的 C 语言编译器，可能是 Steve Johnson 的 pcc 最重要的继承者。
+最近，出现了若干无需此类授权的 Unix 版本。尽管它们还不是成熟的商业产品，但 BSDI、386/BSD 和 NetBSD 都可以运行在任何 386/486 机器上。（这些“免许可”版本全部源自计算机系统研究小组的免费发布，在我写作时仍处于诉讼中；1994 年 2 月 4 日，这一状况发生了变化；见第 29 章。）Linus Torvalds 编写的 Linux 同样可以运行在 386/486 机器上，而且没有使用任何计算机系统研究小组代码。这四个系统都大量使用了由 Richard M. Stallman 创立的自由软件基金会（FSF）为其近乎完成的 GNU（“GNU 不是 Unix”）系统编写的程序。GNU 程序包括对大多数 Unix 软件的原创、可自由再分发的重写版本（这些程序以所谓的“著佐权”协议发布，GNU 项目参与者用这个术语来指代其许可证。这意味着原始版本和所有改进版本都必须保持可分发和可修改状态，而且如果发布的是二进制文件，也必须一并提供源代码）。gcc，也就是 GNU 的 C 语言编译器，可能是 Steve Johnson 的 pcc 最重要的继承者。
 
 最后，这些衍生版和克隆版运行在各种计算机芯片上：DEC、英特尔、MIPS、Motorola、NSC，仅举几例。
 

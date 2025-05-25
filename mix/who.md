@@ -3,7 +3,7 @@
 
 * ADM-3a：一种早期的屏幕终端
 * Adams, Rick：SLIP 的作者；UUNET 和 BSDI 的负责人
-* Aho, Al：awk 中的 A；教过 Steve Johnson 编译器知识；自 1966 年起在 BTL 工作
+* Aho, Al：awk 中的 A；教过 Steve Johnson 编译器知识；自 1966 年起在贝尔电话实验室工作
 * AIX：IBM 的 Unix 版本
 * Allman, Eric：sendmail、tset、-me 宏的发明者，也是 Ingres 的主要贡献者
 * Alpak：两个不同计算机代数系统的名称
@@ -13,8 +13,8 @@
 * AUUG：澳大利亚 Unix 用户组
 * AUX：Apollo 的 System III 版本
 * Babaoglu, Ozalp：与 Bill Joy 一起为 BSD 编写虚拟内存（1978-79）；设计了分页机制
-* Baker, W\.O.：Multics 被终止时任 BTL 研究副总裁；拒绝了 DEC-10 的请求
-* Baecker, Ron：负责多伦多 CSRG 以及 Pike、Duff、Tilbrook 和 Tilson
+* Baker, W\.O.：Multics 被终止时任贝尔电话实验室研究副总裁；拒绝了 DEC-10 的请求
+* Baecker, Ron：负责多伦多计算机系统研究小组以及 Pike、Duff、Tilbrook 和 Tilson
 * Barak, Amnon：MOSIX 的创始人
 * BBN：Bolt, Baranek & Newman，编辑器开发、ARPANET 等的重要参与者
 * Bechtolsheim, Andreas：原始 SUN 主板设计者
@@ -23,11 +23,11 @@
 * Bellovin, Steve：第一个 USENET 实现的作者
 * Biff：Heidi 的狗
 * Boggs, David：以太网的共同发明者（与 Metcalfe 合作）
-* Bostic, Keith：CSRG 成员；参与 2.10、4.4 等项目
+* Bostic, Keith：计算机系统研究小组成员；参与 2.10、4.4 等项目
 * BRL：美国陆军弹道研究实验室
 * BSD：伯克利软件发行版
 * BSDI：Berkeley Software Design, Inc.
-* BTL：贝尔电话实验室
+*贝尔电话实验室：贝尔电话实验室
 * Canaday, Rudd：Unix 文件系统的早期合作者；PWB 组创始人
 * Cassoni, Vittorio：AT\&T 数据系统高级副总裁，1988 年空难遇难
 * CMU：卡内基梅隆大学
@@ -54,7 +54,7 @@
 * Ethernet：由 Metcalfe 和 Boggs 发明的局域网
 * EurOpen：欧洲 Unix 组织，前称 EUUG
 * EUUG：欧洲 Unix 系统用户组（现为 EurOpen）
-* Fabry, Robert：CSRG 教师顾问，为 BSD 获得 DARPA 资助
+* Fabry, Robert：计算机系统研究小组教师顾问，为 BSD 获得 DARPA 资助
 * Fano, Robert M.：MIT Project MAC 创始主任
 * Fateman, Richard：伯克利教授，开发 Macsyma，发明 Ingres，购买了 VAX 11/780
 * Feldman, Stu：make 的发明者，建筑历史学家
@@ -95,7 +95,7 @@
 * Joy, Bill：Unix 爱好者；创建了大量 BSD 版本（2BSD、3BSD、4BSD）；Sun Microsystems 联合创始人；设计了 NFS
 * JUNET：日本大学网络
 * jus：日本 Unix 协会
-* Karels, Mike：CSRG 的主要推动力
+* Karels, Mike：计算机系统研究小组的主要推动力
 * Kashtan, David：Eunice 的作者
 * Katz, Lou：USENIX 第一任主席
 * Kernighan, Brian：awk 中的 k；编写 ratfor、ditroff、eqn、pic；与 Ritchie 合著《C 程序设计语言》，与 Plauger 合著《Software Tools》；以及许多其他作品
