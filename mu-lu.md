@@ -5,7 +5,7 @@
 * [致谢](mix/Acknowledgements.md)
 * [简介](mix/Introduction.md)
 
-## 起源
+## 序幕
 
 * [太空序曲](chapters/0-Prelude_to_Space.md)
 * [1969 年夏到 1970 年秋](chapters/1-Summer_1969-Fall_1970.md)
