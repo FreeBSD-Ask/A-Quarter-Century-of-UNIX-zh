@@ -12,6 +12,6 @@ AT\&T 与共和党司法部坚持认为 Tunney 法案不适用，因为这只是
 
 我不想详述细节，但 Greene 法官的判决结果是西部电气被解散，各运营公司组成了“Baby Bell”（1984 年），贝尔电话实验室被拆分并更名为 AT\&T 贝尔实验室（同时成立了 Bellcore），且允许 AT\&T 进入硬件和软件计算机业务。
 
-这推动了 1983 年 System V 的出现，以及 AT\&T 一套全新的授权条款。但到了 1987 年，AT\&T 因其条款遭遇反弹。1988 年，AT\&T 收购了 Sun Microsystems 20% 股份，次年 AT\&T 与 Sun 推出了结合 AT\&T 和 BSD 特性的 SVR4。1990 年，AT\&T 成立了 UNIX System Labs，作为开发和营销 Unix 的子公司。
+这推动了 1983 年 System V 的出现，以及 AT\&T 一套全新的授权条款。但到了 1987 年，AT\&T 因其条款遭遇反弹。1988 年，AT\&T 收购了 Sun Microsystems 20% 股份，次年 AT\&T 与 Sun 推出了结合 AT\&T 和 BSD 特性的 SVR4。1990 年，AT\&T 成立了 Unix 系统实验室（UNIX System Labs），作为开发和营销 Unix 的子公司。
 
 在此期间，AT\&T 贝尔实验室仍在努力开发有用且创新的软件，似乎与 UNIX 系统实验室（Unix 系统实验室）的市场推广活动关系不大。最著名的可能是 Plan 9，我将在第 26 章中再谈及。
