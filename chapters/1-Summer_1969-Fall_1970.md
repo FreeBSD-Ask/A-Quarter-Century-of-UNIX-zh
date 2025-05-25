@@ -26,7 +26,7 @@ Bob Morris 于 1960 年加入贝尔实验室，他表示自己认为 Canaday 对
 
 >一台废弃的 PDP-7 配备了一台 340 显示器，但 PDP-7 只提供汇编器和加载器。一次只能有一位用户使用这台计算机，每位用户对机器拥有独占使用权。这种环境很粗糙，很快便开发出单用户 UNIX 系统的部分功能。太空旅行程序被改写用于 PDP-7，同时编写了一款汇编器和一款初步的操作系统内核，并在 GECOS（通用电气综合操作系统）上为 PDP-7 交叉汇编……
 >
->交叉汇编意味着使用两个计算机系统，每次修改都需要携带纸带在两者之间转换……该系统支持两个人同时工作，UNICS 这一名称显然是由彼得·诺伊曼（Peter Neumann），一位惯用双关语的幽默大师，在 1970 年创造的。\[UNiplexed Information and Computing Service，非复用信息和计算机服务，是对“阉割版 Multics”的一个双关；有几个人告诉我 Brian Kernighan 改变了拼写，但 Kernighan 表示没人记得是谁最初把名字改成 UNIX 的。]
+>交叉汇编意味着使用两个计算机系统，每次修改都需要携带纸带在两者之间转换……该系统支持两个人同时工作，UNICS 这一名称显然是由 Peter Neumann，一位惯用双关语的幽默大师，在 1970 年创造的。\[UNiplexed Information and Computing Service，非复用信息和计算机服务，是对“阉割版 Multics”的一个双关；有几个人告诉我 Brian Kernighan 改变了拼写，但 Kernighan 表示没人记得是谁最初把名字改成 UNIX 的。]
 
 PDP-7 属于 Joe Condon 的团队。Condon 回忆说，这台机器是“为了 Bill Ninke 想做的某个图形项目而买的”，“但 Ninke 后来去了 Holmdel（贝尔电话实验室的另一个分部）”，所以当 Thompson 和 Ritchie 想用它时，这台机器并没有被使用。
 
