@@ -42,7 +42,7 @@
 ## Unix 产业
 
 * [\/usr\/group](chapters/22-usr_group.md)
-* [Sun 和 JAWS](chapters/23-Sun_and_JAWS.md)
+* [Sun 和 JAW](chapters/23-Sun_and_JAWS.md)
 * [标准](chapters/24-Standards.md)
 
 ## 现状
