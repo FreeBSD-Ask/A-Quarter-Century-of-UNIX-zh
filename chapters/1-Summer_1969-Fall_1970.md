@@ -14,7 +14,7 @@ Doug Mcllroy 说：“当 Multics 开始运行时，第一个真正运行的地�
 
 Thompson 在伯克利时接触过 Butler Lampson 编写的 SDS930 操作系统。但在 Multics 失败之后，新泽西的操作系统研究并不受欢迎。
 
-Sandy Fraser 于 1969 年 5 月加入贝尔。他离开 Ferranti 就是因为想参与 Multics 项目，但一到贝尔就得知贝尔电话实验室已经中止了该项目。一天，贝尔研究副总裁 Bill Baker 和 Multics 项目的联络人 Ed David 来到贝尔电话实验室Murray Hill 五楼，David 读出了一封信，通知员工贝尔将退出该项目。Fraser 回忆说这是一次“痛苦的变革”，人们都很沮丧。“玩具没了……明显缺乏动力，”他说。
+Sandy Fraser 于 1969 年 5 月加入贝尔。他离开 Ferranti 就是因为想参与 Multics 项目，但一到贝尔就得知贝尔电话实验室已经中止了该项目。一天，贝尔研究副总裁 Bill Baker 和 Multics 项目的联络人 Ed David 来到贝尔电话实验室 Murray Hill 五楼，David 读出了一封信，通知员工贝尔将退出该项目。Fraser 回忆说这是一次“痛苦的变革”，人们都很沮丧。“玩具没了……明显缺乏动力，”他说。
 
 在 4 月、5 月和 6 月期间，Thompson 对编写文件系统产生了兴趣。正如他对 Mike Mahoney 所说：
 
