@@ -42,7 +42,7 @@ Unix 第 7 版于 1979 年 6 月从实验室发布，带来了若干重大改进
 
 awk（Aho-Weinberger-Kernighan）、lint（Johnson）、make（Feldman）和 uucp（Lesk）本身就已经足够强大，但第 7 版还包含了更多内容。《第七版程序员手册》已扩展到近 400 页，并配有两本 400 页的补充卷。这一版本的 Unix 配备了完整的 Kernighan 和 Ritchie C 语言编译器；更为复杂的 Bourne shell（sh）；Dick Haight 的 find、cpio 和 expr 命令，以及大量的 include 文件。
 
-然而，第 7 版 Unix 也有一个重大缺陷：其性能比大多数经过“调优”的第 6 版系统更差。用户们开始着手改进这一状况。Bill Joy（在 Berkeley）改变了 VAX-11/780 文件系统中数据块的大小，他的实现随后由 Jeff Schriebman 于 1980 年 4 月移植到 PDP-11/70（Schriebman 当时已从 Berkeley 加入 UniSoft）。1979 年 12 月，Ed Gould（当时在 Berkeley）将缓冲区移出了内核地址空间。Joy 改进了 VAX 上的 stdio 库，Tom Ferrin（在 UC San Francisco）则将这些改动移植到 PDP-11。Holmdel 的 Tom London 改进了从用户空间到内核空间的输出字符传输。Ferrin 还编写了动态 unibus 分配方案。新南威尔士大学的 John Lions 提出了一种新的目录路径名处理方法，UNSW 也提供了新的进程表搜索代码。RAND 公司 Bruce Borden 提供了 symorder 程序。Ferrin 还重写了 copyseg() 和 clearseg() 的部分代码。
+然而，第 7 版 Unix 也有一个重大缺陷：其性能比大多数经过“调优”的第 6 版系统更差。用户们开始着手改进这一状况。Bill Joy（在伯克利）改变了 VAX-11/780 文件系统中数据块的大小，他的实现随后由 Jeff Schriebman 于 1980 年 4 月移植到 PDP-11/70（Schriebman 当时已从伯克利加入 UniSoft）。1979 年 12 月，Ed Gould（当时在伯克利）将缓冲区移出了内核地址空间。Joy 改进了 VAX 上的 stdio 库，Tom Ferrin（在加州大学旧金山分校）则将这些改动移植到 PDP-11。Holmdel 的 Tom London 改进了从用户空间到内核空间的输出字符传输。Ferrin 还编写了动态 unibus 分配方案。新南威尔士大学的 John Lions 提出了一种新的目录路径名处理方法，UNSW 也提供了新的进程表搜索代码。RAND 公司 Bruce Borden 提供了 symorder 程序。Ferrin 还重写了 `copyseg()` 和 `clearseg()` 的部分代码。
 
 这一整套改进通过 PDP-11 发行版 2.8.1BSD 提供给了社区，并由 Ferrin 在 1982 年 1 月于加州圣莫尼卡举办的 USENIX 会议上宣布。用户极大地提升了第 7 版的性能。
 
