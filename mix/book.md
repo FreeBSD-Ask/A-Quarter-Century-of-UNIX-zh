@@ -14,7 +14,7 @@ Kernighan 和 Pike 的 *The UNIX Programming Environment* （Prentice Hall）、
 
 编程语言的早期历史在 Jean Sammet 的 *Programming Languages: History and Fundamentals* （Prentice-Hall，1969）以及 Richard L. Wexelblat 主编的 *History of Programming Languages* （Academic Press，1981）中有所描绘（该书为 ACM 1978 年 6 月 1 日至 3 日编程语言历史会议的论文集）。1993 年在马萨诸塞州剑桥举行的 HOPL 会议论文集在 1994 年 1 月尚未发布。
 
-Kernighan 和 Ritchie 的 *C 语言程序设计* （Prentice-Hall，1978）依然是一部清晰且内容丰富的著作；修订的第二版（1988）符合 ANSI C 标准。Aho、Weinberger 和 Kernighan 合著的 *The awk Programming Language* （Addison-Wesley，1988）对该语言的介绍也非常出色。
+Kernighan 和 Ritchie 的《C 程序设计语言》（Prentice-Hall，1978）依然是一部清晰且内容丰富的著作；修订的第二版（1988）符合 ANSI C 标准。Aho、Weinberger 和 Kernighan 合著的 *The awk Programming Language* （Addison-Wesley，1988）对该语言的介绍也非常出色。
 
 Kernighan 和 Plauger 的 *Software Tools* （Addison-Wesley，1976）在学习如何编写优质程序方面无可匹敌。目前尚无网络历史相关著作。John Quarterman 的 *The Matrix* （Digital Press，1990）仍是最好的资料来源，尽管相关信息散布在整本书中。
 
