@@ -22,4 +22,4 @@ AT\&T、Sun 及其圈内人很快组建了一个对立联盟：UNIX 国际（UI�
 
 到 1989 年底，OSF 推出了用户界面 Motif，反响良好。OSF 还增加了 Philips 和 Hitachi 作为赞助商。然而，HP 吞并了 Apollo，Siemens 收购了 Nixdorf。OSF 和 UI 都进行了会员招募，发放笔、徽章和贴纸，最终各自约有 200 名成员。
 
-1991 年和 1992 年，随着经济恶化，Bull、DEC、IBM 以及 Siemens 的计算机部门都出现亏损，AT\&T 出售了其持有的 Sun 股份，激烈的争斗和抹黑似乎告一段落。早在 1989 年 11 月，就已有为了 Unix 的利益而合并 OSF/UI 的讨论。到了 1992 年底，这些争论几乎无关紧要：OSF 不再谈论无 AT\&T 许可的操作系统，Sun 也采用了 Motif。到了 1993 年底，UNIX 国际已经倒闭，OSF 放弃了此前宣布的多个产品——封装软件和分布式管理环境。Bull 和 Siemens（出于财务原因）以及 Philips（因出售其计算机业务）停止了对 OSF 的赞助。Armando Stettner 对我说：“现在不清楚 OSF 是否还有存在的意义。”
+1991 年和 1992 年，随着经济恶化，Bull、DEC、IBM 以及 Siemens 的计算机部门都出现亏损，AT\&T 出售了其持有的 Sun 股份，激烈的争斗和抹黑似乎告一段落。早在 1989 年 11 月，就已有为了 Unix 的利益而合并 OSF/UI 的讨论。到了 1992 年底，这些争论几乎无关紧要：OSF 不再谈论无 AT\&T 许可的操作系统，Sun 也采用了 Motif。到了 1993 年底，UI 已经倒闭，OSF 放弃了此前宣布的多个产品——封装软件和分布式管理环境。Bull 和 Siemens（出于财务原因）以及 Philips（因出售其计算机业务）停止了对 OSF 的赞助。Armando Stettner 对我说：“现在不清楚 OSF 是否还有存在的意义。”
