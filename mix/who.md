@@ -89,7 +89,7 @@
 * INGRES：交互式图形与检索系统；首个基于 Unix 的关系数据库
 * IP：互联网协议
 * IPC：进程间通信
-* Ishida, Haruhisa：日本首位 Unix 用户
+* Ishida, Haruhisa：石田晴久。日本首位 Unix 用户
 * JAWs：Just Another Workstation（又一工作站）
 * Johnson, Steve：编写 lint、yacc、spell、pcc；与 Ritchie 合作完成 Interdata 移植；USENIX 第五任主席
 * Joy, Bill：Unix 爱好者；创建了大量 BSD 版本（2BSD、3BSD、4BSD）；Sun Microsystems 联合创始人；设计了 NFS
