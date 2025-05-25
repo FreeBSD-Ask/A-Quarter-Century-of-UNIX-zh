@@ -22,7 +22,7 @@ Mike Cole 补充说：
 >
 >作为英国首个使用 Unix 的地方，我记得 74 年时受邀到 Edinburgh 和 Cambridge 介绍我们使用这个叫 Unix 的奇怪操作系统。让我印象深刻的是 Cambridge 的 Neil Wiseman 和 Charles Lang 的团队非常反感，根本不考虑采纳一款没有供应商支持的系统（据我记得他们当时使用的是 RSX-11）。这就是早期推广者的失望啊！
 
-不久之后，Nigel Martin 是玛丽女王学院的一名学生，当城市学院的 Sunil Das 获得了西部电气许可后，就不必再等新泽西去处理向英国运送软件的问题了：Sunil 从 Nigel 那里拿到了第 5 版+ 版本。
+不久之后，Nigel Martin 是玛丽女王学院的一名学生，当城市学院的 Sunil Das 获得了西部电气许可后，就不必再等新泽西去处理向英国运送软件的问题了：Sunil 从 Nigel 那里拿到了第 5 版 + 版本。
 
 与此同时，多伦多大学也获得了 Unix。在详细介绍历史之前，必须强调 Unix 与加拿大的紧密联系。Brian Kernighan 是多伦多大学的本科生；Al Aho 也在那里获得了学位；Heinz Lycklama 在安大略省汉密尔顿的 McMaster 大学接受教育；Morven Gentleman 曾在蒙特利尔的 McGill 大学就读，并在安大略省滑铁卢大学任教 15 年；Tom Duff 是滑铁卢大学的本科生，后来加入了多伦多大学的 Rob Pike、David Tilbrook、Howard Trickey 和 Mike Tilson 团队；Tom Cargill 在滑铁卢大学获得博士学位。还有许多其他人可以列举（甚至我自己也曾在多伦多大学任教 11 年）。
 
