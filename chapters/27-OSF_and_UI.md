@@ -1,6 +1,6 @@
 # OSF 和 UI
 
-1987 年末，AT\&T 宣布已收购了 Sun Microsystems 的相当大比例股份，并且随着 AT\&T/Unix 系统实验室开发新软件，Sun 将获得优先待遇。Sun 宣布其下一代操作系统将不再是基于 Berkeley Unix 衍生的 SunOS 的进一步扩展，而是基于 System V 第 4 版（SVR4）。这消息让 Unix 领域的许多人震惊不已：科学界感到 Sun 正在背弃他们，而其他厂商则担心这“特殊关系”会让 Sun 抢先一步。Armando Stettner 曾对我说道：
+1987 年末，AT\&T 宣布已收购了 Sun Microsystems 的相当大比例股份，并且随着 AT\&T/Unix 系统实验室开发新软件，Sun 将获得优先待遇。Sun 宣布其下一代操作系统将不再是基于伯克利 Unix 衍生的 SunOS 的进一步扩展，而是基于 System V 第 4 版（SVR4）。这消息让 Unix 领域的许多人震惊不已：科学界感到 Sun 正在背弃他们，而其他厂商则担心这“特殊关系”会让 Sun 抢先一步。Armando Stettner 曾对我说道：
 
 >当 Sun 和 AT\&T 宣布结盟时，我们 Digital 公司的担忧是，AT\&T 已不再是那个仁慈、善意的 Unix 诞生者……
 >
@@ -10,7 +10,7 @@
 
 >作为 AT\&T 软件的许可方和开放 Unix 标准的支持者，我们对 AT\&T 与 Sun Microsystems 之间最近的声明表示关切。这些声明在我们公司及客户中引发了对 Unix 作为开放标准未来的担忧。我们认为，在即将举行的“UNIFORUM”会议之前，深入了解这些问题非常重要，因此请求在 1988 年 1 月 25 日当周，安排我们的企业经理（负责 Unix 战略）与 Cassoni 先生会面……
 
-Vittorio Cassoni 是 AT\&T 数据系统部门的高级副总裁。经过大量活动，这份电报由 Apollo、Data General、DEC、Gould、HP、Intergraph、Integrated Solutions、MIPS、Motorola、NCR、Prime、SGI、Tandem、UniSoft 和 Wyse 等公司的代表签署。
+Vittorio Cassoni 是 AT\&T 数据系统部门的高级副总裁。经过大量活动，这份电报由 Apollo、Data General、DEC、Gould、惠普、Intergraph、Integrated Solutions、MIPS、Motorola、NCR、Prime、SGI、Tandem、UniSoft 和 Wyse 等公司的代表签署。
 
 HP 的 Larry Lytle 于 1 月 27 日晚在 JFK Marriott 召集了预备会议。与 Cassoni 的会议于 1 月 28 日举行。汉密尔顿集团于 2 月 9 日在达拉斯进行了后续会议。与 Cassoni 的会议未能给该集团带来积极成果。到了 3 月，集团决定邀请 IBM 加入。
 
