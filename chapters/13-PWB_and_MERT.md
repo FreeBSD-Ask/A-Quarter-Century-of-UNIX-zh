@@ -10,7 +10,7 @@
 >
 >当我离开时，Heinz 开始开发 Unix MERT：到了 74 年，这成了系统实验室的主要工作——他们再也没继续推进内核的开发。MERT 在 Berk Tague 创建 USG 的时候，被部署到了 Columbus 和 Indian Hill。Indian Hill 在 78 年左右创建了 Duplex MERT-DMERT。它不是个可移植的微内核，而是高度依赖硬件，运行在 3B20D 上。但它至今仍存在于每一款 4ESS 和 5ESS 系统中。
 
-我稍后会回到 Roberts 的叙述；但首先让我继续讲述 Programmer’s Workbench（PWB）。PWB 由贝尔实验室一个与 1127 无关的小组开发。该项目于 1973 年中期由 Evan Ivie 发起，小组由 Rudd Canaday 领导，最初支持面向大型软件开发项目的 Unix 版本。虽然它起初是 Third Edition 的一个分支，实际上 PWB 是 Sixth Edition 的衍生版本。正如将要看到的，Sixth Edition（1976 年）有大量的后续版本。到 1977 年 6 月，当 T. C. Dolotta 和 R. C. Haight 撰写《PWB/UNIX 概述与功能摘要》时，PWB 支持“超过 1,000 名用户”。一年后，这个数字增长到了 1,100，几乎全部是 AT\&T 内部用户。
+我稍后会回到 Roberts 的叙述；但首先让我继续讲述程序员工作台（PWB）。PWB 由贝尔实验室一个与 1127 无关的小组开发。该项目于 1973 年中期由 Evan Ivie 发起，小组由 Rudd Canaday 领导，最初支持面向大型软件开发项目的 Unix 版本。虽然它起初是 Third Edition 的一个分支，实际上 PWB 是 Sixth Edition 的衍生版本。正如将要看到的，Sixth Edition（1976 年）有大量的后续版本。到 1977 年 6 月，当 T. C. Dolotta 和 R. C. Haight 撰写《PWB/UNIX 概述与功能摘要》时，PWB 支持“超过 1,000 名用户”。一年后，这个数字增长到了 1,100，几乎全部是 AT\&T 内部用户。
 
 该系统运行在 DEC PDP-11/45 和 11/70 机器上。“一个典型的 PWB/UNIX 系统大约花费 120,000 美元，能够轻松支持 24 个同时用户。更大的系统可以支持两倍数量的用户。”
 除了当时已成为标准的 Unix 功能外，PWB 还做出了两个真正的贡献：RJE（远程作业输入），它“提供了从 IBM 主机系统提交和检索作业的功能”，以及 SCCS（源码控制系统），这是“一套集成的命令，旨在帮助软件开发项目控制对源代码和文本文件（例如手册）更改的管理”。
