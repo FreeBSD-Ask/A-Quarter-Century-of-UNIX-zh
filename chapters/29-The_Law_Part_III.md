@@ -12,7 +12,7 @@ NET 1 是当时伯克利系统的一个子集，与 4.3-Tahoe 非常相似。它
 
 两年半之后，1991 年 6 月，在纳什维尔的 USENIX 会议上，BSD Networking Release 2 发布。NET 2 不仅包含网络代码，但和 NET 1 一样，也无需任何先前许可证。新功能包括一个基于卡内基·梅隆大学 Mach 系统的虚拟内存系统（已在犹他大学移植），以及对 Intel 386/486 系统的移植。
 
-NET 2 是一项美俄合作项目，由 Bill Jolitz、Donn Seeley、Trent Hein、Vadim Antonov、Mike Karels、Igor Belchinskiy、Pace Willisson、Jeff Polk 和 Tony Sanders 等人共同贡献，并被开发成商业产品。这个产品就是 BSDI（Berkeley Software Design, Inc.），在 1991 年底完成，并于 1993 年 4 月 10 日对公众发布，但发布过程因 UNIX 系统实验室（UNIX 系统实验室）的诉讼而被延迟。UNIX 系统实验室起诉以阻止 BSDI 发布产品，要求法院禁止“BSD/386 的分发，直到审判为止”，理由是 BSD/386 侵犯了 UNIX 系统实验室在其 32V 软件上的版权，并盗用了 UNIX 系统实验室的商业机密。
+NET 2 是一项美俄合作项目，由 Bill Jolitz、Donn Seeley、Trent Hein、Vadim Antonov、Mike Karels、Igor Belchinskiy、Pace Willisson、Jeff Polk 和 Tony Sanders 等人共同贡献，并被开发成商业产品。这个产品就是 BSDI（Berkeley Software Design, Inc.），在 1991 年底完成，并于 1993 年 4 月 10 日对公众发布，但发布过程因 UNIX 系统实验室（USL）的诉讼而被延迟。UNIX 系统实验室起诉以阻止 BSDI 发布产品，要求法院禁止“BSD/386 的分发，直到审判为止”，理由是 BSD/386 侵犯了 UNIX 系统实验室在其 32V 软件上的版权，并盗用了 UNIX 系统实验室的商业机密。
 
 法院于 1993 年 3 月 3 日驳回了 UNIX 系统实验室的初步禁令请求，裁定 UNIX 系统实验室“未能证明其在版权或商业机密指控上有成功的可能”。
 
