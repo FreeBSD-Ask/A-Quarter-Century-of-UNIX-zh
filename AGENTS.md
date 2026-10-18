@@ -4,157 +4,148 @@
 
 ## 仓库概览
 
-这是树莓派官方文档（Raspberry Pi Documentation）的简体中文翻译项目。基于 GitBook 格式，由 GitBook 平台自动构建和部署，无需本地构建步骤。
+这是 Peter H. Salus 所著《Unix 四分之一世纪》（*A Quarter Century of UNIX*，Addison-Wesley，1994）的简体中文翻译项目，由 FreeBSD 中文社区（CFC）译制与维护。基于 GitBook 格式（`SUMMARY.md` 驱动目录），由 GitBook 平台在线发布，无需本地构建步骤。
 
-- 本项目开源地址：<https://github.com/taophilosophy/rpicn>（由 FreeBSD 中文社区发起）
-- 英文原版存储库：<https://github.com/raspberrypi/documentation>
-- 翻译对照的官方文档页面：<https://www.raspberrypi.com/documentation/>
-- 授权协议：CC BY-SA 4.0（与上游一致，详见 `README.md`"版权说明"）
+- 本项目仓库：<https://github.com/FreeBSD-Ask/A-Quarter-Century-of-UNIX-zh>
+- 在线阅读：<https://freebsd.gitbook.io/unix-er-shi-wu-nian>
+- 早期译本（`upstream`远程）：<https://github.com/zhangyangjing/A-Quarter-Century-of-UNIX-zh>。本仓库早期 fork 自该译本，此后逐句精校，并补齐了原译本缺失的"进一步阅读""人物与术语表"两篇附文。
+- 英文原版（TUHS）：<http://wiki.tuhs.org/lib/exe/fetch.php?media=publications:qcu.pdf>，即仓库根目录的 `qcu.pdf`（已被 `.gitignore` 忽略，不入库）
+- Unix 源码树：<http://minnie.tuhs.org/cgi-bin/utree.pl>
+- 授权：本仓库自有内容（译文、目录、脚本）采用 BSD 2-Clause 许可（见 `LICENSE`，Copyright © 2025 FreeBSD 中文社区）。原著正文与插图的著作权归 Peter H. Salus 及出版方所有。
 
-**注意：本仓库没有 `.github/` 目录，不存在任何 CI 工作流。** 标题同步、目录生成、格式检查均由人工完成。不要把 FreeBSD 手册翻译项目（handbook.bsdcn.org）的 CI 假设、术语规则和格式惯例套用到本仓库，两个项目的约定在多处相反（如路径包裹方式）。
+**重要：现有译稿源自两年前的旧译本，并不是全书的完整翻译。** 30 个正文章节文件与 7 篇附文虽然齐备，但每章内部存在大量漏译段落（相对 278 页英文原版）。校对与补全时必须与英文原文**逐段比对**，不能以"章节文件齐全"推断"翻译完整"。详见"翻译校对工作流（AI 代理）"。
 
-## 版本与流程
+**注意：本仓库有完整的 `.github/` 目录与多条 CI 工作流**（目录自动生成、H1 自动同步、格式检查、图片与链接检查、PDF/EPUB 发布）。不要把其他翻译项目（如 FreeBSD 手册 handbook.bsdcn.org、树莓派文档 rpicn）的 CI 假设、目录命名（`qian-yan/`、`shu-mei-pai/` 等拼音板块）与术语规则套用到本仓库。
 
-当前翻译同步基线（英文原版 commit）：
-<https://github.com/raspberrypi/documentation/commit/1b7709fea907aed7af8950f936ccfd1b82a29edd>（官方文档 2024.9.8 版本）
+## 原文与版本
 
-同步历史（详见 `CHANGELOG.md`）：
-
-- 2024.6.5 同步至 f0511a225236d2defc8c12010c315827cb3baf7d
-- 2024.7.11 同步至 b68a629c7212e668fdfba94d227cc9ec32d9bfbb
-- 2024.9.8 同步至 1b7709fea907aed7af8950f936ccfd1b82a29edd（当前基线）
-
-截至当前基线，英文原版位于上游仓库 `documentation/asciidoc/` 下，按板块分为 `computers/`、`accessories/`、`microcontrollers/`、`services/` 四个目录；每个页面被上游拆分为多个 `.adoc` 子文件（如 `computers/os/using-gpio.adoc`）。
-
-### 原文获取（重要）
-
-- **以官方文档网页为权威源**：<https://www.raspberrypi.com/documentation/>。官方页面由上游 `master` 分支生成；GitHub 默认分支 `develop` 包含未发布改动，不要对着 `develop` 分支或 GitHub 上的 adoc 散文件翻译。
-- 本项目维护的英文 Markdown 原文存档：<https://github.com/taophilosophy/rpi-documentation-diff/>。同步上游时，用官方网页生成新的 Markdown 存档，与旧存档对比得到实际内容差异（GitHub 会自动生成对比视图）。
-- 网页转 Markdown 推荐使用思源笔记，少数页面需用 Marktext 兜底；Typora、Obsidian 效果不佳（详见 `CONTRIBUTING.md`）。
-- **禁止使用 DeepL 进行任何英中翻译**：DeepL 会吞字、吞句，甚至把整句意思翻译反，对技术文档是致命错误（详见 `CONTRIBUTING.md`）。
-- 树莓派官方文档平时变动很小（只在每个版本发布后的半年内较活跃，且大量提交只是调整文件顺序、每次只改几个字）。同步前先确认实际内容差异，避免无效劳动。
-
-### 相关上游项目
-
-本项目同时维护树莓派启动盘制作工具（Raspberry Pi Imager）的简体中文翻译，通过 PR 提交至 <https://github.com/raspberrypi/rpi-imager>（历史记录见 `CHANGELOG.md`）。发现官方文档本身的错误（命令错误、排版问题等）时，应向上游提交 PR 或 issue，并在 `CHANGELOG.md` 记录。
+- 本书 1994 年出版，内容固定，**不存在"跟随上游滚动同步"的概念**；本仓库与早期译本之间也无同步义务，只作参考与致谢。
+- 英文原版 `qcu.pdf` 是**扫描件，没有文本层**（`pdftotext`、PyMuPDF `get_text()` 均返回空），用于逐段比对时须先 OCR。
+- 本机可用的 OCR 方案：`rapidocr-onnxruntime`（推荐，约 6～10 秒/页）、`easyocr`；`pytesseract` 已安装但系统无 `tesseract` 二进制。渲染用 PyMuPDF（`get_pixmap(dpi=300, colorspace=fitz.csGRAY)`）。
+- OCR 结果仅作校对底稿，**不能直接入库**；扫描件 OCR 有错字（漏字、误认），引用前须结合上下文判断。
+- `CHANGELOG.md` 不入库：由 `create-pdf.yml` 在发布时用 changelog 生成器即时产出并写入 Release 说明。
 
 ## 内容架构
 
-### 核心文件
-
-- **`SUMMARY.md`** — 全书唯一数据源，定义完整目录结构和导航树，GitBook 用它生成侧边栏。**第一行 `# Table of contents` 绝对不能变更**，否则 GitBook 同步失效。
-- **`mu-lu.md`** — 手工维护的可视化目录页（卡片式表格，含配图和简介）。**它不是由 `SUMMARY.md` 自动生成的**，`SUMMARY.md` 新增、删除或改标题时必须手工同步对应卡片（链接、图片、说明文字）。`mu-lu.md` 是本仓库唯一大量使用 HTML（`<a>`、`<img>`、`<br>`）的文件。
-- **`qian-yan/ci-hui-biao.md`** — 术语翻译对照表（词汇表），所有术语翻译以此为准。新出现的人名、专有名词必须登记进词汇表。
-- **`CHANGELOG.md`** — 编辑日志。每完成一次上游同步或整页校对，追加一条记录（日期、同步的 commit、完成内容、向上游反馈的 PR）。
-- **`CONTRIBUTING.md`** — 贡献指南，是原文获取方式、工具选择、DeepL 禁令等约定的权威来源。
-- **`README.md`** — 项目说明。上游同步后需更新其中"版本说明"一节的指向。
-
 ### 目录结构
 
-| 目录 | 对应上游板块 | 页数 | 内容 |
-| ---- | ------------ | ---- | ---- |
-| `qian-yan/` | （项目自有页面） | 3 | 词汇表、关于我们、版权说明 |
-| `shu-mei-pai/` | `documentation/asciidoc/computers/` | 11 | 入门至处理器 |
-| `pei-jian/` | `documentation/asciidoc/accessories/` | 9 | 摄像头至音频扩展板 |
-| `wei-kong-zhi-qi/` | `documentation/asciidoc/microcontrollers/` | 5 | 芯片至 C/C++ SDK |
-| `fu-wu/` | `documentation/asciidoc/services/` | 2 | Raspberry Pi ID、Connect |
+| 路径 | 内容 |
+| ---- | ---- |
+| `chapters/` | 全书正文 30 章，文件名形如 `<序号>-<英文原名>.md`（`0-Prelude_to_Space.md` 至 `29-The_Law_Part_III.md`） |
+| `mix/` | 正文之外的前后附文 7 篇：`Preface.md`、`Acknowledgements.md`、`Introduction.md`、`What_Made_It_work.md`（结语）、`book.md`（进一步阅读）、`who.md`（人物与术语表）、`Attached_Photos.md`（附图） |
+| `assets/` | 正文插图，13 个 `.jpg`。正文以 **`/assets/xxx.jpg`** 绝对路径引用（不是 `.gitbook/assets/`，也不是相对路径） |
+| `.github/` | CI 工作流、markdownlint 与 lychee 配置、图片检查脚本、Issue 模板 |
+| `README.md` | 书名页：简介、作者、内容特色、译者注与资源链接 |
+| `SUMMARY.md` | 全书唯一目录数据源，GitBook 据此生成侧边栏。**第一行必须是 `# Table of contents`** |
+| `mu-lu.md` | 目录的副本，**由 CI 从 `SUMMARY.md` 自动生成**（见 `mulu.yml`），不要手工编辑 |
+| `qcu.pdf` | 英文原版扫描件（`.gitignore` 忽略） |
+| `LICENSE` / `AGENTS.md` | 授权协议 / 本文件 |
 
-- 每页为独立 `.md` 文件，与上游 27 个顶级页面 1:1 对应。上游拆分的子页面在中文版合并为单页：上游子页 `.adoc` → 中文 H2（`##`），子页内 `===` → H3（`###`），`====` → H4（`####`）。
-- 文件命名使用拼音 slug，不得包含空格、中文字符或英文冒号 `:`，必须兼容 Windows 对文件名的要求。
-- `.gitbook/assets/` — 本地化图片（约 70 张），正文插图使用相对路径引用（如 `.gitbook/assets/xxx.png`）。新增图片优先本地化到此目录；仍指向 www.raspberrypi.com 的历史遗留图片，在修订对应页面时逐步本地化。
-- 中文页面与上游子页的层级对应关系用临时脚本核对，脚本与日志放在 `script/` 目录（该目录当前不存在，需要时创建）。
+### 标题管理（由 CI 自动完成，不要手工改 H1）
 
-### 标题管理（关键约束）
+- `sync-headers.yml`：任何 push 都会按 `SUMMARY.md` 逐条同步各文件的 H1 —— **`SUMMARY.md` 是标题的唯一来源**。
+- `mulu.yml`：`SUMMARY.md` 变更时，删除并重新复制生成为 `mu-lu.md`，自动提交。
+- `file-name-check.yml`：校验 `SUMMARY.md` 中每个条目对应的文件是否存在，缺失则开 issue（标签 `summary-check`）。
+- 因此**修改章节标题只需改 `SUMMARY.md`**；各文件 H1 与 `mu-lu.md` 会由 CI 跟上，人工改这两处反而会被覆盖。
 
-- 各 `.md` 文件的 H1 必须与 `SUMMARY.md` 中对应条目的文字保持一致（目前全部一致，靠人工维护，没有自动同步的 CI）。
-- 修改章节标题时，需要同时更新三处：`SUMMARY.md` 条目、对应文件的 H1、`mu-lu.md` 卡片文字。
+### 新增/调整页面
+
+- 新增正文页：在 `chapters/` 按 `<序号>-<英文原名>.md` 命名（不得含空格、中文、英文冒号 `:`，须兼容 Windows 文件名），在 `SUMMARY.md` 对应位置插入条目（用 `##` 分组标题 + `* [标题](路径)`），首行写与条目一致的 H1。
+- 新增附文：放入 `mix/`，文件名用英文原名（与现有风格一致），同样登记进 `SUMMARY.md`。
+- 图片：本地化放入 `assets/`，正文以 `/assets/xxx.jpg` 引用。
 
 ## 编写规范
 
 ### 格式
 
-- **代码块：** 与上游原文保持一致，禁止篡改命令、配置内容、软件版本号。代码块内的英文注释翻译为中文（如 `# This is a comment` → `# 这是一个注释`），代码结构和格式不变。shell 命令用 `bash` 或 `sh` 围栏标记，其余按内容选语言（`json`、`c`、`python`、`cpp`、`csharp`、`php` 等）；无法判断时用无语言标注的 ` ``` ` 兜底，禁止使用 `text` 作为代码块标记。上游使用 `sudo` 的命令原样保留（树莓派文档惯例，与 FreeBSD 手册项目"禁用 sudo"的规则相反）。
-- **命令行前缀：** `#` 表示 root 权限，`$` 表示普通用户。
-- **提示块：** 使用 `>` 缩进引用，关键词加粗，`>` 后不留空格，与既有文件风格一致：`>**技巧**`、`>**注意**`、`>**重要**`、`>**警告**`（对应上游 tip/note/important/warning）。
-- **命令、选项、参数、文件路径：** 一律用反引号包裹（如 `/boot/firmware`、`config.txt`、`raspi-config`）。不带选项和参数的裸命令（如 mv、cp）一般不加反引号。**注意：本项目路径用反引号而非加粗，与 FreeBSD 手册项目的规则相反，勿跨项目套用。**
-- **表格：** 风格与所在文件既有表格保持一致（内容列一般左对齐，短枚举列居中）；`mu-lu.md` 的卡片表格一律居中。表头声明几列，所有数据行就必须有几列，缺的补空单元格，不得让单元格超出表头列数（超出部分在 GFM 渲染中被丢弃）。
-- **HTML：** 正文页面禁止成段的 HTML（div、table 等）；`<br>` 换行是既有用法，可保留；`mu-lu.md` 是唯一例外。
-- **禁止「」引号：** 正文中不允许出现「」，一律使用""（中文双引号）。逐个手动修改，禁止机械替换。
-- **禁止 AsciiDoc 语法残留：** 不允许出现 `xref:file[文本]`、`link:file[文本]` 等双冒号链接语法和行尾 `+` 软换行；所有段落必须在同一行内完成，不得跨行拼接。链接一律使用标准 markdown `[文本](路径或URL)`。
-- **禁止篡改：** 软件版本号、用户名、邮箱、URL、IP 地址、带圈数字（如 ①②③）必须与英文原文保持一致，其位置和数量不得变动。
-- **避免滥用"已"字：** 如"XX 已新增"应改为"新增 XX"；"已修复"应改为"修复完成"。禁止机械替换。
-- **避免章节交叉引用：** 正文不要出现"参见第 X 节"式的硬编码引用。站内引用用相对 markdown 链接指向对应中文页面；指向尚未翻译的内容时，可直接使用官方英文文档 URL（含锚点，如 `https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio`）。
-- **图片：** 正文插图使用 markdown 格式（`![说明](路径)`）。
-- **第二人称：** 一律使用"你"而非"您"。
+- **列表：** 全仓库统一使用 `*` 作为无序列表标记（markdownlint 配置 `MD004`/`MD049`/`MD050` 要求 asterisk），不得使用 `-` 或 `+`。
+- **引号：** 使用中文双引号“”，**禁止出现「」**。逐个手动修改，禁止机械替换。
+- **第二人称：** 一律用"你"，不用"您"。
+- **引用块：** 访谈原话、书信、清单用 `>` 引用。同一条引文内的分段用单独一行 `>` 隔开。书中的方框/边栏小标题写成 `>**标题**`（如 `>**Unix 哲学**`）。
+- **转义：** 正文中的特殊字符按现有写法转义，如 `AT\&T`、`\[LA36]`、`\[基于 1976 年会议]`。
+- **代码块：** 保留原文内容，禁止篡改命令、参数、版本号；代码内英文注释译为中文，代码结构不变。shell 用 `bash`/`sh` 围栏，其余按语言标注（如 `c`），无法判断用无标注围栏，禁止用 `text`。
+- **图片：** `![说明](/assets/xxx.jpg)`，说明可留空（`![]()`）。
+- **CJK 空格：** 中文与英文、数字之间必须加半角空格；文件名、命令、选项、路径用反引号包裹（如 `config.txt`）。可用 AutoCorrect 检查（见"本地工具"）。
+- **禁止篡改：** 人名、机构名、产品名、URL、版本号、页码/脚注标记、带圈数字（①②③）必须与原文对应，不得增删或移位。
+- **禁止机械替换：** 统一批量替换会破坏上下文（如"硬拷贝"不能改成"硬复制"、"一份拷贝"与"拷贝命令"语境不同）。任何改动逐个手动完成。
+- **避免滥用"已"字：** "已新增"应写"新增"，"已修复"应写"修复完成"，禁止机械替换。
+- **避免机翻腔与欧化汉语：** 不用"将被自动安装"这类生硬被动句，不用后置、倒装、偷换主语的句式；译文应当是可读的中文。
+- **避免硬编码交叉引用：** 不写"参见第 X 章"式的编号引用；站内引用用相对 markdown 链接，指向英文原书内容可直接给出 TUHS 上的 `qcu.pdf` 链接。
+- **段落内联：** 一个段落写在一行内，不要在行尾用 `+` 之类的软换行拼接，也不要残留 AsciiDoc 语法（`xref:`、`link:`）。
 
 ### 术语
 
-- 所有术语以 `qian-yan/ci-hui-biao.md` 词汇表为准，常用译法：Raspberry Pi OS → 树莓派系统；HAT → 扩展板；Compute Module → 计算模块；Camera Module → 摄像头模块；Raspberry Pi Imager → 树莓派启动盘制作工具；microSD → 存储卡；Legacy → 旧版；boot partition → 启动分区。
-- 产品名、型号、软件名保持英文原样：Raspberry Pi、Pico、RP2040、RP2350、RP1、MicroPython、Thonny、rpicam-apps（不翻译，是 GitHub 存储库名）等。
-- "拷贝" → "复制"；"壳/外壳" → "shell"。禁止机械替换。
-- 新术语先查词汇表；词汇表没有的，确定译法后先补录进词汇表，再在正文使用。
+- **术语表即 `mix/who.md`（人物与术语表）**，按字母顺序收录人名、机构缩写与专有名词，格式为 `* 词条：释义`。新出现的人名、机构、专有名词先查该表，确定译法后补录进表内再在正文使用。
+- 本书常用译法：Bell Labs/Bell Telephone Laboratories → 贝尔电话实验室（或贝尔实验室）；Project MAC → MAC 项目；Computer Systems Research Group → 计算机系统研究组；Programmer's Workbench → 程序员工作台；Multi-Environment Real Time → 多环境实时系统；time-sharing → 分时；Shell → shell（小写）。
+- 产品名、型号、软件名、组缩写保持英文原样：Raspberry Pi 之外如 Unix/UNIX、Multics、CTSS、PDP-7/11、PWB、USG、CSRG、BSD、SVR2/SVR3、USENIX、AUUG/UKUUG/EUUG、ARPANET、Usenet、uucp、troff/nroff、ed、sh、C、awk、RJE、SCCS 等。人名一般保留英文原名（Salus、Ritchie、Thompson、McIlroy…），历史上已有通行中文名的（`mix/Preface.md`、`mix/who.md` 中如"石田晴久（Haruhisa Ishida）"）按现有写法保留。
+- 关于 UNIX/Unix 的拼写：原著在致谢中说明采用 Unix 拼法（`mix/Acknowledgements.md` 有说明），正文以现有译文为准，不要整篇统一替换大小写。
 
-### CJK 空格
+### 表格与标题层级
 
-中英文、中文与数字之间必须加半角空格。文件和命令名用反引号括起来。可使用 AutoCorrect 工具检查（见"本地工具"）。
+- 表格风格与所在文件既有表格一致（内容列左对齐，短枚举列居中）；表头声明几列，数据行就必须有几列，缺的补空单元格。
+- 标题层级：`SUMMARY.md` 的一级条目对应各文件 H1；文件内部小节用 `##`、`###`、`####`（如 `mix/who.md`、索引类页面先用 `##` 分组，条目再用列表）。
 
-## 翻译校对工作流程（AI 代理）
+## 翻译校对工作流（AI 代理）
 
-对已翻译页面进行质量审校时，参考以下步骤：
+对译文进行质量审校与补全时，遵循以下步骤：
 
-1. **获取原文**：以官方文档网页（`https://www.raspberrypi.com/documentation/<板块>/<页面>.html`，板块为 computers/accessories/microcontrollers/services）为唯一权威源，或使用 `rpi-documentation-diff` 存档；需要核查细节时才参考上游 GitHub 仓库对应 `.adoc`（`master` 分支）。**禁止以中文版已有翻译作为修改依据**，避免错误沿袭。
+1. **获取原文**：以根目录 `qcu.pdf`（英文原版扫描件）为唯一权威源。先用 OCR 提取英文（见"原文与版本"），校对时不得以中文译文或早期译本 `upstream` 作为修改依据，避免错误沿袭。
 
-2. **逐句对照**：将中文翻译与英文原文逐句比对，重点检查以下问题类别：
+2. **逐段比对**（本仓库最关键的检查项）：把中文每一段与英文原文对应段落逐一对照，特别标记**漏译**——英文有、中文整段或整句缺失的内容。由于"文件齐全 ≠ 翻译完整"，每章都要实际比对，不能只看有没有文件。
 
-   | 问题类型 | 示例 |
+3. **重点检查项** ：
+
+   | 问题类型 | 说明 |
    | -------- | ---- |
-   | 事实性错误 | "large parts" 误译为"三个文件" |
-   | 漏译 | 英文原版有但中文缺失的句子或小节 |
-   | 机翻腔/表达生硬 | "将被自动安装" → "会自动安装" |
-   | 用词不当 | "独家优势"应为"主要优势"（原文 "particular strengths"） |
-   | 版本过时 | 软件版本号、型号未同步至英文原版当前版本 |
-   | 语法/文字错误 | 重复字词、"非常地"应为"非常" |
-   | 欧化汉语、倒装句、后置句、偷换主语、不必要的被动句 | 自行联网制定标准，避免语法错误和非地道汉语表述 |
+   | 漏译 | 英文原文整段、整句缺失，尤以访谈引文、脚注旁白为多 |
+   | 事实性错误 | 数字、人名、年份、机构、型号译错 |
+   | 机翻腔/欧化汉语 | 生硬被动句、倒装、后置、偷换主语 |
+   | 用词不当 | 术语与 `mix/who.md` 不一致 |
+   | 语法/文字错误 | 重复字词、错别字、多余"地"、"已"字滥用 |
+   | 标点与格式 | 出现「」、列表用了 `-`、CJK 未加空格 |
 
-3. **提交修改**：
-   - 基于 `main` 创建分支（如 `fix/<拼音页面名>`）
-   - 仅提交修改的 `.md` 文件，不要包含无关文件
-   - 提交信息用中文简述变更（现有历史风格如"更新 raspberry-pi-os.md"）
-   - PR 目标分支为 `main`，描述中列出每处修改及原因
+4. **补译**：新译段落风格须与上下文一致，术语与 `mix/who.md` 对齐；插入位置对准英文原文的段落顺序。
 
-4. **注意事项**：
-   - 英文原文可能比翻译版本新，版本号等差异以英文原版为准
-   - 禁止篡改代码块（包括 shell 命令、配置文件内容等），仅翻译注释
-   - 保持术语一致性，参考 `qian-yan/ci-hui-biao.md`
-   - 修改标题需同步 `SUMMARY.md` 与 `mu-lu.md`
-   - 添加新内容（如英文原版新增的段落）时，确保翻译风格与上下文一致
+5. **提交修改**：
+   - 基于 `master` 创建分支（如 `fix/<章节名>`）
+   - 仅提交修改的 `.md` 文件，不含无关文件（OCR 结果、临时脚本不入库）
+   - 提交信息用中文简述变更（现有风格如"更新 12-Style_and_Tools.md""更新 README.md"）
+   - PR 目标分支为 `master`
 
-5. **逐句校对递归工作流**（核心约束）：
-   - **逐行逐句子**遍历内容，检查逻辑一致性，联网复核后修改
+6. **逐句校对递归工作流**（核心约束）：
+   - **逐行逐句**遍历内容，检查逻辑一致性，联网复核后修改
    - **三轮 + 一轮复查**：完整执行三轮逐句校对，然后严格、完整地复查一轮；若仍有问题，继续执行三轮，递归直至无问题
-   - **逐个修改**：修改时禁止机械修改、禁止批量；必须逐个手动修改，禁止使用软件工具批量替换或批量逐个复核
-   - **修改前后复核**：每次修改前确认问题真实存在、修改后确认改动准确且未引入新错误
-   - **不复查旧错**：不得复查以前已经完成三轮的错误；每轮查询内容必须是新的（若与之前的复查重复则跳过、不改，只看是否有新增内容）
-   - **联网复查**：对于不存在的实际访问查询（如失效链接、版本号、API 端点），需联网复查三次后修改
-   - **禁止绕过审查**：不得以任何方式搜索、批量、绕过逐句子审查流程
+   - **逐个修改**：禁止机械修改、禁止批量；必须逐个手动修改，禁止用软件工具批量替换或批量逐个复核
+   - **修改前后复核**：修改前确认问题真实存在，修改后确认改动准确且未引入新错误
+   - **不复查旧错**：已做过三轮的错误不再复查；每轮内容必须是新的（与之前重复的跳过不改，只看有无新增内容）
+   - **联网复查**：涉及实际可访问对象（失效链接、版本号、API 端点等）须联网复查三次后再改
+   - **禁止绕过审查**：不得以任何方式搜索、批量或绕过逐句审查流程
 
-## 同步上游工作流
+## CI 工作流
 
-英文原版更新时的操作流程：
+| 工作流 | 触发 | 作用 |
+| ------ | ---- | ---- |
+| `mulu.yml` | `SUMMARY.md` 变更 / 手动 | 复制 `SUMMARY.md` 为 `mu-lu.md` 并自动提交 |
+| `sync-headers.yml` | push / `mulu.yml` 完成后 / 手动 | 按 `SUMMARY.md` 同步各文件 H1 |
+| `file-name-check.yml` | push（含 `*.md`） | 校验 `SUMMARY.md` 条目文件是否存在，缺失开 issue |
+| `Markdown-lint2-pr.yml` | pull_request | 对改动的 `.md` 跑 markdownlint（`continue-on-error`，不阻断） |
+| `markdown-lint2.yml` | 手动 | 全仓库 markdownlint 修复，失败时开 PR |
+| `AutoCorrect.yml` | `repository_dispatch` / 手动 | autocorrect 加 CJK 空格后开 PR |
+| `md-padding.yml` | `repository_dispatch` / 手动 | md-padding 加空格后开 PR |
+| `links.yml` | 手动 / 每月 15 日 | lychee 链接检查，失败开 issue |
+| `check-images.yml` | `.gitbook/assets/**` 变更 / 手动 | 跑 `check_images.py` 报告缺失/未使用图片，开 issue |
+| `create-pdf.yml` | 手动 | 用 `FreeBSD-Ask/gitbook-pdf-export` 生成 PDF/EPUB，打日期标签、生成 CHANGELOG、发 Release |
+| `dependabot.yml` | 每日 | 更新 GitHub Actions 版本 |
 
-1. 确定目标 commit（官方网页当日的 `master` 分支 commit），记录到 `CHANGELOG.md`。
-2. 用思源笔记（或 Marktext）将官方网页逐页另存为 Markdown，更新 `rpi-documentation-diff` 存档库。
-3. 对比新旧存档，得到实际内容差异。
-4. 将差异逐句翻译并合并进对应中文 `.md` 文件；禁止使用 DeepL。
-5. 上游结构变化处理：
-   - **新增页面**：在对应目录新建拼音 slug 的 `.md` 文件，在 `SUMMARY.md` 对应位置插入条目，在 `mu-lu.md` 添加卡片（可选用上游 `documentation/images/full-sized/` 下的官方配图），新术语登记进词汇表。
-   - **删除页面**：反向操作，并清理 `mu-lu.md` 卡片与失效图片。
-   - **新增子节**：在对应中文页添加 H2/H3，层级按"上游子页 `.adoc` → H2、`===` → H3"对应。
-6. 更新 `README.md`"版本说明"指向，在 `CHANGELOG.md` 追加记录。
-7. 校验：核对上游每个子页面在中文页中都有对应的 H2/H3 小节（可用临时脚本，放 `script/` 目录）。
+已知不一致（改动时注意）：
+
+- `check-images.yml` 与 `links.yml` 只在手动/定时触发时真正有效：`check-images.yml` 的触发路径写的是 `.gitbook/assets/**`，而实际图片目录是 `assets/`；`links.yml`（lychee）只按手动和定时跑。
+- `AutoCorrect.yml` 引用 `--config .autocorrectrc`，但仓库里**没有** `.autocorrectrc` 文件，该工作流实际按默认规则运行。
+- markdownlint 配置见 `.github/.markdownlint.json`（`MD013` 行长度、`MD033` 内联 HTML、`MD034` 裸 URL 等均关闭）；lychee 配置见 `.github/lychee.toml`；图片检查脚本 `.github/scripts/check_images.py` 以 `/assets/*` 前缀解析图片路径。
 
 ## 本地工具
 
-- **AutoCorrect**（配置见根目录 `.autocorrectrc`）：仅启用 `space-word`（CJK 与英文/数字间空格，error 级）；标点、括号、反引号、全半角转换、拼写检查等其余规则全部关闭。运行 AutoCorrect 后必须逐文件核对 diff 再提交，禁止盲目批量应用。
-- markdownlint、textlint、lychee 在本仓库均未配置。
-- PDF 导出：使用 `README.md` 提到的 [gitbook-pdf-export](https://github.com/FreeBSD-Ask/gitbook-pdf-export) 脚本。
+- **OCR**：`rapidocr-onnxruntime`（推荐）、`easyocr`；配 PyMuPDF 渲染页面。用于提取 `qcu.pdf` 原文，产物不要入库。
+- **AutoCorrect**（`.github/workflows/AutoCorrect.yml` 所用）：仅用于检查/补全 CJK 空格，运行后必须逐文件核对 diff 再提交，禁止盲目批量应用。
+- **markdownlint**：配置在 `.github/.markdownlint.json`，可本地用 `markdownlint-cli2` 按该配置检查。
+- **PDF/EPUB 导出**：`create-pdf.yml` 调用 [gitbook-pdf-export](https://github.com/FreeBSD-Ask/gitbook-pdf-export)（脚本 `mdconv.py`），本地导出可参照 `README.md`。
