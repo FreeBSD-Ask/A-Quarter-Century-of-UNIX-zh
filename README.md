@@ -2,8 +2,6 @@
 
 本项目是《Unix 四分之一世纪》（*A Quarter Century of Unix*）的简体中文翻译，由 FreeBSD 中文社区译制。
 
-原书版权归著作权人及出版社所有，本书仅供学习交流使用。
-
 ---
 
 1972 年 6 月 12 日，Ken Thompson 和 Dennis Ritchie 写道：“UNIX 的安装数量已增长到 10，预计还会更多。”两年后，这个数字变成了 50。据估计，如今已有超过 300 万套 UNIX 系统在运行……
@@ -58,6 +56,8 @@ if (rp -> p_flag & SSWAP) {
 
 ## 版权说明
 
-原书 *A Quarter Century of Unix* 版权归 Peter H. Salus 所有。本翻译项目不对原文主张任何权利，翻译内容供学习、研究与交流使用。如权利人提出异议，我们将立即配合处理。
+原书 *A Quarter Century of Unix* 版权归 Peter H. Salus 所有。
+
+本翻译项目不对原文主张任何权利，翻译内容供学习、研究与交流使用。如权利人提出异议，我们将立即配合处理。
 
 本项目遵循 [BSD 2-Clause 许可证](LICENSE)。
