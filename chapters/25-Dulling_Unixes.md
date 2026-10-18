@@ -1,8 +1,8 @@
 # 互相争斗的 Unix
 
-直到 1978 年，Unix 指的还只是 AT\&T 的操作系统。直到 PWB 2.0、V7、32V 和 3BSD 的出现，混乱才开始出现。但 Unix 并不是 AT\&T 的操作系统产品。它是一款“电信支持工具”。请记住，由于同意令的限制，AT\&T 认为自己不能涉足计算机行业，也无权参与计算机市场的竞争。Unix 在 AT\&T 的未来从研究部门移交给了 USG —— UNIX 支持组，在 1970 年代的大多数时间里由它掌控发展方向。随后在 1979 年，微软和 Santa Cruz Operation 发布了 XENIX，而伯克利则发布了 4BSD，它们都是基于第 7 版的衍生系统。XENIX 是第一款为 Intel 8086 以及许多其他架构实现的 Unix。它仍是一种非常流行的实现，尽管已经日益与其他系统不兼容。自由软件基金会的 Len Tower 曾对我说：“使用 SCO Unix 就像在时间里倒退。”
+直到 1978 年，Unix 指的还只是 AT\&T 的操作系统。直到 PWB 2.0、V7、32V 和 3BSD 的出现，混乱才开始出现。但 Unix 并不是 AT\&T 的操作系统产品。它是一款“电信支持工具”。请记住，由于同意令的限制，AT\&T 认为自己不能涉足计算机行业，也无权参与计算机市场的竞争。Unix 在 AT\&T 的未来从研究部门移交给了 USG——UNIX 支持组，在 1970 年代的大多数时间里由它掌控发展方向。随后在 1979 年，微软和 Santa Cruz Operation 发布了 XENIX，而伯克利则发布了 4BSD，它们都是基于第 7 版的衍生系统。XENIX 是第一款为 Intel 8086 以及许多其他架构实现的 Unix。它仍是一种非常流行的实现，尽管已经日益与其他系统不兼容。自由软件基金会的 Len Tower 曾对我说：“使用 SCO Unix 就像在时间里倒退。”
 
-正如 Andy Tannenbaum 所指出的：“在贝尔实验室内部确实有一个 UNIX 支持组，但你从没听说过 UNIX 开发组。这是因为贝尔系统下的任何机构都没有被授权开发计算机操作系统……”1981 年，Jeff Schriebman 创立的 UniSoft 推出了一款移植版本，称为 UniPlus+，它始终与 System III 兼容，并已发展到兼容 System V。1983 年，一群来自伯克利的人组建了 mt Xinu（即 Unix™ 的反写）来商业化并支持 BSD，其中包括 Bob Kridle、Alan Tobey、Ed Gould 和 Vance Vaughan。不久后，Debbie Scherrer 加入了他们。他们首先销售的是 more/4.2BSD，然后是 more/4.3BSD。（mt Xinu 以客户服务著称：1986 年 Debbie 亲自为我安装了 4.3 磁带。）同样在 1983 年，USG 和 PWB 组合并为 Unix 系统开发实验室。
+正如 Andy Tanenbaum 所指出的：“在贝尔实验室内部确实有一个 UNIX 支持组，但你从没听说过 UNIX 开发组。这是因为贝尔系统下的任何机构都没有被授权开发计算机操作系统……”1981 年，Jeff Schriebman 创立的 UniSoft 推出了一款移植版本，称为 UniPlus+，它始终与 System III 兼容，并已发展到兼容 System V。1983 年，一群来自伯克利的人组建了 mt Xinu（即 Unix™ 的反写）来商业化并支持 BSD，其中包括 Bob Kridle、Alan Tobey、Ed Gould 和 Vance Vaughan。不久后，Debbie Scherrer 加入了他们。他们首先销售的是 more/4.2BSD，然后是 more/4.3BSD。（mt Xinu 以客户服务著称：1986 年 Debbie 亲自为我安装了 4.3 磁带。）同样在 1983 年，USG 和 PWB 组合并为 Unix 系统开发实验室。
 
 五年内，Apollo、DEC、Eakins、Gould、Integrated Solutions、Masscomp、mt Xinu、NSC 和 Wollongong 等公司开始销售伯克利 Unix。而销售 AT\&T System III 或 System V 衍生版本的公司包括：AT\&T、Altos、Apollo、Compaq、Convergent、惠普、Honeywell、IBM、ITT、英特尔、Interactive、Masscomp、Microport、微软、Motorola、NCR、NUXI、Opus、SCO、Silicon Graphics、Sperry、Sun、Tandy、UniSoft 和 Wollongong。此外，Amdahl、Apollo、苹果、Cray、DEC、Data General、惠普、IBM、英特尔、Motorola、Unisys 以及其他众多公司也都提供 Unix 的专有版本，其中有几个是基于 4.2BSD 的。无论是 AT\&T 还是 BSD 衍生系统，它们都需要向 AT\&T 获取许可证。
 
@@ -12,8 +12,8 @@
 
 这种由一锅字母汤煮成的稠糊状混合物最终带来了用户和潜在购买者的困惑：什么系统能和什么系统兼容？可以肯定的是，尽管有那么多的宣传和喧嚣，所谓的“开放系统”并不存在，标准化过程也没有带来任何实际的互操作性。另一方面，只要你理解了 BSD 或 SVR4、AIX 或 HP/UX、Solaris 或 Ultrix，那么你就已经理解了其他任何变种的 90%。而程序开发的通用语言是 ISO/IEC C。
 
->Doug McIlroy 反过来问我：
->
+Doug McIlroy 反过来问我：
+
 >你对这样一个问题有什么见解吗：Unix 明明比 MS-DOS 起步时更小巧、更强大，却从未在 PC 世界中取得成功？还有，为什么 Unix 今天变得如此臃肿？
 
 Armando Stettner 给我的回应是，Unix 从来没有拥有“微软那样的市场营销”，而且“真正需要干活的人，所需的功能远远超过第 6 版和第 7 版所能提供的”。我认为 Unix 没能打入 PC 世界的原因之一，是直到最近，它都没有一个普通人也能轻松使用的用户界面（尽管我的很多程序员朋友会坚持认为 shell 比 MS-DOS 更友好、更灵活）。当 IBM 推出运行 MS-DOS 的 PC，当乔布斯和沃兹尼亚克推出 Apple（以及后来的 Macintosh）时，那些从未坐在计算机前的人开始觉得他们能和这些机器互动了（当然他们并非都成功——请回想 1983 年的 Apple Lisa）。由于这些人并不是在大学校园和研究机构里使用大型计算机工作的人，他们并不知道自己错过了什么，尽管 MS-DOS 的界面在某些方面比任何 Unix shell 都更糟，错误信息也确实更加糟糕。

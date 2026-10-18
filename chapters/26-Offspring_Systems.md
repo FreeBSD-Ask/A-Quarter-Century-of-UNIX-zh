@@ -8,7 +8,7 @@ Chorus 于 1979 年由 Hubert Zimmerman 在法国 INRIA 发起，作为一个研
 
 Chorus 由一个内核和多个系统服务器组成，这些服务器在子系统的上下文中协同工作。其中一个子系统实现是 Unix。Chorus Systèmes 推出了多个有用且有趣的内核和 Unix 子系统变体。
 
-1980 年代中期，Andy Tanenbaum 在阿姆斯特丹自由大学（他曾编写 MINIX）提出，未来计算的特点将是物理上分布的硬件与逻辑上集中管理的软件需求。基于此理念，VU 启动了 Amoeba 项目。随后，荷兰数学中心（CWI，原名 MCMathematische Centrum）的 Sape Mullender 等人与 VU 合作，共同开发 Amoeba。
+1980 年代中期，Andy Tanenbaum 在阿姆斯特丹自由大学（他曾编写 MINIX）提出，未来计算的特点将是物理上分布的硬件与逻辑上集中管理的软件需求。基于此理念，VU 启动了 Amoeba 项目。随后，荷兰数学中心（CWI，原名 MC，即数学中心 Mathematische Centrum）的 Sape Mullender 等人与 VU 合作，共同开发 Amoeba。
 
 Amoeba 架构包括：
 
@@ -25,4 +25,4 @@ Unix 向多处理器领域发展的另一个分支是 Mach，由卡内基梅隆�
 
 1987 年，Rob Pike 和 Ken Thompson 开始设计 Unix 的替代系统。贝尔实验室的 Dave Presotto、Tom Duff 和 Howard Trickey 很快加入。该系统名为 Plan 9（取名自科幻电影《外太空计划 9》，这部电影可谓史上最差科幻电影之一）。Plan 9 采用三层架构，一端是公共服务器，另一端是终端。服务器为多处理器机器，终端基本上是无盘工作站。第三层是广域网，连接终端和服务器网络。Greg Chesson、Sandy Fraser 和 Dennis Ritchie 开发的 Datakit 网络被用作长途传输网络。Plan 9 反其道而行之，违背了当时计算环境的发展趋势：自 1986 年 Sun 3 发布以来，“主流”观点是使用越来越大磁盘的工作站，连接在局域网中。而 Plan 9 是一个由独立机器组成的分布式计算环境，这些机器充当服务器、终端等，所有部分通过单一协议和本地命名空间操作连接。
 
-Plan 9 已在运行 1386 处理器的笔记本电脑以及大型服务器上实现。1993 年底，Dave Presotto 告诉我，该项目已移交给商业厂商管理，并补充说：“我们正在着手开发新系统——有什么烂电影的名字推荐给我们用吗？”
+Plan 9 已在运行 i386 处理器的笔记本电脑以及大型服务器上实现。1993 年底，Dave Presotto 告诉我，该项目已移交给商业厂商管理，并补充说：“我们正在着手开发新系统——有什么烂电影的名字推荐给我们用吗？”
