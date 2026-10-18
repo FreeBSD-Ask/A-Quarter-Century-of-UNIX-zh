@@ -1,6 +1,8 @@
 # 《Unix 四分之一世纪》翻译项目
 
-本项目《Unix 四分之一世纪》（*A Quarter Century of Unix*）由 FreeBSD 中文社区译制。版权归著作权人所有。
+本项目是《Unix 四分之一世纪》（*A Quarter Century of Unix*）的简体中文翻译，由 FreeBSD 中文社区译制。
+
+原书版权归著作权人及出版社所有，本书仅供学习交流使用。
 
 ---
 
@@ -35,7 +37,7 @@ Salus 拥有化学本科学位、日耳曼语言学硕士学位，以及纽约�
 ---
 
 ```c
-/* 你不需要看懂这段代码 */
+/* 你无需看懂这段代码 */
 if (rp -> p_flag & SSWAP) {
     rp -> p_flag &= ~SSWAP;
     aretu (u.u_ssav);
@@ -53,3 +55,9 @@ if (rp -> p_flag & SSWAP) {
 * 翻译源码：<https://github.com/FreeBSD-Ask/A-Quarter-Century-of-UNIX-zh>
 * 英文原版：<http://wiki.tuhs.org/lib/exe/fetch.php?media=publications:qcu.pdf>
 * Unix 源码：<http://minnie.tuhs.org/cgi-bin/utree.pl>
+
+## 版权说明
+
+原书 *A Quarter Century of Unix* 版权归 Peter H. Salus 所有。本翻译项目不对原文主张任何权利，翻译内容供学习、研究与交流使用。如权利人提出异议，我们将立即配合处理。
+
+本项目遵循 [BSD 2-Clause 许可证](LICENSE)。
