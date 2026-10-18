@@ -27,7 +27,7 @@ UNIX 是一款简单、优雅、可移植、功能强大的软件系统。它的
 
 **关于作者**
 
-Peter H. Salus 是一位在国际上享有盛誉的 UNIX 爱好者。他是季刊《Computing Systems》的主编，定期为计算机出版物撰稿，并在 USENIX 通讯《;login: 》中主持“The Bookworm”栏目。他著有多部书籍、文章和评论。
+Peter H. Salus 是一位在国际上享有盛誉的 UNIX 爱好者。他是季刊《Computing Systems》的主编，定期为计算机出版物撰稿，并在 USENIX 通讯《;login:》中主持“The Bookworm”栏目。他著有多部书籍、文章和评论。
 
 Salus 拥有化学本科学位、日耳曼语言学硕士学位，以及纽约大学语言学博士学位。
 

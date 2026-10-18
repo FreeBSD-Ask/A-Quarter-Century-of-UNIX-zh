@@ -13,7 +13,7 @@
 
 与此同时，Xerox 开发了 Alto，一种“个人工作站”，实际上更像是我们今天所理解的工作站。它拥有位图屏幕和鼠标。虽然相对昂贵（从未公开出售，但估计价格在 3 万美元左右），但当 Motorola 68000 CPU 推出后，斯坦福的 Andreas Bechtolsheim 和其他学生能够廉价模拟它。斯坦福授权了一款单板计算机，称为 Stanford University Network 板，简称 SUN。有多家公司获得了授权：Codata、Fortune、Dual、Cyb、Lucasfilm 等。机器——被称为 Just Another Workstation（JAW）——开始出现，有些售价低至 1 万美元；运行的系统多为 4.1BSD 或 System III。大多数公司像大多数创业公司一样经历了兴衰。Sun Microsystems 雇佣了原始板的设计师 Bechtolsheim 和 4.1BSD 的首席架构师 Joy，幸存下来。Boggs 和 Metcalfe 于 1976 年在 Palo Alto 的 Xerox 发明了以太网；他们的文章于当年 7 月发表在 CACM 上；Xerox 于 1980 年 10 月发布了规范。桌面机器和网络的理念在 Palo Alto 生机勃勃。
 
-1982 年 6 月的《; login: 》杂志刊登了以下内容：
+1982 年 6 月的《;login:》杂志刊登了以下内容：
 
 >**有趣的发展**
 >
