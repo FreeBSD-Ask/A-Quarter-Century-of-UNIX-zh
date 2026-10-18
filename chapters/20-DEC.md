@@ -56,4 +56,4 @@ Armando 最难忘的“亮相”之一是在 1983 年 1 月于圣地亚哥举办
 有趣的是，在 Armando 和其他一些人离开了 DEC 后，ULTRIX 就没有进展了：到了 1990 年，DEC 仍然宣称“ULTRIX 操作系统是基于 4.2/4.3 Berkeley 软件发布版（BSD）衍生的实现。它提供了许多 AT\&T 的 System V 中定义的系统和库调用，这些调用在 System V 接口定义中是通用的……”，而且后来 DEC 完全放弃了 ULTRIX，转而支持 OSF/1。
 
 
-![](/assets/bill_ken_greg.jpg) 
+![Bill Joy、Ken Thompson 和 Greg Chesson 在意大利讲课。卡通画作者为一位不知名的学生，承蒙 Ken Thompson 惠允。](/assets/bill_ken_greg.jpg)
