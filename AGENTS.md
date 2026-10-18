@@ -8,21 +8,23 @@
 
 - 本项目仓库：<https://github.com/FreeBSD-Ask/A-Quarter-Century-of-UNIX-zh>
 - 在线阅读：<https://freebsd.gitbook.io/unix-er-shi-wu-nian>
-- 早期译本（`upstream`远程）：<https://github.com/zhangyangjing/A-Quarter-Century-of-UNIX-zh>。本仓库早期 fork 自该译本，此后逐句精校，并补齐了原译本缺失的"进一步阅读""人物与术语表"两篇附文。
+- 早期译本（`upstream` 远程）：<https://github.com/zhangyangjing/A-Quarter-Century-of-UNIX-zh>。本仓库早期 fork 自该译本，此后逐句精校，并补齐了原译本缺失的“进一步阅读”“人物与术语表”两篇附文。
 - 英文原版（TUHS）：<http://wiki.tuhs.org/lib/exe/fetch.php?media=publications:qcu.pdf>，即仓库根目录的 `qcu.pdf`（已被 `.gitignore` 忽略，不入库）
 - Unix 源码树：<http://minnie.tuhs.org/cgi-bin/utree.pl>
 - 授权：本仓库自有内容（译文、目录、脚本）采用 BSD 2-Clause 许可（见 `LICENSE`，Copyright © 2025 FreeBSD 中文社区）。原著正文与插图的著作权归 Peter H. Salus 及出版方所有。
 
-**重要：现有译稿源自两年前的旧译本，并不是全书的完整翻译。** 30 个正文章节文件与 7 篇附文虽然齐备，但每章内部存在大量漏译段落（相对 278 页英文原版）。校对与补全时必须与英文原文**逐段比对**，不能以"章节文件齐全"推断"翻译完整"。详见"翻译校对工作流（AI 代理）"。
+**重要：现有译稿源自两年前的旧译本，并不是全书的完整翻译。** 30 个正文章节文件与 7 篇附文虽然齐备，但每章内部存在漏译段落（相对 278 页英文原版）。校对与补全时必须与英文原文**逐段比对**，不能以“章节文件齐全”推断“翻译完整”。详见“翻译校对工作流（AI 代理）”。
 
 **注意：本仓库有完整的 `.github/` 目录与多条 CI 工作流**（目录自动生成、H1 自动同步、格式检查、图片与链接检查、PDF/EPUB 发布）。不要把其他翻译项目（如 FreeBSD 手册 handbook.bsdcn.org、树莓派文档 rpicn）的 CI 假设、目录命名（`qian-yan/`、`shu-mei-pai/` 等拼音板块）与术语规则套用到本仓库。
 
 ## 原文与版本
 
-- 本书 1994 年出版，内容固定，**不存在"跟随上游滚动同步"的概念**；本仓库与早期译本之间也无同步义务，只作参考与致谢。
+- 本书 1994 年出版，内容固定，**不存在“跟随上游滚动同步”的概念**；本仓库与早期译本之间也无同步义务，只作参考与致谢。
 - 英文原版 `qcu.pdf` 是**扫描件，没有文本层**（`pdftotext`、PyMuPDF `get_text()` 均返回空），用于逐段比对时须先 OCR。
-- 本机可用的 OCR 方案：`rapidocr-onnxruntime`（推荐，约 6～10 秒/页）、`easyocr`；`pytesseract` 已安装但系统无 `tesseract` 二进制。渲染用 PyMuPDF（`get_pixmap(dpi=300, colorspace=fitz.csGRAY)`）。
-- OCR 结果仅作校对底稿，**不能直接入库**；扫描件 OCR 有错字（漏字、误认），引用前须结合上下文判断。
+- 本机可用的 OCR 方案：`rapidocr-onnxruntime`（推荐，约 7～10 秒/页）、`easyocr`；`pytesseract` 已安装但系统无 `tesseract` 二进制。渲染用 PyMuPDF（`get_pixmap(dpi=300, colorspace=fitz.csGRAY)`）。
+- 页码换算：**书中印刷页码 = PDF 页序号 − 12**（正文自印刷第 5 页起；PDF 第 0—14 页为封面、版权页、丛书序、前言、致谢、目录与简介）。各章印刷页码范围以原书目录为准，如：第 0 章 5—6 页、第 7 章 44—53 页、第 14 章 95—116 页、"Status 1974"（印刷 60—62 页）等。
+- 原书 Part 2 末尾的 "Status 1974"（含整页版本树图 `assets/unix_versions_tree.jpg`）在本仓库**并入** `chapters/9-The_Law_Part_I.md` 末尾的 H2“1974 年系统状态”，不是独立文件。
+- OCR 结果仅作校对底稿，**不能直接入库**；扫描件 OCR 有错字（漏字、误认、段落乱序），引用前须结合上下文判断。
 - `CHANGELOG.md` 不入库：由 `create-pdf.yml` 在发布时用 changelog 生成器即时产出并写入 Release 说明。
 
 ## 内容架构
@@ -32,8 +34,8 @@
 | 路径 | 内容 |
 | ---- | ---- |
 | `chapters/` | 全书正文 30 章，文件名形如 `<序号>-<英文原名>.md`（`0-Prelude_to_Space.md` 至 `29-The_Law_Part_III.md`） |
-| `mix/` | 正文之外的前后附文 7 篇：`Preface.md`、`Acknowledgements.md`、`Introduction.md`、`What_Made_It_work.md`（结语）、`book.md`（进一步阅读）、`who.md`（人物与术语表）、`Attached_Photos.md`（附图） |
-| `assets/` | 正文插图，13 个 `.jpg`。正文以 **`/assets/xxx.jpg`** 绝对路径引用（不是 `.gitbook/assets/`，也不是相对路径） |
+| `mix/` | 正文之外的前后附文 8 篇：`Preface.md`、`Acknowledgements.md`、`Introduction.md`、`What_Made_It_work.md`（结语）、`book.md`（进一步阅读）、`who.md`（人物与术语表，原书附录译文）、`glossary.md`（全局术语表，本仓库自建）、`Attached_Photos.md`（附图） |
+| `assets/` | 正文插图（13 个 `.jpg`）。正文以 **`/assets/xxx.jpg`** 绝对路径引用（不是 `.gitbook/assets/`，也不是相对路径） |
 | `.github/` | CI 工作流、markdownlint 与 lychee 配置、图片检查脚本、Issue 模板 |
 | `README.md` | 书名页：简介、作者、内容特色、译者注与资源链接 |
 | `SUMMARY.md` | 全书唯一目录数据源，GitBook 据此生成侧边栏。**第一行必须是 `# Table of contents`** |
@@ -51,65 +53,70 @@
 ### 新增/调整页面
 
 - 新增正文页：在 `chapters/` 按 `<序号>-<英文原名>.md` 命名（不得含空格、中文、英文冒号 `:`，须兼容 Windows 文件名），在 `SUMMARY.md` 对应位置插入条目（用 `##` 分组标题 + `* [标题](路径)`），首行写与条目一致的 H1。
-- 新增附文：放入 `mix/`，文件名用英文原名（与现有风格一致），同样登记进 `SUMMARY.md`。
+- 新增附文：放入 `mix/`，文件名用英文原名（与现有风格一致），同样登记进 `SUMMARY.md`（`mix/glossary.md` 即按此方式登记于“落幕”分组）。
 - 图片：本地化放入 `assets/`，正文以 `/assets/xxx.jpg` 引用。
 
 ## 编写规范
 
 ### 格式
 
+- **引号：** 使用中文双引号“”与单引号‘’，**必须成对、方向正确**（左引号“/‘开头，右引号”/’收尾），嵌套时内层用‘’。**禁止出现「」『』**（在正文中提及这对符号本身时，用反引号包裹）。英文人名、书名中的撇号（如 O'Dell、Who's Who）保留直引号 `'`，不作引号处理。
+- **第二人称：** 叙述文字一律用“你”，不用“您”（历史书信、访谈引文中的敬称可保留）。
 - **列表：** 全仓库统一使用 `*` 作为无序列表标记（markdownlint 配置 `MD004`/`MD049`/`MD050` 要求 asterisk），不得使用 `-` 或 `+`。
-- **引号：** 使用中文双引号“”，**禁止出现「」**。逐个手动修改，禁止机械替换。
-- **第二人称：** 一律用"你"，不用"您"。
-- **引用块：** 访谈原话、书信、清单用 `>` 引用。同一条引文内的分段用单独一行 `>` 隔开。书中的方框/边栏小标题写成 `>**标题**`（如 `>**Unix 哲学**`）。
+- **引用块：** 访谈原话、书信、清单用 `>` 引用。同一条引文内的分段用单独一行 `>` 隔开。书中的方框/边栏小标题写成 `>**标题**`（如 `>**Unix 哲学**`）。引文的引导句（“某某告诉我：”）应与引文块同级，不要并进引用块。
 - **转义：** 正文中的特殊字符按现有写法转义，如 `AT\&T`、`\[LA36]`、`\[基于 1976 年会议]`。
 - **代码块：** 保留原文内容，禁止篡改命令、参数、版本号；代码内英文注释译为中文，代码结构不变。shell 用 `bash`/`sh` 围栏，其余按语言标注（如 `c`），无法判断用无标注围栏，禁止用 `text`。
 - **图片：** `![说明](/assets/xxx.jpg)`，说明可留空（`![]()`）。
-- **CJK 空格：** 中文与英文、数字之间必须加半角空格；文件名、命令、选项、路径用反引号包裹（如 `config.txt`）。可用 AutoCorrect 检查（见"本地工具"）。
-- **禁止篡改：** 人名、机构名、产品名、URL、版本号、页码/脚注标记、带圈数字（①②③）必须与原文对应，不得增删或移位。
-- **禁止机械替换：** 统一批量替换会破坏上下文（如"硬拷贝"不能改成"硬复制"、"一份拷贝"与"拷贝命令"语境不同）。任何改动逐个手动完成。
-- **避免滥用"已"字：** "已新增"应写"新增"，"已修复"应写"修复完成"，禁止机械替换。
-- **避免机翻腔与欧化汉语：** 不用"将被自动安装"这类生硬被动句，不用后置、倒装、偷换主语的句式；译文应当是可读的中文。
-- **避免硬编码交叉引用：** 不写"参见第 X 章"式的编号引用；站内引用用相对 markdown 链接，指向英文原书内容可直接给出 TUHS 上的 `qcu.pdf` 链接。
+- **CJK 空格：** 中文与英文、数字之间必须加半角空格；文件名、命令、选项、路径用反引号包裹（如 `config.txt`）。可用 AutoCorrect 检查（见“本地工具”）。
+- **禁止篡改：** 人名、机构名、产品名、URL、版本号、页码/脚注标记、带圈数字（①②③）必须与原文对应，不得增删或移位。原书的错误（如 DECwriter II 发布年份）照录原文，可加译注，不要擅自“改正”。
+- **禁止机械替换：** 统一批量替换会破坏上下文（如“硬拷贝”不能改成“硬复制”、“一份拷贝”与“拷贝命令”语境不同）。任何改动逐个手动完成，改前核对原文、改后复核 diff。
+- **避免滥用“已”字：** “已新增”应写“新增”，“已修复”应写“修复完成”，禁止机械替换。
+- **避免机翻腔与欧化汉语：** 不用“将被自动安装”这类生硬被动句，不用后置、倒装、偷换主语的句式；译文应当是可读的中文。
+- **避免硬编码交叉引用：** 不写“参见第 X 章”式的编号引用；站内引用用相对 markdown 链接，指向英文原书内容可直接给出 TUHS 上的 `qcu.pdf` 链接。
 - **段落内联：** 一个段落写在一行内，不要在行尾用 `+` 之类的软换行拼接，也不要残留 AsciiDoc 语法（`xref:`、`link:`）。
 
 ### 术语
 
-- **术语表即 `mix/who.md`（人物与术语表）**，按字母顺序收录人名、机构缩写与专有名词，格式为 `* 词条：释义`。新出现的人名、机构、专有名词先查该表，确定译法后补录进表内再在正文使用。
-- 本书常用译法：Bell Labs/Bell Telephone Laboratories → 贝尔电话实验室（或贝尔实验室）；Project MAC → MAC 项目；Computer Systems Research Group → 计算机系统研究组；Programmer's Workbench → 程序员工作台；Multi-Environment Real Time → 多环境实时系统；time-sharing → 分时；Shell → shell（小写）。
-- 产品名、型号、软件名、组缩写保持英文原样：Raspberry Pi 之外如 Unix/UNIX、Multics、CTSS、PDP-7/11、PWB、USG、CSRG、BSD、SVR2/SVR3、USENIX、AUUG/UKUUG/EUUG、ARPANET、Usenet、uucp、troff/nroff、ed、sh、C、awk、RJE、SCCS 等。人名一般保留英文原名（Salus、Ritchie、Thompson、McIlroy…），历史上已有通行中文名的（`mix/Preface.md`、`mix/who.md` 中如"石田晴久（Haruhisa Ishida）"）按现有写法保留。
-- 关于 UNIX/Unix 的拼写：原著在致谢中说明采用 Unix 拼法（`mix/Acknowledgements.md` 有说明），正文以现有译文为准，不要整篇统一替换大小写。
+- **术语权威是 `mix/glossary.md`（全局术语表）**：本仓库自建的全书统一译法对照表，含章节索引。新出现的术语先查该表；没有的确定译法后先登记进该表，再在正文使用。两处译法冲突时以 glossary.md 校订。
+- `mix/who.md`（人物与术语表）是原书附录 "Who's Who and What's What" 的译文，存原书词条释义，与 glossary.md 分工：**glossary.md 定译法，who.md 存原书释义**。
+- 本书常用译法：Bell Labs/Bell Telephone Laboratories → 贝尔电话实验室（或贝尔实验室）；Project MAC → MAC 项目；Computer Systems Research Group → 计算机系统研究组；Programmer's Workbench → 程序员工作台；Multi-Environment Real Time → 多环境实时系统；time-sharing → 分时；multiprogramming → 多道程序设计；spooling → 假脱机；consent decree → 同意法令；common carrier → 公共承运人。
+- 产品名、型号、软件名、组缩写保持英文原样：Unix/UNIX、Multics、CTSS、PDP-7/11、VAX-11/780、PWB、USG、CSRG、BSD、SVR2/SVR3、USENIX、AUUG/UKUUG/EUUG、ARPANET、Usenet、uucp、troff/nroff、ed、sh、C、awk、RJE、SCCS 等。型号连字符随原文（DDP-516、Cray-2、GE-635）。
+- 地名与园区名保留英文：Murray Hill、Holmdel、Indian Hill、Columbus 等（不要译作“印度山”之类）。
+- 人名：当代 Unix 人物保留英文原名（Thompson、Ritchie、McIlroy…）；历史人物与原著已有中文名的用中文（帕斯卡、莱布尼茨、石田晴久（Haruhisa Ishida））。同一文件内不要中英混用。
+- 关于 UNIX/Unix 的拼写：原著在致谢中说明采用 Unix 拼法，正文以现有译文为准，不要整篇统一替换大小写。
 
 ### 表格与标题层级
 
 - 表格风格与所在文件既有表格一致（内容列左对齐，短枚举列居中）；表头声明几列，数据行就必须有几列，缺的补空单元格。
-- 标题层级：`SUMMARY.md` 的一级条目对应各文件 H1；文件内部小节用 `##`、`###`、`####`（如 `mix/who.md`、索引类页面先用 `##` 分组，条目再用列表）。
+- 标题层级：`SUMMARY.md` 的一级条目对应各文件 H1；文件内部小节用 `##`、`###`、`####`（如 `mix/who.md`、`mix/glossary.md` 用 `##` 分组，条目再用表格或列表）。
 
 ## 翻译校对工作流（AI 代理）
 
 对译文进行质量审校与补全时，遵循以下步骤：
 
-1. **获取原文**：以根目录 `qcu.pdf`（英文原版扫描件）为唯一权威源。先用 OCR 提取英文（见"原文与版本"），校对时不得以中文译文或早期译本 `upstream` 作为修改依据，避免错误沿袭。
+1. **获取原文**：以根目录 `qcu.pdf`（英文原版扫描件）为唯一权威源。先用 OCR 提取英文（见“原文与版本”），校对时不得以中文译文或早期译本 `upstream` 作为修改依据，避免错误沿袭。
 
-2. **逐段比对**（本仓库最关键的检查项）：把中文每一段与英文原文对应段落逐一对照，特别标记**漏译**——英文有、中文整段或整句缺失的内容。由于"文件齐全 ≠ 翻译完整"，每章都要实际比对，不能只看有没有文件。
+2. **逐段比对**（本仓库最关键的检查项）：把中文每一段与英文原文对应段落逐一对照，特别标记**漏译**——英文有、中文整段或整句缺失的内容。由于“文件齐全 ≠ 翻译完整”，每章都要实际比对，不能只看有没有文件。
 
-3. **重点检查项** ：
+3. **重点检查项**：
 
    | 问题类型 | 说明 |
    | -------- | ---- |
    | 漏译 | 英文原文整段、整句缺失，尤以访谈引文、脚注旁白为多 |
-   | 事实性错误 | 数字、人名、年份、机构、型号译错 |
+   | 事实性错误 | 数字、人名、年份、机构、型号译错（如 Napier 误作“拿破仑”） |
    | 机翻腔/欧化汉语 | 生硬被动句、倒装、后置、偷换主语 |
-   | 用词不当 | 术语与 `mix/who.md` 不一致 |
-   | 语法/文字错误 | 重复字词、错别字、多余"地"、"已"字滥用 |
-   | 标点与格式 | 出现「」、列表用了 `-`、CJK 未加空格 |
+   | 用词不当 | 术语与 `mix/glossary.md` 不一致 |
+   | 引号问题 | 直引号残留、「」残留、引号不成对、方向错误 |
+   | 语法/文字错误 | 重复字词、错别字、多余“地”、“已”字滥用 |
+   | 标点与格式 | 列表用了 `-`、CJK 未加空格、表格列数不齐 |
 
-4. **补译**：新译段落风格须与上下文一致，术语与 `mix/who.md` 对齐；插入位置对准英文原文的段落顺序。
+4. **补译**：新译段落风格须与上下文一致，术语与 `mix/glossary.md` 对齐；插入位置对准英文原文的段落顺序。
 
 5. **提交修改**：
-   - 基于 `master` 创建分支（如 `fix/<章节名>`）
+   - 基于 `master` 创建分支（如 `fix/<章节名>`）；小改动可直接在 `master` 上小步提交
+   - **自动 git、小步快跑**：每完成一处修改（或一个文件的成批修改）立即 `git commit`，不要攒大提交。本机未配置 GPG 签名密钥，提交用 `git -c commit.gpgsign=false commit`
    - 仅提交修改的 `.md` 文件，不含无关文件（OCR 结果、临时脚本不入库）
-   - 提交信息用中文简述变更（现有风格如"更新 12-Style_and_Tools.md""更新 README.md"）
+   - 提交信息用中文简述变更（现有风格如“更新 12-Style_and_Tools.md”“更新 README.md”）
    - PR 目标分支为 `master`
 
 6. **逐句校对递归工作流**（核心约束）：
@@ -139,7 +146,7 @@
 
 已知不一致（改动时注意）：
 
-- `check-images.yml` 与 `links.yml` 只在手动/定时触发时真正有效：`check-images.yml` 的触发路径写的是 `.gitbook/assets/**`，而实际图片目录是 `assets/`；`links.yml`（lychee）只按手动和定时跑。
+- `check-images.yml` 的触发路径写的是 `.gitbook/assets/**`，而实际图片目录是 `assets/`，因此只有手动触发时真正运行；`links.yml`（lychee）只按手动和定时跑。
 - `AutoCorrect.yml` 引用 `--config .autocorrectrc`，但仓库里**没有** `.autocorrectrc` 文件，该工作流实际按默认规则运行。
 - markdownlint 配置见 `.github/.markdownlint.json`（`MD013` 行长度、`MD033` 内联 HTML、`MD034` 裸 URL 等均关闭）；lychee 配置见 `.github/lychee.toml`；图片检查脚本 `.github/scripts/check_images.py` 以 `/assets/*` 前缀解析图片路径。
 
