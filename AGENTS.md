@@ -22,8 +22,8 @@
 - 本书 1994 年出版，内容固定，**不存在“跟随上游滚动同步”的概念**；本仓库与早期译本之间也无同步义务，只作参考与致谢。
 - 英文原版 `qcu.pdf` 是**扫描件，没有文本层**（`pdftotext`、PyMuPDF `get_text()` 均返回空），用于逐段比对时须先 OCR。
 - 本机可用的 OCR 方案：`rapidocr-onnxruntime`（推荐，约 7～10 秒/页）、`easyocr`；`pytesseract` 已安装但系统无 `tesseract` 二进制。渲染用 PyMuPDF（`get_pixmap(dpi=300, colorspace=fitz.csGRAY)`）。
-- 页码换算：**书中印刷页码 = PDF 页序号 − 12**（正文自印刷第 5 页起；PDF 第 0—14 页为封面、版权页、丛书序、前言、致谢、目录与简介）。各章印刷页码范围以原书目录为准，如：第 0 章 5—6 页、第 7 章 44—53 页、第 14 章 95—116 页、"Status 1974"（印刷 60—62 页）等。
-- 原书 Part 2 末尾的 "Status 1974"（含整页版本树图 `assets/unix_versions_tree.jpg`）在本仓库**并入** `chapters/9-The_Law_Part_I.md` 末尾的 H2“1974 年系统状态”，不是独立文件。
+- 页码换算：**书中印刷页码 = PDF 页序号 − 12**（正文自印刷第 5 页起；PDF 第 0—14 页为封面、版权页、丛书序、前言、致谢、目录与简介）。各章印刷页码范围以原书目录为准，如：第 0 章 5—6 页、第 7 章 44—53 页、第 14 章 95—116 页、“Status 1974”（印刷 60—62 页）等。
+- 原书 Part 2 末尾的“Status 1974”（含整页版本树图 `assets/unix_versions_tree.jpg`）在本仓库**并入** `chapters/9-The_Law_Part_I.md` 末尾的 H2“1974 年系统状态”，不是独立文件。
 - OCR 结果仅作校对底稿，**不能直接入库**；扫描件 OCR 有错字（漏字、误认、段落乱序），引用前须结合上下文判断。
 - `CHANGELOG.md` 不入库：由 `create-pdf.yml` 在发布时用 changelog 生成器即时产出并写入 Release 说明。
 
@@ -78,7 +78,7 @@
 ### 术语
 
 - **术语权威是 `mix/glossary.md`（全局术语表）**：本仓库自建的全书统一译法对照表，含章节索引。新出现的术语先查该表；没有的确定译法后先登记进该表，再在正文使用。两处译法冲突时以 glossary.md 校订。
-- `mix/who.md`（人物与术语表）是原书附录 "Who's Who and What's What" 的译文，存原书词条释义，与 glossary.md 分工：**glossary.md 定译法，who.md 存原书释义**。
+- `mix/who.md`（人物与术语表）是原书附录 “Who's Who and What's What” 的译文，存原书词条释义，与 glossary.md 分工：**glossary.md 定译法，who.md 存原书释义**。
 - 本书常用译法：Bell Labs/Bell Telephone Laboratories → 贝尔电话实验室（或贝尔实验室）；Project MAC → MAC 项目；Computer Systems Research Group → 计算机系统研究组；Programmer's Workbench → 程序员工作台；Multi-Environment Real Time → 多环境实时系统；time-sharing → 分时；multiprogramming → 多道程序设计；spooling → 假脱机；consent decree → 同意法令；common carrier → 公共承运人。
 - 产品名、型号、软件名、组缩写保持英文原样：Unix/UNIX、Multics、CTSS、PDP-7/11、VAX-11/780、PWB、USG、CSRG、BSD、SVR2/SVR3、USENIX、AUUG/UKUUG/EUUG、ARPANET、Usenet、uucp、troff/nroff、ed、sh、C、awk、RJE、SCCS 等。型号连字符随原文（DDP-516、Cray-2、GE-635）。
 - 地名与园区名保留英文：Murray Hill、Holmdel、Indian Hill、Columbus 等（不要译作“印度山”之类）。
