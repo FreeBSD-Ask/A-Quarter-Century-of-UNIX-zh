@@ -1,4 +1,4 @@
-# 《Unix 四分之一世纪》翻译项目
+# Unix 四分之一世纪
 
 本项目是《Unix 四分之一世纪》（*A Quarter Century of Unix*）的简体中文翻译，由 FreeBSD 中文社区译制。
 
