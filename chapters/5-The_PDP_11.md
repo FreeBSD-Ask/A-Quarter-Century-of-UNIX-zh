@@ -34,7 +34,7 @@ Thompson 说，在等待 PDP-11 的磁盘期间，他们把 PDP-7 放在旁边�
 
 >J.E. Saltzer 曾为 CTSS 编写过 runoff。Doug Mcllroy 回忆说：
 >
->我相信是 Morris，可能还有 Thompson，以某种方式将 runoff 移植到了 635 并称之为 roff。这是一次快速的改造，几乎是一夜之间完成的。然后我在 1969 年用 BCPL 从头编写了 roff，既简化了它，也在功能上超越了 runoff。这个版本成为了 Thompson、Ritchie 在 Unix 上（用机器语言）推出的 roff 的模型。
+>我相信是 Morris，可能还有 Thompson，以某种方式将 runoff 移植到了 635 并称之为 roff。这是一次快速的改造，几乎是一夜之间完成的。然后我在 1969 年用 BCPL 从头编写了 roff，既简化了它，也在功能上超越了 runoff。这个版本成为了 Thompson 和/或 Ritchie 在 Unix 上（用机器语言）推出的 roff 的模型。
 
 Mcllroy 后来对我说：“Ken 不记得第一个 635 roff，所以我猜他和那个没什么关系。不过他记得另一个我不记得的程序——一款叫 rf 的极简程序，他为 PDP-7 写的，可能是在 Unix 本身出现之前。显然那个程序是一个进化上的死胡同。”Ritchie 随后“猜测”可能是他写的。
 
