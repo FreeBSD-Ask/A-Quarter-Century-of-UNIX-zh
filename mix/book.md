@@ -18,4 +18,4 @@ Kernighan 和 Ritchie 的《C 程序设计语言》（Prentice-Hall，1978）依
 
 Kernighan 和 Plauger 的 *Software Tools* （Addison-Wesley，1976）在学习如何编写优质程序方面无可匹敌。目前尚无网络历史相关著作。John Quarterman 的 *The Matrix* （Digital Press，1990）仍是最好的资料来源，尽管相关信息散布在整本书中。
 
-登录刊物、 *UKUUG* 和 *AUUG* 通讯，以及 USENIX、AUUG、UKUUG 和 EUUG（EurOpen）的会议论文数量众多，难以一一列举。季度刊物 *Computing Systems* 中有许多关于 Unix 和类 Unix 系统的有趣文章，涵盖了 Amoeba、Chorus、Dune、Sprite 和 Clouds。最后，1985 年 1 月的 *UNIX Review* （第 3 卷，第 1 期）刊载了多篇关于 Unix 历史的有趣且有价值的文章。
+《;login:》、 *UKUUG* 和 *AUUG* 通讯，以及 USENIX、AUUG、UKUUG 和 EUUG（EurOpen）的会议论文数量众多，难以一一列举。季度刊物 *Computing Systems* 中有许多关于 Unix 和类 Unix 系统的有趣文章，涵盖了 Amoeba、Chorus、Dune、Sprite 和 Clouds。最后，1985 年 1 月的 *UNIX Review* （第 3 卷，第 1 期）刊载了多篇关于 Unix 历史的有趣且有价值的文章。
