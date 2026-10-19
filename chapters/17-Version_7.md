@@ -5,35 +5,37 @@ Unix 第 7 版于 1979 年 6 月从实验室发布，带来了若干重大改进
 命令：
 
 * at
-* sed
 * awk
-* tail
 * calendar
-* tar
 * cb
-* touch
 * cd
-* uucp
 * cpio
-* uux
 * cu
+* deroff
+* expr
+* f77
+* find
+* lex
+* lint
+* m4
+* make
+* refer
+* sed
+* tail
+* tar
+* touch
+* uucp
+* uux
 
 系统调用：
 
-* deroff
 * ioctl
-* expr
 
 子程序：
 
 * malloc
-* find
 * stdio
-* lex
-* lint
 * string
-* m4
-* make
 
 游戏：
 
