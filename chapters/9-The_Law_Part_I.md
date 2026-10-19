@@ -64,5 +64,5 @@ Sandy Fraser 就是其中一位认为法律环境对 Unix 发展有重大影响�
 Unix 还提供了共享文件的机会，并且提供了一个维护和通信工具能正常运行的环境。但项目或团队的规模受限于硬件，限制在能容纳在 PDP-11/45 上的人数。
 
 
- ![](/assets/unix_versions_tree.jpg) 
+ ![](/assets/unix_versions_tree.jpg)
 

@@ -22,9 +22,9 @@
 - 本书 1994 年出版，内容固定，**不存在“跟随上游滚动同步”的概念**；本仓库与早期译本之间也无同步义务，只作参考与致谢。
 - 英文原版 `qcu.pdf` 是**扫描件，没有文本层**（`pdftotext`、PyMuPDF `get_text()` 均返回空），用于逐段比对时须先 OCR。
 - 本机可用的 OCR 方案：`rapidocr-onnxruntime`（推荐，约 7～10 秒/页）、`easyocr`；`pytesseract` 已安装但系统无 `tesseract` 二进制。渲染用 PyMuPDF（`get_pixmap(dpi=300, colorspace=fitz.csGRAY)`）。
-- 页码换算：**书中印刷页码 = PDF 页序号 − 12**（正文自印刷第 5 页起；PDF 第 0—14 页为封面、版权页、丛书序、前言、致谢、目录与简介）。各章印刷页码范围以原书目录为准，如：第 0 章 5—6 页、第 7 章 44—53 页、第 14 章 95—116 页、“Status 1974”（印刷 60—62 页）等。
+- 页码换算分两段：**第 0—15 章（PDF 第 17—148 页）印刷页码 = PDF 页序号 − 12**；**第 16 章起（PDF 第 157 页以后）印刷页码 = PDF 页序号 − 20**。原因是原书第 149—156 页是 8 页无页码的照片插页（对应 `assets/extra_0.jpg`—`extra_7.jpg`，图注见 `mix/Attached_Photos.md`）。各章印刷页码范围以原书目录为准，如：第 0 章 5—6 页、第 7 章 44—53 页、第 14 章 95—116 页、“Status 1974”（印刷 60—62 页）、第 16 章 137—145 页、附录 235—248 页。
 - 原书 Part 2 末尾的“Status 1974”（含整页版本树图 `assets/unix_versions_tree.jpg`）在本仓库**并入** `chapters/9-The_Law_Part_I.md` 末尾的 H2“1974 年系统状态”，不是独立文件。
-- OCR 结果仅作校对底稿，**不能直接入库**；扫描件 OCR 有错字（漏字、误认、段落乱序），引用前须结合上下文判断。
+- OCR 结果仅作校对底稿，**不能直接入库**；扫描件 OCR 有错字（漏字、误认、段落乱序），引用前须结合上下文判断。原文缺行处的中文补译在未能核实时应标为“存疑”，不要当成定论。
 - `CHANGELOG.md` 不入库：由 `create-pdf.yml` 在发布时用 changelog 生成器即时产出并写入 Release 说明。
 
 ## 内容架构
@@ -149,6 +149,7 @@
 - `check-images.yml` 的触发路径写的是 `.gitbook/assets/**`，而实际图片目录是 `assets/`，因此只有手动触发时真正运行；`links.yml`（lychee）只按手动和定时跑。
 - `AutoCorrect.yml` 引用 `--config .autocorrectrc`，但仓库里**没有** `.autocorrectrc` 文件，该工作流实际按默认规则运行。
 - markdownlint 配置见 `.github/.markdownlint.json`（`MD013` 行长度、`MD033` 内联 HTML、`MD034` 裸 URL 等均关闭）；lychee 配置见 `.github/lychee.toml`；图片检查脚本 `.github/scripts/check_images.py` 以 `/assets/*` 前缀解析图片路径。
+- `assets/commands.jpg` 与 `assets/key.jpg` 目前未被任何页面引用：前者是第一版手册的命令表扫描、后者是登录名与负责人对照表，正文均已改用 Markdown 表格呈现（`chapters/6-First_Edition_1971.md`），可留作校对底稿，不要误删。
 
 ## 本地工具
 

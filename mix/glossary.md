@@ -4,10 +4,10 @@
 
 ## 基本约定
 
-- 人名：当代 Unix 人物（Thompson、Ritchie、McIlroy、Joy 等）保留英文原名；历史人物（帕斯卡、莱布尼茨、巴贝奇、霍勒里斯等）与原著已有中文名的（石田晴久、高桥徹）用中文。
-- 地名、机构园区名：保留英文（Murray Hill、Holmdel、Indian Hill、Columbus 等），城市名可视行文用中文（新泽西、波士顿）。
-- 产品、型号、系统、命令、语言、缩写：一律不译（PDP-11、VAX-11/780、System V、troff、SCCS、CSRG、USENIX）。
-- UNIX/Unix：原著大小写混用（致谢中说明采用 Unix），译文随原文，不做全篇统一。
+* 人名：当代 Unix 人物（Thompson、Ritchie、McIlroy、Joy 等）保留英文原名；历史人物（帕斯卡、莱布尼茨、巴贝奇、霍勒里斯等）与原著已有中文名的（石田晴久、高桥徹）用中文。
+* 地名、机构园区名：保留英文（Murray Hill、Holmdel、Indian Hill、Columbus 等），城市名可视行文用中文（新泽西、波士顿）。
+* 产品、型号、系统、命令、语言、缩写：一律不译（PDP-11、VAX-11/780、System V、troff、SCCS、CSRG、USENIX）。
+* UNIX/Unix：原著大小写混用（致谢中说明采用 Unix），译文随原文，不做全篇统一。
 
 ## 系统与版本
 

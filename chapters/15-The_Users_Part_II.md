@@ -199,5 +199,5 @@ Herb Hasler（来自 IIASA）说：“我相信 IIASA 是奥地利第一台拥�
 
 Tom Ferrin 的电路图如下所示：
 
- ![](/assets/mfpi_fix.jpg) 
+ ![](/assets/mfpi_fix.jpg)
 
