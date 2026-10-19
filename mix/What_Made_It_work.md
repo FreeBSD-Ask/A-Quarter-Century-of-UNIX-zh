@@ -2,26 +2,26 @@
 
 从 CTSS 到 Multics，再到 PDP-11/20 上的 Unix，直到我们现在所处的位置，这是一段长达 30 年的历史故事。但其中有些教训，我相信许多（如果不是全部的话）计算机行业的商业实体都没有真正理解。
 
-或许最重要的一点，是贝尔实验室盛行的一种态度。Dennis Ritchie 在第一章中关于乐趣和实用性的论述正好体现了这种态度。Brian Redman 对我说，他在 Whippany 所做的工作“非常有趣”。Plauger 说：“令人惊讶的是，如果你乐在其中并且所做的事情稍微有点意义，你都能把它与 AT\&T 的业务联系起来。”Brian Kernighan 回忆说，当他被聘用时问 Doug Mcllroy 应该做什么时，得到的回答是“做你想做的事”。于是，我们——程序员和用户的世界——得到了 eqn、ratfor 和 pic，以及 Software Tools。
+或许最重要的一点，是贝尔实验室盛行的一种态度。Dennis Ritchie 在第一章中关于乐趣和实用性的论述正好体现了这种态度。Brian Redman 对我说，他在 Whippany 所做的工作“非常有趣”。Plauger 说：“令人惊讶的是，如果你乐在其中并且所做的事情稍微有点意义，你都能把它与 AT\&T 的业务联系起来。”Brian Kernighan 回忆说，当他被聘用时问 Doug McIlroy 应该做什么时，得到的回答是“做你想做的事”。于是，我们——程序员和用户的世界——得到了 eqn、ratfor 和 pic，以及 Software Tools。
 
->回想起来，Kernighan 告诉 Peter Collinson，awk 是他参与过的最大的软件项目。“我们当时有三个人一起做这个项目，但这完全行不通。无论如何，两个人合作要比三个人容易得多……因为三个人很难合理分工。意见分歧更多，有时候这很好，因为意味着有更多不同的东西出现，但有时候也会导致项目缺乏应有的凝聚力。”
+Kernighan 告诉 Peter Collinson，awk 是他参与过的最大的软件项目。“我们当时有三个人一起做这个项目，但这完全行不通。无论如何，两个人合作要比三个人容易得多……因为三个人很难合理分工。意见分歧更多，有时候这很好，因为意味着有更多不同的东西出现，但有时候也会导致项目缺乏应有的凝聚力。”
 
 三个人就太多了吗？如果相信行业媒体的话，微软有六百名程序员在开发 Windows NT。但在 Holmdel 只有三个人在开发 32V（London、Reiser 和 Swanson）；三个人写了 HoneyDanBer；Hall、Sventek 和 Scherrer 写了 VOS；Lorinda Cherry 和 Bob Morris 写了 bc 和 dc；而伯克利的计算机系统研究小组很少有超过几名全职员工：Haley 和 Joy；Haley、Joy 和 Kridle；Joy、Kridle 和 Leffler；McKusick 兼职且在暑期工作直到获得博士学位；McKusick、Jolitz 和 Karels；McKusick、Karels 和 Bostic。Larry Wall 独自编写了 patch、perl、rn。再看看那些只是“顺便来访”的人：Ken Thompson、George Coulouris、一些澳大利亚人、Jan-Simon Pendry。还有其他贡献者：Mike Muuss、Doug Kingston、Jim Curry、Rick Adams、James Gosling、Rob Pike、Armando Stettner、Bill Shannon 等等。
 
->Steve Johnson 告诉我：
->
+Steve Johnson 告诉我：
+
 >“如果我在大学里，我可能会被看作是软件人员或理论人员中的一员。会有一笔资金支付我的薪水。如果我是软件人员，而我与理论人员交流，支付我薪水的软件人员可能会觉得受骗。反之，如果我是理论人员，试图做一些有用的事情……我其实一直是个通才。我通常在不同学科的缝隙中工作，在那里我发现了很多非常肥沃的土壤。
 >
 >所以我会写一款程序，这个程序会提出一些我可以证明定理的问题，然后我再把这些定理应用回程序中。这种情况发生在 yacc 和 pcc 上，也发生在我之后做的一些事情上。它就是不太适合那种划分得很细的结构。”
 
-确实，避免把研究人员和开发人员割裂开来非常重要。像 Steve Johnson 说的，跨界融合能激发更多创新，理论和实践相互促进，才能创造出既有深度又实用的成果。你怎么看这种跨学科合作的价值？
+另一点：不要把研究人员和开发人员割裂开来。
 
->Eric Allman 对我说：
->
+Eric Allman 对我说：
+
 >我认为软件设计的一个通用原则是，你应该编写自己想用的程序。Ken 和 Dennis 想用 Unix，他们做了自己需要的东西让它工作起来。我们想用 sendmail，这并不是说“哦，让我们写一个邮件程序然后发布它……”。Bill Joy 并没有来找我说“Eric，我们需要这个”，实际上，我得逼着他把它发布出去。我们有一个需要解决的问题。Ken 遇到的问题是：他没有一个合适的系统来做太空游戏——所以他自己写了一个。相比之下，X.400 我很确信那些从没真正用过邮件系统的人只是写写论文。其他专有操作系统也是这样，因为你会被分派去完成那些任务。
->
->当我和 Armando Stettner 聊天时，他说：
->
+
+我和 Armando Stettner 聊天时，他说：
+
 >你知道，Unix 的美妙之处——以及我理解的今天的 Plan 9——就是它们都是当时很多很棒的想法的集合，还有一些原创的想法，但它们被以非常有趣、非常强大的方式组合在一起……Bell Labs 集合了许多好点子，做出了很好的实现。同时也有新的原创想法。Berkeley Unix 汇聚了很多好想法到一个程序员接口上——虽然实现质量参差不齐，但它把来自世界各地的程序员汇聚在一起，贡献代码，参与这个系统。还有审美标准的把关者：Bill Joy 和 Sam Leffler 真的是艺术家。Kirk McKusick、Mike Karels，没有更好的称呼，我们叫他们架构师，但他们实际上是品味的裁决者。他们挑选代码，确保一切都干净利落地契合。
 
 综合就是创造力。但关于 Unix 发展的一个最有趣的点是，它的大部分发展实际上是在其“所有者”——AT\&T 和西部电气——的活动之外发生的。Greg Rose 向我指出了这一点：

@@ -27,7 +27,7 @@
 * BRL：美国陆军弹道研究实验室
 * BSD：伯克利软件发行版
 * BSDI：Berkeley Software Design, Inc.
-*贝尔电话实验室：贝尔电话实验室
+* BTL：贝尔电话实验室
 * Canaday, Rudd：Unix 文件系统的早期合作者；PWB 组创始人
 * Cassoni, Vittorio：AT\&T 数据系统高级副总裁，1988 年空难遇难
 * CMU：卡内基梅隆大学
