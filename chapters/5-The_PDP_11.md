@@ -32,10 +32,10 @@ Thompson 说，在等待 PDP-11 的磁盘期间，他们把 PDP-7 放在旁边�
 
 但在 PDP-11 启动之后，就需要编辑器来进行编程。麻省理工学院的 PDP-1 上有一款叫 TECO 的编辑器。最初，TECO 是“纸带编辑器和校正器”（Tape Editor and COrrector）的缩写，后来改为“文本编辑器和校正器”（Text Editor and COrrector）。TECO 是 EMACS（Editing MACroS）的线性祖先。1967 年，L.P. Deutsch 和 B.W. Lampson 在 SDS-940 上实现了 TECO 的变体 QED（Quick EDitor）。SDS 后来被 Xerox 收购。Thompson 曾为麻省理工学院的 IBM 7094 上的 CTSS 编写过 QED 的一个版本。随后他和 Ritchie 又为贝尔电话实验室的 GE-635 编写了一个版本。现在 Thompson 为 PDP-11 编写了简化版的行编辑器 ed。但 PDP-11 是为了文本处理而购置的，所以还需要一款能够呈现文本的程序。
 
->J.E. Saltzer 曾为 CTSS 编写过 runoff。Doug Mcllroy 回忆说：
+>J.E. Saltzer 曾为 CTSS 编写过 runoff。Doug McIlroy 回忆说：
 >
 >我相信是 Morris，可能还有 Thompson，以某种方式将 runoff 移植到了 635 并称之为 roff。这是一次快速的改造，几乎是一夜之间完成的。然后我在 1969 年用 BCPL 从头编写了 roff，既简化了它，也在功能上超越了 runoff。这个版本成为了 Thompson 和/或 Ritchie 在 Unix 上（用机器语言）推出的 roff 的模型。
 
-Mcllroy 后来对我说：“Ken 不记得第一个 635 roff，所以我猜他和那个没什么关系。不过他记得另一个我不记得的程序——一款叫 rf 的极简程序，他为 PDP-7 写的，可能是在 Unix 本身出现之前。显然那个程序是一个进化上的死胡同。”Ritchie 随后“猜测”可能是他写的。
+McIlroy 后来对我说：“Ken 不记得第一个 635 roff，所以我猜他和那个没什么关系。不过他记得另一个我不记得的程序——一款叫 rf 的极简程序，他为 PDP-7 写的，可能是在 Unix 本身出现之前。显然那个程序是一个进化上的死胡同。”Ritchie 随后“猜测”可能是他写的。
 
 Ritchie 说：“我们知道这里面有个骗局——我们承诺的是一个文字处理系统，而不是操作系统。”但文字处理工作很成功：贝尔电话实验室的专利部门成为了第一个 Unix 用户，他们与研究组共享 PDP-11/20。更重要的是：贝尔的专利部门随后接管了运行 Unix 的 11/20，并将资金交给计算研究部门，后来购买了 PDP-11/45。

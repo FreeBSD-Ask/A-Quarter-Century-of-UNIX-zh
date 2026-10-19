@@ -24,7 +24,7 @@ Multics 是第二代分时系统，旨在成为“计算机公用事业”的原
 
 Berkley Tague 于 1962 年加入贝尔电话实验室（BTL），并于 1965 年加入 Multics 团队（担任“项目三人组的秘书”）。他表示，到 1967 年时，项目显然无法成功，因为“三方目标不兼容”。随后他去了新泽西州惠帕尼的 AT\&T 工作了三年，参与了一个名为 Safeguard 的项目，1970 年又回到了 Murray Hill。
 
-麻省理工学院的 Jack Dennis 教授为 Multics 初期贡献了一些有影响力的架构思想。当时需要为支持新操作系统选择计算机供应商，传闻称 IBM 推荐了后来成为 360/65 的机器。Doug Mcllroy 曾对我说：
+麻省理工学院的 Jack Dennis 教授为 Multics 初期贡献了一些有影响力的架构思想。当时需要为支持新操作系统选择计算机供应商，传闻称 IBM 推荐了后来成为 360/65 的机器。Doug McIlroy 曾对我说：
 
 >这是真的。但 \[Gene] Amdahl 不会做虚拟机（VM）。在最后一刻，IBM 让 Gerry Blaauw 从幕后出来推销 360/67，但已经太晚了。
 
@@ -69,7 +69,7 @@ PL/I 于 1964 年被选为编程语言。其他备选方案有 MAD（密歇根�
 * 国家安全局 \[DOCKMASTER]（马里兰州林锡肯）
 * 欧洲推进公司 \[SEP]（法国韦尔农）
 
-Multics 的重要性在于其持久的影响力。霍尼韦尔收购了通用电气的计算机业务，但其 GCOS 6 操作系统、Prime 的 Primos、Stratus 的 VOS 以及 Apollo 的 Domain 都深受 Multics 系统的影响，BBN 开发的 TENEX 和 TOPS-20 也不例外（Prime 创始人 Bill Poduska 曾在通用电气公司参与过 Multics 项目，之后加入了 DEC；曾任 Multics 语言管理者的 Bob Freiburghouse 是 Stratus 的创始人之一）。Intel 386/486 的内存管理看起来就像是直接从 Multics 手册中借鉴而来。但最重要的影响可能是在贝尔实验室的 Dennis Ritchie 和 Ken Thompson 以及他们的同事——Mcllroy、Morris、Neumann 和 Ossanna——身上，他们曾接触过 CTSS 和 Multics。Ritchie 告诉我：
+Multics 的重要性在于其持久的影响力。霍尼韦尔收购了通用电气的计算机业务，但其 GCOS 6 操作系统、Prime 的 Primos、Stratus 的 VOS 以及 Apollo 的 Domain 都深受 Multics 系统的影响，BBN 开发的 TENEX 和 TOPS-20 也不例外（Prime 创始人 Bill Poduska 曾在通用电气公司参与过 Multics 项目，之后加入了 DEC；曾任 Multics 语言管理者的 Bob Freiburghouse 是 Stratus 的创始人之一）。Intel 386/486 的内存管理看起来就像是直接从 Multics 手册中借鉴而来。但最重要的影响可能是在贝尔实验室的 Dennis Ritchie 和 Ken Thompson 以及他们的同事——McIlroy、Morris、Neumann 和 Ossanna——身上，他们曾接触过 CTSS 和 Multics。Ritchie 告诉我：
 
 >我们从 Multics 学到了许多基础性的东西：
 >

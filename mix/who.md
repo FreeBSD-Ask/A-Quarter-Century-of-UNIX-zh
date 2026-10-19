@@ -119,7 +119,7 @@
 * Marsh, Bob：Onyx 创始人；/usr/group 创始人
 * Mashey, John：编写大量 PWB 代码；Mashey shell 的作者
 * MC：数学中心，阿姆斯特丹（现为 CWI）
-* Mcllroy, Doug：提出管道概念；编写 tmg、diff；协调各方
+* McIlroy, Doug：提出管道概念；编写 tmg、diff；协调各方
 * McKusick, Marshall Kirk：伯克利快速文件系统作者；4.3、Net-1、Net-2 和 4.4 的主要推动者；USENIX 第四任主席
 * McMahon, Lee：编写 sed
 * Meaney, Thomas F.：法官；1956 年《同意法令》作者

@@ -15,13 +15,13 @@
 
 但系里已经习惯了 Unix，Fabry 获得了一份由 John Reiser 和 Tom London 在 Holmdel 的贝尔电话实验室完成的 Unix 32V 版本移植到 VAX 的副本。这个移植项目的负责人是 Charlie Roberts，下面是他讲述的故事：
 
->在 1977 到 1978 年间，DEC 预先发布了 VAX。Dennis、Ken 和 Steve 对 DEC 感到相当疏远。他们觉得自己的工作卖出了很多机器，但 DEC 仍然拒绝支持 Unix，反而继续推进 VMS 这个项目。所以当 DEC 提供给他们一台 VAX 时，他们干脆拒绝了。\[Doug Mcllroy 告诉我另一个原因是“VAX 有令人反感的臃肿指令集，充满了与 Ken 和 Dennis 的价值观背道而驰的无关内容。”] 不管怎样，Dennis 和 Steve 正在做 Interdata 的移植，Steve 称它为“Intersnail（慢速蜗牛）”。
+>在 1977 到 1978 年间，DEC 预先发布了 VAX。Dennis、Ken 和 Steve 对 DEC 感到相当疏远。他们觉得自己的工作卖出了很多机器，但 DEC 仍然拒绝支持 Unix，反而继续推进 VMS 这个项目。所以当 DEC 提供给他们一台 VAX 时，他们干脆拒绝了。\[Doug McIlroy 告诉我另一个原因是“VAX 有令人反感的臃肿指令集，充满了与 Ken 和 Dennis 的价值观背道而驰的无关内容。”] 不管怎样，Dennis 和 Steve 正在做 Interdata 的移植，Steve 称它为“Intersnail（慢速蜗牛）”。
 >
 >于是 DEC 找到了我们在 Holmdel。显然我们是第二梯队。Tom London 和 John Reiser 还有 Ken Swanson 都对此感兴趣，我们在 1978 年初拿到了 VAX。我没有参与任何技术工作，实际上，我花了大量精力和时间去说服管理层让我们做这件事。你看，这不算是研究。但他们还是允许我们花时间去做。大约三个月后，我的小组将第七版 Unix 移植到了 VAX。我们一月拿到机器，四月让它运行起来，八月时真的能用了。到那时，大家都知道我们在做什么。我接到了大约六所大学的电话——布朗大学、加州大学洛杉矶分校、伯克利大学、滑铁卢大学，其他的我记不清了。于是我去找了专利和许可部门的 Roy Lipton 和 Al Arms，讨论如何发布。经过反复磋商，他们决定我们可以把它交给一所大学用于研究用途，Al 会和那所机构签订一份“特别研究协议”。
 >
 >我在几次会议上见过 Fabry，也曾去过伯克利做过报告，与 Ferrari、Ernmanuel Blum 和 Bill Joy 交谈过。因此，在贝尔电话实验室区域 11 管理层的支持下，我们于 1978 年 10 月或 11 月将 32V 版本送到了伯克利。
 
-Roberts 的管理团队批准了这项工作，他们是 C.C. Cutler、R.W. Lucky 和 W\.S. Boyle。1127 部门的管理层——Doug Mcllroy、Sam Morgan 和 Bob Prim——也给予了批准。
+Roberts 的管理团队批准了这项工作，他们是 C.C. Cutler、R.W. Lucky 和 W\.S. Boyle。1127 部门的管理层——Doug McIlroy、Sam Morgan 和 Bob Prim——也给予了批准。
 
 正是这个 32V 版本在 1979 年演变成了 3BSD。Kirk McKusick 向 Peter Collinson 讲述了这个故事：
 
