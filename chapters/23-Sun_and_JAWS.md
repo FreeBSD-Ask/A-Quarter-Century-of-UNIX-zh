@@ -15,9 +15,9 @@
 
 1982 年 6 月的《;login:》杂志刊登了以下内容：
 
->**有趣的发展**
+> **有趣的发展**
 >
->**加州大学伯克利分校的 Bill Joy 加入 Sun Microsystems**
+> **加州大学伯克利分校的 Bill Joy 加入 Sun Microsystems**
 >
 >Bill Joy 决定参与一家新创公司，并将在接下来的几个月内逐步退出伯克利的计算机系统研究小组（CSRG）。他将加入 Sun Microsystems, Inc.，这家公司的创始人之一是 Sun 工作站设计师 Andy Bechtolsheim。SMI 是少数几家计划提供基于微处理器的网络工作站、运行 4.2BSD 软件的公司之一……
 >

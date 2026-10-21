@@ -24,7 +24,7 @@ Ferentz、Katz 和 Bornholdt 组织了这次会议，Ira Fuchs 负责具体安�
 
 这个邮件列表非常有趣，因为它反映了 Unix 的传播情况——这是一款未经宣布、没有支持的操作系统。
 
->**首次邮件列表中的机构**
+> **首次邮件列表中的机构**
 >
 >* 贝尔电话实验室 Bell Telephone Laboratories
 >* 布鲁克林学院 Brooklyn College

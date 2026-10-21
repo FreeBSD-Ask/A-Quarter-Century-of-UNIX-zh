@@ -225,3 +225,5 @@ qcu.pdf
 up_readme.md
 up_summary.md
 up_ch13.md
+/.github/scripts/__pycache__
+/script
