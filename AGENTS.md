@@ -138,7 +138,7 @@
 | `sync-headers.yml` | push / `mulu.yml` 完成后 / 手动 | 按 `SUMMARY.md` 同步各文件 H1 |
 | `file-name-check.yml` | push（含 `*.md`） | 校验 `SUMMARY.md` 条目文件是否存在，缺失开 issue |
 | `Markdown-lint2-pr.yml` | pull_request | 对改动的 `.md` 跑 markdownlint（`continue-on-error`，不阻断） |
-| `bold-lint.yml` | push / pull_request（`*.md`） / 手动 | 跑 `check_bold.py`，检查加粗标记两侧空格是否合规 |
+| `bold-lint.yml` | push / pull_request（`*.md`） / 手动 | 跑 `check_bold.py`，检查加粗标记两侧空格（`continue-on-error`，不阻断） |
 | `markdown-lint2.yml` | 手动 | 全仓库 markdownlint 修复，失败时开 PR |
 | `AutoCorrect.yml` | `repository_dispatch` / 手动 | autocorrect 加 CJK 空格后开 PR |
 | `md-padding.yml` | `repository_dispatch` / 手动 | md-padding 加空格后开 PR |
